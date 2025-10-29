@@ -5459,7 +5459,7 @@
       <profiles>
         <profile name="Jaeger" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="e8eb-e49c-a537-ec77">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Agile (1), Attachment (Scandinavian), Boarding Parties (2), Daredevil Crew, Light Vessel, Shallow Draught</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Dirigible, Light Vessel</characteristic>
           </characteristics>
         </profile>
         <profile name="Jaeger" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="3b90-cfd1-e3fa-b05e">
@@ -8656,6 +8656,9 @@ Until the end of the current Action Step, the unit has a -1 Modifier to its Act
               </constraints>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a6b4-aeb0-a48b-80fe"/>
+          </constraints>
         </entryLink>
       </entryLinks>
       <categoryLinks>

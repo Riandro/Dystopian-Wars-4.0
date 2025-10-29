@@ -6493,7 +6493,7 @@ Turbo Encabulation Drive</characteristic>
         </entryLink>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="ENLIGHTENED FLEET DOCTRINES" hidden="false" id="39db-0577-ea34-de65">
+    <selectionEntry type="upgrade" import="true" name="Enlightened Fleet Doctrines" hidden="false" id="39db-0577-ea34-de65">
       <entryLinks>
         <entryLink import="true" name="Fleet Doctrines" hidden="false" id="1645-cbb3-8e4e-12a0" type="selectionEntryGroup" targetId="3a8e-29a8-4109-7c1c">
           <selectionEntries>
@@ -6515,6 +6515,9 @@ Then, each Exploding Strike in the Resistance Roll is converted into a Standard
               </rules>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="08e7-f416-a220-9e83" includeChildSelections="false"/>
+          </constraints>
         </entryLink>
       </entryLinks>
       <categoryLinks>

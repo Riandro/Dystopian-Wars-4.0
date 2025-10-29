@@ -659,7 +659,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Freya Array" hidden="false" id="c529-9ead-a45b-fc1a">
+    <selectionEntry type="upgrade" name="Freya Array" hidden="false" id="c529-9ead-a45b-fc1a">
       <modifiers>
         <modifier type="append" value="Freya Array" field="a14c-99af-eb72-2d3d" scope="unit" affects="self.entries.unit.profiles.Systems" join=", "/>
       </modifiers>

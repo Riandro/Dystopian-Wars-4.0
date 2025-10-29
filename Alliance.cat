@@ -10004,6 +10004,9 @@ If they do, the unit does not gain a level of Disorder.</description>
               </conditionGroups>
             </modifier>
           </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8cbe-1a7b-a8d7-4a6b" includeChildSelections="false"/>
+          </constraints>
         </entryLink>
       </entryLinks>
     </selectionEntry>

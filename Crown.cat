@@ -8334,7 +8334,7 @@ Units that are allocated to Mandatory Elements must have the Canadian trait on 
         </rule>
       </rules>
     </forceEntry>
-    <forceEntry name="Nautilus Mercenary Battlefleet (Mercenary)" id="928c-3f01-64da-183c" hidden="false">
+    <forceEntry name="Nautilus Mercenary Battlefleet (Mercenary)" id="928c-3f01-64da-183c" hidden="false" sortIndex="4">
       <categoryLinks>
         <categoryLink name="FleetDoctrines" hidden="false" id="d443-94db-751a-27fa" targetId="eb20-a962-fc6e-ce7f">
           <constraints>
@@ -8610,7 +8610,7 @@ Units that are allocated to Mandatory Elements must have the Canadian trait on 
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Guardian Generator" hidden="false" id="769a-14dc-eba7-91de">
+    <selectionEntry type="upgrade" name="Guardian Generator" hidden="false" id="769a-14dc-eba7-91de">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="646c-51cf-3ed6-6798" includeChildSelections="true"/>
       </constraints>
