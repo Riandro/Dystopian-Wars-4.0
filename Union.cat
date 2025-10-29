@@ -3497,6 +3497,19 @@
                     </profile>
                   </profiles>
                 </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Heavy Electrocannon Battery" hidden="false" id="fb9e-d99b-acc1-9784">
+                  <profiles>
+                    <profile name="Heavy Electrocannon Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="eb0f-26e1-0946-d0be">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                        <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
+                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Arc (1)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
               </selectionEntries>
               <entryLinks>
                 <entryLink import="true" name="Generators" hidden="false" id="2dc7-bcfc-62c4-15cc" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
@@ -3543,6 +3556,19 @@
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Optimal Target: Light Vessel (3)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Heavy Electrocannon Battery" hidden="false" id="fe64-dd4c-24a1-a3a3">
+                  <profiles>
+                    <profile name="Heavy Electrocannon Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="28f2-68e3-db4f-438d">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                        <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
+                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Arc (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
