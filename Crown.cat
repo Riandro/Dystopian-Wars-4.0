@@ -3585,69 +3585,6 @@
                 <entryLink import="true" name="Generators" hidden="false" id="8fd2-cbcb-c4c1-98a5" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="0f54-4e68-430b-7b81" hidden="false">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="596b-49b4-59e7-974a">
-                  <profiles>
-                    <profile name="Heavy Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="2dd0-2963-8514-a5c7">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PSA</characteristic>
-                        <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">8</characteristic>
-                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Majestic Cannons" hidden="false" id="b05c-fd25-fe76-aaa0">
-                  <profiles>
-                    <profile name="Majestic Cannons" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="1947-6b10-11e5-a3b8">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PSA</characteristic>
-                        <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">1</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
-                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">2</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Kingslayer</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Heavy Swift Torpedo Turret" hidden="false" id="7038-2f21-c977-4632">
-                  <profiles>
-                    <profile name="Heavy Swift Torpedo Turret" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="f692-ed97-ef17-52da">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PSA</characteristic>
-                        <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
-                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Piercing (1), Torpedo</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="1db0-dca6-c72a-e5f7">
-                  <profiles>
-                    <profile name="Heavy Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="4955-33c5-cf74-570a">
-                      <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PSA</characteristic>
-                        <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
-                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b9fb-07f0-d9c1-0cf0" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3235-9e29-7a65-851b" automatic="true"/>
-              </constraints>
-              <entryLinks>
-                <entryLink import="true" name="Generators" hidden="false" id="9df6-9dc6-62c3-44be" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
-              </entryLinks>
-            </selectionEntryGroup>
             <selectionEntryGroup name="Light Hardpoint: PSA" id="2145-4c5e-d120-176f" hidden="false">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="acc0-ab1a-6584-65dd" automatic="true"/>
@@ -3694,6 +3631,69 @@
                   </profiles>
                 </selectionEntry>
               </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Heavy Hardpoint: FPS" id="b16a-bb4a-c8fd-f0b6" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="27fe-ae00-fc6e-c482">
+                  <profiles>
+                    <profile name="Heavy Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="bacc-dfb4-4a95-a397">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                        <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">8</characteristic>
+                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Majestic Cannons" hidden="false" id="a65f-d919-9a61-b584">
+                  <profiles>
+                    <profile name="Majestic Cannons" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="4270-d673-5f47-18b8">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                        <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">1</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
+                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">2</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Kingslayer</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Heavy Swift Torpedo Turret" hidden="false" id="4862-d199-5f5e-e084">
+                  <profiles>
+                    <profile name="Heavy Swift Torpedo Turret" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="ee22-d085-9433-940c">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                        <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Piercing (1), Torpedo</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="59ec-d070-81ce-9554">
+                  <profiles>
+                    <profile name="Heavy Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="3faa-63db-c831-60e1">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                        <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
+                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ecc4-aa8e-6e27-6623" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a63c-a7bb-b3b9-95e5" automatic="true"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Generators" hidden="false" id="5a9f-4a9b-297a-d935" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
+              </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <profiles>
