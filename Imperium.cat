@@ -18,7 +18,7 @@
       <selectionEntryGroups>
         <selectionEntryGroup name="Configurations" id="19ec-7b40-935f-bf37" hidden="false" sortIndex="1">
           <selectionEntries>
-            <selectionEntry type="model" import="true" name=" Sekundar" hidden="false" id="9e95-79bb-7668-4264" collapsible="true" sortIndex="2">
+            <selectionEntry type="model" import="true" name=" Sekundar" hidden="false" id="9e95-79bb-7668-4264" sortIndex="2">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="220"/>
                 <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="8"/>
@@ -26,8 +26,20 @@
               <categoryLinks>
                 <categoryLink name="Escort" hidden="false" id="f4e3-77dd-5845-a63d" targetId="d576-4983-e8cf-e556" primary="false"/>
               </categoryLinks>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Admiral&apos;s Flag" hidden="false" id="a7e8-21cb-8b55-4594">
+                  <costs>
+                    <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="5"/>
+                    <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="31fd-96bc-7ce3-2fcb" includeChildSelections="false" automatic="true"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="95ba-165d-d592-8fb2" includeChildSelections="false" automatic="true"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name=" Primar" hidden="false" id="2e00-a534-328d-7bb3" collapsible="true" sortIndex="1">
+            <selectionEntry type="model" import="true" name=" Primar" hidden="false" id="2e00-a534-328d-7bb3" sortIndex="1">
               <costs>
                 <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="220"/>
                 <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="8"/>
@@ -35,6 +47,18 @@
               <categoryLinks>
                 <categoryLink name="Escort" hidden="false" id="74bc-bf81-e4e0-c4e7" targetId="d576-4983-e8cf-e556" primary="false"/>
               </categoryLinks>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Admiral&apos;s Flag" hidden="false" id="9ba7-928f-6ea2-3cdd">
+                  <costs>
+                    <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="5"/>
+                    <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8693-7a3b-5145-adaf-min" includeChildSelections="false" automatic="true"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8693-7a3b-5145-adaf-max" includeChildSelections="false" automatic="true"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -255,18 +279,6 @@
         </entryLink>
         <entryLink import="true" name="Attachments" hidden="false" id="c4d4-7ffd-978c-42ef" type="selectionEntryGroup" targetId="f133-6e35-4c50-30dc" sortIndex="4"/>
       </entryLinks>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Admiral&apos;s Flag" hidden="false" id="9ba7-928f-6ea2-3cdd" sortIndex="3">
-          <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="5"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
-          </costs>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8693-7a3b-5145-adaf-min" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8693-7a3b-5145-adaf-max" includeChildSelections="false" automatic="true"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Asgard Rotor Tethership" hidden="false" id="37b8-877c-38e0-dab5" sortIndex="1">
       <categoryLinks>
