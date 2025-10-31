@@ -1860,7 +1860,24 @@ When declaring a Boarding or Broadside action with or against a Skimmer model, 
 This Action targets an enemy model that at least one Participating model Passed Through during its Movement Step. The Target must have the same Positional Trait or be a Surface model.
 
 
-The controlling Admiral makes an Action Roll. There is no Resistance Roll.</description>
+The controlling Admiral makes an Action Roll. There is no Resistance Roll.
+
+
+&lt;table border=&quot;1&quot; cellpadding=&quot;10&quot;&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;strong&gt;Action Pool&lt;/strong&gt;&lt;/td&gt;
+    &lt;td&gt;X Action Dice for each Participating
+model. &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;strong&gt;Success Threshold&lt;/strong&gt;&lt;/td&gt;
+    &lt;td&gt;The Target’s Armour rating. &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+
+For each Success scored in the Action Roll, the Target Model suffers 1 Damage. 
+In addition, if the Action Roll results in at least one Success, the Target Model gains 1 level of Disorder. </description>
     </rule>
     <rule name="Repair Facilities" id="b112-43e8-defb-ab6e" hidden="false">
       <description>When making a Repair Roll for a Surface model, add X Bonus Dice if it is within 4” of at least one friendly model with this System.</description>
