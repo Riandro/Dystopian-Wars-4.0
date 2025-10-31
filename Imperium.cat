@@ -2704,6 +2704,7 @@
         <categoryLink name="Capital" hidden="false" id="350c-f222-bd28-6e24" targetId="30c3-7f1c-19e3-e772" primary="false"/>
         <categoryLink name="Carrier" hidden="false" id="9a7c-33c8-8f39-6507" targetId="4521-8e16-2d0f-7dc6" primary="false"/>
         <categoryLink targetId="d091-5083-e8be-7420" id="1295-e148-01e4-a6d2" primary="false" name="Airborne Flagship"/>
+        <categoryLink name="AirborneCon" hidden="false" id="7045-86e0-2729-3e19" targetId="12f9-b8ab-e90e-c2e6" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Stark" hidden="false" id="62dc-792e-19c5-0bdf" sortIndex="1">
