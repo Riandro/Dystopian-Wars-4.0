@@ -9183,7 +9183,7 @@ The Action Pool for this action gains a number of Bonus Dice equal to the Value
     </selectionEntry>
   </selectionEntries>
   <forceEntries>
-    <forceEntry name="Sultanate Faction Battlefleet (Main)" id="3274-3646-aed8-4e63" hidden="false">
+    <forceEntry name="Sultanate Faction Battlefleet (Main)" id="3274-3646-aed8-4e63" hidden="false" sortIndex="1">
       <categoryLinks>
         <categoryLink name="FleetDoctrines" hidden="false" id="b392-8be0-6678-8961" targetId="eb20-a962-fc6e-ce7f">
           <constraints>
@@ -9255,7 +9255,7 @@ The Action Pool for this action gains a number of Bonus Dice equal to the Value
         </rule>
       </rules>
     </forceEntry>
-    <forceEntry name="Order Battlefleet (Specialist)" id="85f3-e084-0f12-6e71" hidden="false">
+    <forceEntry name="Order Battlefleet (Specialist)" id="85f3-e084-0f12-6e71" hidden="false" sortIndex="3">
       <comment>• Carolus Destroyer (Sultanate, Order, Line)
 • Lesath Exemplar Cruiser (Sultanate, Order, Support</comment>
       <categoryLinks>
@@ -9297,7 +9297,7 @@ If the effect is Denied, the unit is returned to the Reserve as normal. If it is
         </rule>
       </rules>
     </forceEntry>
-    <forceEntry name="Egyptian Battlefleet (Specialist)" id="180b-0560-42cb-d495" hidden="false">
+    <forceEntry name="Egyptian Battlefleet (Specialist)" id="180b-0560-42cb-d495" hidden="false" sortIndex="2">
       <rules>
         <rule name="Special Rules" id="c11e-3ca9-e81e-8bd6" hidden="false">
           <description>This is a Mercenary Battlefleet. All units in this Battlefleet gain the Crimson League and Sultanate Traits, if they do not already have them.
@@ -9337,7 +9337,7 @@ Alsaqr Skybarque units in this Battlefleet replace the Attachment (Turkish) prop
       <comment>• Hashashin Fast Skimmer (Sultanate, Egyptian, Scout)
 •Mandjet Heavy Skimmer (Sultanate, Egyptian, Patrol)</comment>
     </forceEntry>
-    <forceEntry name="Crimson League Mercenary Battlefleet (Mercenary)" id="2d00-df96-4ac6-0e44" hidden="false">
+    <forceEntry name="Crimson League Mercenary Battlefleet (Mercenary)" id="2d00-df96-4ac6-0e44" hidden="false" sortIndex="4">
       <rules>
         <rule name="Special Rules" id="c11e-3ca9-e81e-8bd6" hidden="false">
           <description>This is a Mercenary Battlefleet. All units in this Battlefleet gain the Crimson League and Sultanate Traits, if they do not already have them.

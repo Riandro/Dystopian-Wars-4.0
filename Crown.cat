@@ -2337,6 +2337,7 @@
         <categoryLink name="Carrier" hidden="false" id="1757-bc34-f045-92c1" targetId="4521-8e16-2d0f-7dc6" primary="false"/>
         <categoryLink name="Attachment host" hidden="false" id="4ed5-a951-0033-0b83" targetId="2251-0def-1b03-2e93" primary="false"/>
         <categoryLink name="Flagship" hidden="false" id="5a50-78a6-ce5b-a9cc" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Underwater Con" hidden="false" id="483b-1b79-a3e4-d47e" targetId="c52b-1fed-51c0-7ac4" primary="false"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Defiance Fighters" id="52a7-57ef-e98a-593b" hidden="false" type="profile" targetId="6aae-7841-932f-5632"/>
@@ -8213,7 +8214,7 @@ If the effect is successfully enacted, each Heavy Hardpoint Weapon that Contrib
           <modifiers>
             <modifier type="set" value="2" field="cd58-1517-8269-0b9a">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="force" childId="c52b-1fed-51c0-7ac4" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="fff1-27f7-3f24-8d83" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -8225,7 +8226,7 @@ If the effect is successfully enacted, each Heavy Hardpoint Weapon that Contrib
           <modifiers>
             <modifier type="set" value="2" field="a0a9-4d9b-6134-8a5e">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="force" childId="fff1-27f7-3f24-8d83" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="c52b-1fed-51c0-7ac4" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>

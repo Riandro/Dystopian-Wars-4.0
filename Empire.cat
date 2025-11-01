@@ -1721,7 +1721,7 @@
         <selectionEntry type="model" import="true" name="Ning Jing" hidden="false" id="c27c-332a-c7b5-6586" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="235"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="10"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="6f97-81ea-a717-04c1" hidden="false" collapsible="true">
@@ -1964,7 +1964,6 @@
       </entryLinks>
       <costs>
         <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="0"/>
-        <cost name="VP" typeId="c245-c6fc-adb8-407a" value="10"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Yangtze Command Ship" hidden="false" id="1108-63a9-3f79-d011" sortIndex="9">
@@ -3920,7 +3919,7 @@
         <selectionEntry type="model" import="true" name="Honshu" hidden="false" id="287e-1283-f629-6de6" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="103"/>
-            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
+            <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="b0f3-ed7f-79f2-b3c7" hidden="false" collapsible="true">
@@ -4068,7 +4067,6 @@
       </entryLinks>
       <costs>
         <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="0"/>
-        <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Kyoto Fast Frigate" hidden="false" id="061d-3ac9-5345-e838" sortIndex="23">
