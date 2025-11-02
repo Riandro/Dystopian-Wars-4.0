@@ -303,7 +303,7 @@ Wide Open Skies, Air Support Incoming, Unconventional Target.</description>
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="unit" childId="d889-437c-7878-d5ba" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="unit" childId="d889-437c-7878-d5ba" shared="true"/>
               </conditions>
             </modifier>
             <modifier type="append" value="Trident Generator" field="a14c-99af-eb72-2d3d" scope="unit" affects="unit.profiles.Systems" join=", "/>
