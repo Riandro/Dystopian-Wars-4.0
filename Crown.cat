@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="6e9e-fe5b-0ca4-75b6" name="Crown" gameSystemId="sys-b418-f41f-879e-6277" gameSystemRevision="2" revision="2" authorUrl=" https://github.com/Riandro" authorContact="https://github.com/Riandro" authorName="R.Atkin" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="6e9e-fe5b-0ca4-75b6" name="Crown" gameSystemId="sys-b418-f41f-879e-6277" gameSystemRevision="3" revision="3" authorUrl=" https://github.com/Riandro" authorContact="riandro@googlemail.com" authorName="R.Atkin" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="unit" import="true" name="Adventurer Grand Indiaman" hidden="false" id="4cbb-55d6-a291-ad7d" sortIndex="1">
       <selectionEntries>

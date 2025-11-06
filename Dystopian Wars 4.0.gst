@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-b418-f41f-879e-6277" name="Dystopian Wars 4.0" battleScribeVersion="2.03" revision="2" authorUrl="https://github.com/Riandro" authorContact="https://github.com/Riandro" authorName="R.Atkin" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="sys-b418-f41f-879e-6277" name="Dystopian Wars 4.0" battleScribeVersion="2.03" revision="3" authorUrl="https://github.com/Riandro" authorContact="riandro@googlemail.com" authorName="R.Atkin" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <categoryEntries>
     <categoryEntry name="Flagship" id="0ec6-f5c8-25d7-89d8" hidden="false"/>
     <categoryEntry name="Line" id="ae99-8ab0-27f0-7bb6" hidden="false"/>

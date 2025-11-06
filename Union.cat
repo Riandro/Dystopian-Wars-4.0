@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="7cde-3c23-a1ad-24aa" name="Union" gameSystemId="sys-b418-f41f-879e-6277" gameSystemRevision="2" revision="1" authorUrl="https://github.com/Riandro" authorContact="https://github.com/Riandro" authorName="R.Atkin" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="7cde-3c23-a1ad-24aa" name="Union" gameSystemId="sys-b418-f41f-879e-6277" gameSystemRevision="3" revision="3" authorUrl="https://github.com/Riandro" authorContact="riandro@googlemail.com" authorName="R.Atkin" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="unit" import="true" name="America Special Operations Vessel" hidden="false" id="2f3c-3a36-6e58-6368" sortIndex="1">
       <selectionEntries>
@@ -6818,9 +6818,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo, Triangulate (1)
-
-</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo, Triangulate (1)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9353,6 +9351,6 @@ If a model already has the Defensive (X ) system then add 1 to the value of X.<
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Rules" id="da5d-f2b3-8a90-4163" targetId="8551-5b95-4980-851f"/>
+    <catalogueLink type="catalogue" name="Rules Glossary" id="da5d-f2b3-8a90-4163" targetId="8551-5b95-4980-851f"/>
   </catalogueLinks>
 </catalogue>
