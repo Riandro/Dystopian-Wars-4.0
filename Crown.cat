@@ -1346,6 +1346,26 @@
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <profiles>
+            <profile name="Swift Torpedo Turret" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="0c12-1047-872c-dcfa">
+              <characteristics>
+                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FS</characteristic>
+                <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
+                <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">3</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Piercing (1), Torpedo</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Swift Torpedo Turret" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="9625-ae43-2051-c64c">
+              <characteristics>
+                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FP</characteristic>
+                <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
+                <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">3</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Piercing (1), Torpedo</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
         </selectionEntry>
       </selectionEntries>
       <constraints>
