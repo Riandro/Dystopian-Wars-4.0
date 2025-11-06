@@ -1439,6 +1439,10 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
           <categoryLinks>
             <categoryLink targetId="2535-8da6-da28-a82d" id="65c0-b3d9-9e1c-0783" primary="false" name="GenAmount3"/>
           </categoryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d4d9-9f49-8696-80a5" includeChildSelections="false" automatic="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dae4-b551-df7c-2cb9" includeChildSelections="false" automatic="true"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
