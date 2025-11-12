@@ -317,7 +317,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">6</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Homing, Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Homing, Torpedo</characteristic>
               </characteristics>
             </profile>
             <profile name="Weirding Torpedo Salvo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="df63-089e-7aef-e23d">
@@ -326,7 +326,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Homing, Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Homing, Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -455,7 +455,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">6</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Homing, Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Homing, Torpedo</characteristic>
               </characteristics>
             </profile>
             <profile name="Aetheric Torsion Array" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="ad12-1500-1e69-d098">
@@ -473,7 +473,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">6</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Homing, Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Homing, Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1959,7 +1959,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">6</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Homing, Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Homing, Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2119,7 +2119,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">6</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Homing, Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Homing, Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2503,7 +2503,7 @@ Turbo Encabulation Drive</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">6</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Homing, Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Homing, Torpedo</characteristic>
               </characteristics>
             </profile>
             <profile name="Weirding Torpedo Salvo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="9bc6-92ef-e9ac-484e">
@@ -2512,7 +2512,7 @@ Turbo Encabulation Drive</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Homing, Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Homing, Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2663,7 +2663,7 @@ Turbo Encabulation Drive</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">10</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Bomb**, Arc (3), Blast (6), Limited</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Bomb&lt;/span&gt;, Arc (3), Blast (6), Limited</characteristic>
               </characteristics>
             </profile>
             <profile name="X-Ray Laser Banks" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="a107-bfe6-3763-9c4a">
@@ -2971,7 +2971,7 @@ Turbo Encabulation Drive</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">6</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Homing, Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Homing, Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3264,7 +3264,7 @@ Turbo Encabulation Drive</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Homing, Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Homing, Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3480,7 +3480,7 @@ Turbo Encabulation Drive</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Homing, Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Homing, Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3700,7 +3700,7 @@ Turbo Encabulation Drive</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Homing, Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Homing, Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3993,7 +3993,7 @@ Turbo Encabulation Drive</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">6</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Homing, Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Homing, Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4506,7 +4506,7 @@ Turbo Encabulation Drive</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">11</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Assault**, Arc (1), Devastating (3)</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Assault&lt;/span&gt;, Arc (1), Devastating (3)</characteristic>
               </characteristics>
             </profile>
             <profile name="Ventral Atom Smashers" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="637a-df74-b49d-8451">
@@ -4665,7 +4665,7 @@ Turbo Encabulation Drive</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Homing, Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Homing, Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4764,7 +4764,7 @@ Turbo Encabulation Drive</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">2</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Homing, Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Homing, Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5380,7 +5380,7 @@ Turbo Encabulation Drive</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Homing, Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Homing, Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5448,7 +5448,7 @@ Turbo Encabulation Drive</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Homing, Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Homing, Torpedo</characteristic>
               </characteristics>
             </profile>
             <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="04b5-1bad-4fab-f74a">
@@ -5727,7 +5727,7 @@ Turbo Encabulation Drive</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">6</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Homing, Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Homing, Torpedo</characteristic>
               </characteristics>
             </profile>
             <profile name="Heavy Conodontic Flenser" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="0328-bb3f-5405-b53b">
@@ -5805,7 +5805,7 @@ Turbo Encabulation Drive</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Homing, Torpedo, Triangulate (2)</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Homing, Torpedo, Triangulate (2)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6118,7 +6118,7 @@ Turbo Encabulation Drive</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Homing, Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Homing, Torpedo</characteristic>
               </characteristics>
             </profile>
             <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="a786-fdf1-bd3a-b274">

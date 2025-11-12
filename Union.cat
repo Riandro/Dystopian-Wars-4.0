@@ -162,7 +162,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -705,7 +705,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -783,7 +783,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Bomb**, Alchemical, Hazard (2), Limited</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Bomb&lt;/span&gt;, Alchemical, Hazard (2), Limited</characteristic>
               </characteristics>
             </profile>
             <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="f893-5d4d-a719-2958">
@@ -1041,7 +1041,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">7</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Aerial**, High Velocity (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Aerial&lt;/span&gt;, High Velocity (1), Torpedo</characteristic>
               </characteristics>
             </profile>
             <profile name="Magnetic Gatling Guns" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="570d-f357-a677-80cd">
@@ -1159,7 +1159,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1427,7 +1427,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
             <profile name="Tesla Coil" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="547a-33bc-bfe9-d7f7">
@@ -1436,7 +1436,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">12</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Arc (2), Devastating (2), Indiscriminate, Intensive, Powered</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Arc (2), Devastating (2), Indiscriminate, Intensive, Powered</characteristic>
               </characteristics>
             </profile>
             <profile name="Heavy Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="ba57-73fc-bef8-a772">
@@ -1664,7 +1664,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1842,7 +1842,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
             <profile name="Heavy Electrocannon" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="2bcd-7084-d6a0-6449">
@@ -1869,7 +1869,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">12</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Arc (2), Devastating (2), Indiscriminate, Intensive, Powered</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Arc (2), Devastating (2), Indiscriminate, Intensive, Powered</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2210,7 +2210,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">12</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Arc (2), Devastating (2), Indiscriminate, Intensive, Powered</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Arc (2), Devastating (2), Indiscriminate, Intensive, Powered</characteristic>
               </characteristics>
             </profile>
             <profile name="Torpedo Tubes" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="5445-421f-3251-3a97">
@@ -2219,7 +2219,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
             <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="4796-1f3c-0655-ffc7">
@@ -2335,7 +2335,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2634,7 +2634,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Aerial**, High Velocity (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Aerial&lt;/span&gt;, High Velocity (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2729,7 +2729,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3014,7 +3014,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Bomb**, Alchemical, Hazard (2), Limited</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Bomb&lt;/span&gt;, Alchemical, Hazard (2), Limited</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3113,7 +3113,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">12</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Arc (2), Devastating (2), Indiscriminate, Intensive, Powered</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Arc (2), Devastating (2), Indiscriminate, Intensive, Powered</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3264,7 +3264,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">12</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Bomb**, Alchemical, Hazard (2), Limited</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Bomb&lt;/span&gt;, Alchemical, Hazard (2), Limited</characteristic>
               </characteristics>
             </profile>
             <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="a14d-73f9-1049-fd46">
@@ -3387,7 +3387,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3645,7 +3645,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
             <profile name="Tesla Coil" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="2ecf-6da5-e73f-d63c">
@@ -3654,7 +3654,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">12</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Arc (2), Devastating (2), Indiscriminate, Intensive, Powered</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Arc (2), Devastating (2), Indiscriminate, Intensive, Powered</characteristic>
               </characteristics>
             </profile>
             <profile name="Heavy Electrocannon Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="ffa5-a201-0d0a-7de9">
@@ -3761,7 +3761,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3976,7 +3976,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">3</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4325,7 +4325,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">10</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Assault**</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Assault&lt;/span&gt;</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -4338,7 +4338,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Assault**, Breach (1), Devastating (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Assault&lt;/span&gt;, Breach (1), Devastating (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -4481,7 +4481,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Aerial**, Guided, Limited</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Aerial&lt;/span&gt;, Guided, Limited</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4605,7 +4605,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
             <profile name="Torpedo Tubes" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="4dbc-75b9-aaf9-ddb3">
@@ -4614,7 +4614,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4864,7 +4864,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">3</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4971,7 +4971,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Aerial**, High Velocity (1), Torpedo</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Aerial&lt;/span&gt;, High Velocity (1), Torpedo</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -4984,7 +4984,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Bomb**, Alchemical, Hazard (1), Limited</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Bomb&lt;/span&gt;, Alchemical, Hazard (1), Limited</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6437,7 +6437,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6512,7 +6512,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6726,7 +6726,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Aerial**, Limited</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Aerial&lt;/span&gt;, Limited</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6818,7 +6818,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo, Triangulate (1)</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo, Triangulate (1)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6884,7 +6884,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7053,7 +7053,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">3</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7132,7 +7132,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">8</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">8</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Aerial**, High Velocity (1), Navigation Lock (1), Torpedo</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Aerial&lt;/span&gt;, High Velocity (1), Navigation Lock (1), Torpedo</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7388,7 +7388,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7685,7 +7685,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8494,7 +8494,7 @@ Attack actions made at Extreme Range by units in this Force gain the High Veloc
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">12</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Bomb**, Alchemical, Hazard (2), Limited</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Bomb&lt;/span&gt;, Alchemical, Hazard (2), Limited</characteristic>
               </characteristics>
             </profile>
             <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="a5d8-6984-35e0-c8bb">

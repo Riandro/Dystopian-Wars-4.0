@@ -28,7 +28,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">7</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Indirect, Piercing (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (2)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -91,7 +91,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">7</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Indirect, Piercing (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (2)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -257,7 +257,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">7</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Aerial**, Blast (5)</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Aerial&lt;/span&gt;, Blast (5)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -371,7 +371,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">7</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Indirect, Piercing (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (2)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -610,7 +610,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">7</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Indirect, Piercing (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (2)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -673,7 +673,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">7</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Indirect, Piercing (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (2)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -823,7 +823,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">7</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -904,7 +904,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">7</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Indirect, Piercing (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (2)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -964,7 +964,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">7</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Indirect, Piercing (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (2)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1024,7 +1024,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">7</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Indirect, Piercing (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (2)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1084,7 +1084,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">7</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Indirect, Piercing (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (2)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1231,7 +1231,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">10</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">10</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">10</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1319,7 +1319,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">7</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Indirect, Piercing (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (2)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1382,7 +1382,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">7</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Indirect, Piercing (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (2)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1656,7 +1656,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">8</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">8</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Indirect, Piercing (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (2)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1719,7 +1719,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">8</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">8</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Indirect, Piercing (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (2)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1930,7 +1930,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">7</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Indirect, Piercing (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (2)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1993,7 +1993,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">7</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Indirect, Piercing (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (2)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2222,7 +2222,7 @@ Vanguard (5”)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">7</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Indirect, Piercing (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (2)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2285,7 +2285,7 @@ Vanguard (5”)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">7</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Indirect, Piercing (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (2)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2348,7 +2348,7 @@ Vanguard (5”)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">7</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Indirect, Piercing (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (2)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2431,7 +2431,7 @@ Vanguard (5”)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">7</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2524,7 +2524,7 @@ Vanguard (5”)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">10</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">10</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">10</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
             <profile name="Twin Judgement Lance" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="ef54-ac1a-634e-b9a6">
@@ -2712,7 +2712,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">7</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2916,7 +2916,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">10</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">10</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">10</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
             <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="5a1e-f485-5946-28fb">
@@ -3018,7 +3018,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">7</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Indirect, Piercing (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (2)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3078,7 +3078,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">7</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Indirect, Piercing (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (2)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3131,7 +3131,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">10</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">10</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">10</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3213,7 +3213,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">7</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Indirect, Piercing (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (2)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3273,7 +3273,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">7</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Indirect, Piercing (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (2)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3427,7 +3427,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">10</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">10</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">10</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3590,7 +3590,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">6</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Indirect, Piercing (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (2)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3650,7 +3650,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">6</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Indirect, Piercing (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (2)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3703,7 +3703,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3790,7 +3790,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">6</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Indirect, Piercing (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (2)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3843,7 +3843,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3921,7 +3921,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">10</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">10</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">10</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
             <profile name="Heavy Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="f1b2-e3b7-9394-910f">
@@ -4050,7 +4050,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">6</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Indirect, Piercing (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (2)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -4160,7 +4160,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4246,7 +4246,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">6</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Indirect, Piercing (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (2)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -4309,7 +4309,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">6</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Indirect, Piercing (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (2)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -4481,7 +4481,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">2</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Aerial**</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Aerial&lt;/span&gt;</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4712,7 +4712,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Aerial**, Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Aerial&lt;/span&gt;, Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4863,7 +4863,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Aerial**, Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Aerial&lt;/span&gt;, Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4956,7 +4956,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">6</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Indirect, Piercing (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (2)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -5384,7 +5384,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">7</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5713,7 +5713,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">6</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Indirect, Piercing (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (2)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6052,7 +6052,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">7</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Aerial**, Blast (5)</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Aerial&lt;/span&gt;, Blast (5)</characteristic>
               </characteristics>
             </profile>
             <profile name="Torpedo Salvo" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="1da0-123c-77d0-ea21">
@@ -6061,7 +6061,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6203,7 +6203,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">6</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Indirect, Piercing (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (2)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6350,7 +6350,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6532,7 +6532,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">3</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Homing</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Homing</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6713,7 +6713,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">6</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Indirect, Piercing (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (2)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6866,7 +6866,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">6</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Indirect, Piercing (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (2)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6926,7 +6926,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">6</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Indirect, Piercing (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (2)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7064,7 +7064,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">7</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
             <profile name="Twin Judgement Lance" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="83e0-fe4e-2316-4773">
@@ -7161,7 +7161,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">7</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Indirect, Piercing (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (2)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7221,7 +7221,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">7</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Indirect, Piercing (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (2)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7281,7 +7281,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">7</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Indirect, Piercing (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (2)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7341,7 +7341,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">7</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Singular**, Indirect, Piercing (2)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (2)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7401,7 +7401,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">10</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">10</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">10</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7495,7 +7495,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
             <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="bf35-617a-9712-b7bb">
@@ -7593,7 +7593,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7669,7 +7669,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">10</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Assault**, Celerity, Shredded Defences (2)</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Assault&lt;/span&gt;, Celerity, Shredded Defences (2)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7850,7 +7850,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8022,7 +8022,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">3</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Homing</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Homing</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8175,7 +8175,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
             <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="8be7-f168-0d43-2f96">
@@ -8344,7 +8344,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Breach (1), Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8891,7 +8891,7 @@ The Action Pool for this action gains a number of Bonus Dice equal to the Value
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Homing, Torpedo, Triangulate (2)</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Homing, Torpedo, Triangulate (2)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8961,7 +8961,7 @@ The Action Pool for this action gains a number of Bonus Dice equal to the Value
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">6</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Submerged**, Homing, Torpedo</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Homing, Torpedo</characteristic>
               </characteristics>
             </profile>
             <profile name="Heavy Conodontic Flenser" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="0983-179a-96ec-1f87">
@@ -9121,7 +9121,7 @@ The Action Pool for this action gains a number of Bonus Dice equal to the Value
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">11</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">**Assault**, Arc (1), Devastating (3)</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Assault&lt;/span&gt;, Arc (1), Devastating (3)</characteristic>
               </characteristics>
             </profile>
             <profile name="Ventral Atom Smashers" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="7db6-d6b5-4ed8-7236">
