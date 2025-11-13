@@ -116,6 +116,7 @@ For each die showing a Breach result, the Target suffers a single instance of t
 
 
 If this model is the Target of a Boarding action, its Admiral can re-roll any Blank results in the Resistance Roll.</description>
+      <alias>Bushi Ryu Dojo</alias>
     </rule>
     <rule name="Carrier" id="629d-e5c3-23e9-416f" hidden="false" publicationId="14a6-3b96-497a-488d" page="4">
       <description>In the Launch Phase, this model’s unit can resolve an SRS Launch.
@@ -1332,11 +1333,7 @@ At the start of each Round’s Activation Phase, each model in the Play Area wi
 Action Dice are used and removed from this pool as described in the Guardian Generator (X) rules.
 
 
-In the Clean Up step of the End Phase, all dice remaining in an Admiral’s Guardian Pool are discarded.
-
-
-
-</description>
+In the Clean Up step of the End Phase, all dice remaining in an Admiral’s Guardian Pool are discarded.</description>
       <alias>The Guardian Pool</alias>
     </rule>
     <rule name="Defensive" id="348e-56b4-81eb-50ca" hidden="false">
@@ -1410,27 +1407,15 @@ See Bomb Weapons on page 91 of the Dystopian Wars Rulebook.</description>
     <rule name="Aquatic" id="f057-9f79-7a16-3bda" hidden="false">
       <description>An Underwater unit may make an Attack action if all Contributing weapons have this Quality, and the Initial Target is also an Underwater model.</description>
     </rule>
-    <rule name="Turbo Encabulation Drive" id="0e5a-0ae0-c1d0-3150" hidden="true">
-      <description>At the start of this unit’s Movement Step, as long as no models in the unit have 3 levels of Disorder, its Admiral can declare that they will activate the Turbo Encabulation Drive. 
+    <rule name="The Localised Anomaly Pool" id="0e5a-0ae0-c1d0-3150" hidden="false">
+      <description>The Enlightened Admiral has a pool of Action Dice called the Localised Anomaly Pool. 
 
 
-If they do, they must make a Group Crew Check for the unit.
+There are no dice in the pool at the start of the game, but some rules will instruct the Admiral to add dice to it. 
 
 
-If the Check passes, the Admiral can move each model up to 20” in any direction, without changing their facing, and Passing Through any intervening models and Terrain Features. 
-
-
-The unit must be placed so that all models are in Coherency. Each model gains 1 level of Disorder, and the rest of the Movement Step is skipped.
-
-
-If it is unsuccessful, check the Value of the card that was used to make the Group Crew Check. 
-
-
-If it is an odd number, the unit forgoes its Movement Step entirely and each model gains both a System Failure and Hazard Critical Damage Effect. 
-
-
-If it is an even number, the unit is removed from the Play Area and placed into Reserve, retaining any Damage, Disorder, Critical Damage and any other Tokens.</description>
-      <comment>Currently not used</comment>
+The pool should be kept to one side of the Play Area, near the Admiral’s Victory &amp; Valour deck. </description>
+      <alias>Localised Anomaly Pool</alias>
     </rule>
     <rule name="Agitation" id="c041-5cea-e716-a14d" hidden="false">
       <description>This weapon has a variable Firepower rating. 
@@ -2483,6 +2468,56 @@ The Negative Effect token is removed in the Clean Up step of the End Phase. Unt
     </rule>
     <rule name="Sky Commandos" id="b882-b213-bba2-ddfa" hidden="false">
       <description>When this model’s unit makes a Boarding action, the Target can be an Airborne model. This model can Participate in the Action.</description>
+    </rule>
+    <rule name="Turbo Encabulation Drive" id="2112-f1e2-0757-5c8f" hidden="true">
+      <description>At the start of this unit’s Movement Step, as long as no models in the unit have 3 levels of Disorder, its Admiral can declare that they will activate the Turbo Encabulation Drive. 
+
+
+If they do, they must make a Group Crew Check for the unit.
+
+
+If the Check passes, the Admiral can move each model up to 20” in any direction, without changing their facing, and Passing Through any intervening models and Terrain Features. 
+
+
+The unit must be placed so that all models are in Coherency. Each model gains 1 level of Disorder, and the rest of the Movement Step is skipped.
+
+
+If it is unsuccessful, check the Value of the card that was used to make the Group Crew Check. 
+
+
+If it is an odd number, the unit forgoes its Movement Step entirely and each model gains both a System Failure and Hazard Critical Damage Effect. 
+
+
+If it is an even number, the unit is removed from the Play Area and placed into Reserve, retaining any Damage, Disorder, Critical Damage and any other Tokens.</description>
+      <comment>Currently not used</comment>
+    </rule>
+    <rule name="Turbo Encabulation" id="b3d7-c484-971a-5fcd" hidden="false">
+      <description>&lt;h1&gt;Turbo Encabulation Jumps&lt;/h1&gt;
+&lt;p&gt;Some rules allow an Admiral to to attempt a Turbo Encabulation Jump with a unit.&lt;/p&gt;
+
+
+&lt;p&gt;First, they add an Action Die to the Localised Anomaly Pool. Then, they make an Anomaly Roll by rolling all of the dice in the Pool.&lt;/p&gt;
+
+
+&lt;p&gt;If no dice score a Blank, a Successful Jump is resolved. Otherwise, a Failed Jump is resolved. Then, all dice that were rolled are returned to the Localised Anomaly Pool.&lt;/p&gt;
+&lt;hr&gt;
+
+
+&lt;h1&gt;RESOLVING A SUCCESSFUL JUMP&lt;/h1&gt;
+&lt;p&gt;If the Turbo Encabulation Jump is successful, the Admiral moves each model in the unit up to 20” in any direction without changing their facing, ignoring any intervening models, Environmental Features and Terrain Features.&lt;/p&gt;
+&lt;p&gt;Each model after the first must be placed so that Unit Coherency is maintained, and cannot be placed within Proximity of an enemy model. Finally, each model in the unit gains 1 level of Disorder.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1&gt;RESOLVING A FAILED JUMP&lt;/h1&gt;
+&lt;p&gt;Each model in the unit gains both a System Failure and a Hazard Critical Damage Effect.&lt;/p&gt;
+&lt;p&gt;In addition, if the Anomaly Roll contains three or more Blanks, the unit’s Activation ends immediately; it is removed from the play area, and placed into Reserve, retaining any tokens (Damage, Disorder, Critical Damage, etc.)&lt;/p&gt;
+&lt;p&gt; If the unit is still in Reserve at the end of the game, all remaining models are treated as having been Abandoned.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1&gt;THE LIMITS OF ENCABULATION&lt;/h1&gt;
+&lt;p&gt;A model that has a System Failure Critical Damage Effect and/or 3 levels of Disorder cannot take part in a Turbo Encabulation Jump attempt.&lt;/p&gt; 
+&lt;p&gt;If its unit attempts a Turbo Encabulation Jump, the model is immediately removed from play, before the Anomaly Roll is made.&lt;/p&gt; 
+&lt;p&gt;If the model was Battle-Ready, the opposing Admiral immediately scores Victory Points as though it had been Crippled.&lt;/p&gt;</description>
+      <alias>Turbo Encabulation Jump</alias>
+      <alias>Turbo Encabulation Jumps</alias>
     </rule>
   </sharedRules>
   <publications>
