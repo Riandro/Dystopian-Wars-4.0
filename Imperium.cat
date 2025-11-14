@@ -204,9 +204,7 @@
         </profile>
         <profile name="Heidelberg" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="6aac-db71-60f8-33b9">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Flotsam, Mine Layer (2), Stockpile (2), Strategic Asset (4)
-
-</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Flotsam, Mine Layer (2), Stockpile (2), Strategic Asset (4)</characteristic>
           </characteristics>
         </profile>
         <profile name="Heidelberg" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="7619-fdb4-9f43-7cf9">
@@ -3128,10 +3126,10 @@ SRS (Vali Midget Subs), Vikingr</characteristic>
     <selectionEntry type="unit" import="true" name="Blucher Configuration Cruiser" hidden="false" id="b013-f396-118e-9d07" sortIndex="15">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="3949-1e07-fa23-cf44" targetId="efb4-747e-0463-9b2c" primary="false"/>
-        <categoryLink name="Scandinavian" hidden="false" id="5c34-e915-dcb1-20df" targetId="04fd-b227-5327-13f0" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="2a41-7862-e748-2db0" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
         <categoryLink name="Ship" hidden="false" id="5134-77a7-d8fa-6b6a" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Line" hidden="false" id="3fc1-96f6-de61-981d" targetId="ae99-8ab0-27f0-7bb6" primary="true"/>
+        <categoryLink name="Prussian" hidden="false" id="dfb6-8e00-b66c-c2fe" targetId="17e3-2e7f-4774-a0c2" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Blucher" hidden="false" id="94e6-afd2-3ebd-190c" sortIndex="1">
@@ -5726,9 +5724,7 @@ SRS (Vali Midget Subs), Vikingr</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">2</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Sky Strike (1), Voltaic (1)
-
-</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Sky Strike (1), Voltaic (1)</characteristic>
               </characteristics>
             </profile>
           </profiles>
