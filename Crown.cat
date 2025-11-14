@@ -4196,7 +4196,7 @@ Guardian Generator (1)</characteristic>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PSA</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">2</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
-                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">2</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
                       </characteristics>
                     </profile>
@@ -6788,7 +6788,7 @@ Guardian Generator (1)</characteristic>
         </profile>
         <profile name="Offshore Heavy Platform" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="6c62-bf9d-d16f-0ef6">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Forward Deployment, Platform, Stockpile (2) </characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Forward Deployment, Platform, Stockpile (2)</characteristic>
           </characteristics>
         </profile>
         <profile name="Offshore Heavy Platform" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="ada9-d96c-a203-8a1a">
@@ -7082,7 +7082,7 @@ Guardian Generator (1)</characteristic>
         </profile>
         <profile name="Igraine" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="af77-7efd-1ec5-66c8">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Daredevil Crew, Heavy Prow (4) </characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Daredevil Crew, Heavy Prow (4)</characteristic>
           </characteristics>
         </profile>
         <profile name="Igraine" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="e1d8-f015-7ab9-6b0e">
@@ -8738,7 +8738,7 @@ Units that are allocated to Mandatory Elements must have the Canadian trait on 
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="8ba4-2044-2164-2da7" includeChildSelections="true" includeChildForces="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Ross Battle Platform" hidden="true" id="43ac-b349-2768-a2c4" type="selectionEntry" targetId="05d0-c353-ff76-34a6">
+        <entryLink import="true" name="Offshore Defence Platform" hidden="true" id="43ac-b349-2768-a2c4" type="selectionEntry" targetId="05d0-c353-ff76-34a6">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditionGroups>
