@@ -700,9 +700,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">7</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">7</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo, Triangulate (3)
-
-</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Breach (1), Torpedo, Triangulate (3)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5923,8 +5921,7 @@
         </profile>
         <profile name="Steward" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="b45a-988c-4602-e99f">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Attachment (Airborne Flagship), Dirigible, Maritime Patrol, Sky Commandos (8)
-</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Attachment (Airborne Flagship), Dirigible, Maritime Patrol, Sky Commandos (8)</characteristic>
           </characteristics>
         </profile>
         <profile name="Steward" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="63f8-fd05-86d0-ddf0">
@@ -7316,9 +7313,7 @@
         </profile>
         <profile name="Frontier" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="c880-c688-61d3-d41e">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Logistical Support, Platform Transport, Repair Facilities (3)
-
-</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Logistical Support, Platform Transport, Repair Facilities (3)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8513,9 +8508,7 @@ Attack actions made at Extreme Range by units in this Force gain the High Veloc
         </profile>
         <profile name="Ticonderoga" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="3835-84fd-ab72-f461">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Boarding Parties (7), Descend, Dirigible, Ground Assault (1)
-
-</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Boarding Parties (7), Descend, Dirigible, Ground Assault (1)</characteristic>
           </characteristics>
         </profile>
         <profile name="Ticonderoga" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="6681-e7eb-0e81-2ea3">
@@ -8785,9 +8778,7 @@ Attack actions made at Extreme Range by units in this Force gain the High Veloc
         </profile>
         <profile name="Boston" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="46dd-e532-69cf-c0d5">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Hunter (Airborne), Light Vessel, Shallow Draught, Pivot, Vanguard (5”)
-
-</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Hunter (Airborne), Light Vessel, Shallow Draught, Pivot, Vanguard (5”)</characteristic>
           </characteristics>
         </profile>
         <profile name="Boston" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="0e1a-b518-9231-4bcc">
@@ -9224,7 +9215,7 @@ If a model already has the Defensive (X ) system then add 1 to the value of X.<
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink import="true" name="Colorado Battle Platform " hidden="true" id="f714-3ecf-888e-2612" type="selectionEntry" targetId="b77f-3c67-75d3-6474">
+        <entryLink import="true" name="Offshore Defence Platform" hidden="true" id="f714-3ecf-888e-2612" type="selectionEntry" targetId="b77f-3c67-75d3-6474">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="8687-0513-c126-426e" includeChildSelections="true" includeChildForces="false"/>
           </constraints>
@@ -9430,7 +9421,7 @@ If a model already has the Defensive (X ) system then add 1 to the value of X.<
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink import="true" name="Montgomery Support Ship" hidden="true" id="b8a0-c084-19e8-a12b" type="selectionEntry" targetId="6851-556b-6603-b6d2">
+        <entryLink import="true" name="Montgomery Repair Ship" hidden="true" id="b8a0-c084-19e8-a12b" type="selectionEntry" targetId="6851-556b-6603-b6d2">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="5fcf-5021-072c-1a0b" includeChildSelections="true" includeChildForces="false"/>
           </constraints>
@@ -9598,7 +9589,7 @@ If a model already has the Defensive (X ) system then add 1 to the value of X.<
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink import="true" name="Defiant Destroyer" hidden="false" id="9416-3651-9d02-6d8a" type="selectionEntry" targetId="a1e9-6a06-42c9-2b0b">
+        <entryLink import="true" name="Defiant Destroyer" hidden="true" id="9416-3651-9d02-6d8a" type="selectionEntry" targetId="a1e9-6a06-42c9-2b0b">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="2096-eca0-973f-012e" includeChildSelections="true" includeChildForces="false"/>
           </constraints>
