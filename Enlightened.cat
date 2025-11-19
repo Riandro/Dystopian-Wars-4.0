@@ -4087,7 +4087,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                 <condition type="equalTo" value="2" field="selections" scope="parent" childId="7816-051d-92f3-40c7" shared="true"/>
               </conditions>
             </modifier>
-            <modifier type="append" value="Broadside Cascade, Fusillade" field="066c-1ce6-091e-90ab" affects="profiles.Properties" join=", "/>
+            <modifier type="append" value="Broadside Cascade, Fusillade" field="066c-1ce6-091e-90ab" affects="profiles.Properties" join=", " scope="unit"/>
           </modifiers>
         </selectionEntry>
       </selectionEntries>
