@@ -1,15 +1,15 @@
 # A Dystopian Wars 4.0 repository for use with New Recruit! 
 
-## As of 14/11/25 catalogues are currently updated to the following:
-- Alliance Orbat v4
-- Commonwealth Orbat v4
-- Crown Orbat v4
-- Empire Orbat v4
-- Enlightened Orbat v4
-- Imperium Orbat v4
-- Sultanate Orbat v4
-- Union Orbat v4
-- Rules Glossary v4
+## As of 19/11/25 catalogues are currently updated to the following:
+- Alliance Orbat v5
+- Commonwealth Orbat v5
+- Crown Orbat v5
+- Empire Orbat v5
+- Enlightened Orbat v5
+- Imperium Orbat v5
+- Sultanate Orbat v5
+- Union Orbat v5
+- Rules Glossary v5
 
 ## Planned updates:
 - [x] Crown Guardian Generator Pool total
