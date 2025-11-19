@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="6e9e-fe5b-0ca4-75b6" name="Crown" gameSystemId="sys-b418-f41f-879e-6277" gameSystemRevision="3" revision="4" authorUrl=" https://github.com/Riandro" authorContact="riandro@googlemail.com" authorName="R.Atkin" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="6e9e-fe5b-0ca4-75b6" name="Crown" gameSystemId="sys-b418-f41f-879e-6277" gameSystemRevision="3" revision="5" authorUrl=" https://github.com/Riandro" authorContact="riandro@googlemail.com" authorName="R.Atkin" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="unit" import="true" name="Adventurer Grand Indiaman" hidden="false" id="4cbb-55d6-a291-ad7d" sortIndex="1">
       <selectionEntries>
@@ -2379,7 +2379,7 @@
             <cost name="Guardian Generator Pool" typeId="a9f9-1d81-c3b4-b731" value="1"/>
           </costs>
           <constraints>
-            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="9aef-69ee-db48-c12a" automatic="true"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9aef-69ee-db48-c12a" automatic="true"/>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="bde9-0dcb-41ab-1fda" automatic="false"/>
           </constraints>
           <profiles>
@@ -2670,7 +2670,11 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7160-09ff-a117-d17b" automatic="true"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Guardian Generator" hidden="false" id="62d3-0250-e571-3ebc" type="selectionEntry" targetId="769a-14dc-eba7-91de"/>
+                <entryLink import="true" name="Guardian Generator" hidden="false" id="62d3-0250-e571-3ebc" type="selectionEntry" targetId="769a-14dc-eba7-91de">
+                  <modifiers>
+                    <modifier type="set" value="Guardian Generator (8), Guardian Surge (8)" field="a14c-99af-eb72-2d3d" scope="unit" affects="profiles.Systems"/>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup name="Heavy Hardpoint: PSA" id="e24d-ea1d-baf2-bc71" hidden="false">
@@ -2694,7 +2698,11 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5d67-27b4-5e57-f5cb" automatic="true"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Guardian Generator" hidden="false" id="ccc7-58d4-9659-ef16" type="selectionEntry" targetId="769a-14dc-eba7-91de"/>
+                <entryLink import="true" name="Guardian Generator" hidden="false" id="ccc7-58d4-9659-ef16" type="selectionEntry" targetId="769a-14dc-eba7-91de">
+                  <modifiers>
+                    <modifier type="set" value="Guardian Generator (8), Guardian Surge (8)" field="a14c-99af-eb72-2d3d" scope="unit" affects="profiles.Systems"/>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup name="Heavy Hardpoint: PSA" id="fd81-95fc-7f7d-bb18" hidden="false">
@@ -2718,7 +2726,11 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="039b-acfd-7771-8673" automatic="true"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Guardian Generator" hidden="false" id="4245-3e0f-3e2e-9254" type="selectionEntry" targetId="769a-14dc-eba7-91de"/>
+                <entryLink import="true" name="Guardian Generator" hidden="false" id="4245-3e0f-3e2e-9254" type="selectionEntry" targetId="769a-14dc-eba7-91de">
+                  <modifiers>
+                    <modifier type="set" value="Guardian Generator (8), Guardian Surge (8)" field="a14c-99af-eb72-2d3d" scope="unit" affects="profiles.Systems"/>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup name="Heavy Hardpoint: FPS" id="132c-7bdd-6434-89e1" hidden="false">
@@ -2742,7 +2754,11 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="45f2-a42f-9fc0-678b" automatic="true"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Guardian Generator" hidden="false" id="50eb-6fe0-fca2-0f9a" type="selectionEntry" targetId="769a-14dc-eba7-91de"/>
+                <entryLink import="true" name="Guardian Generator" hidden="false" id="50eb-6fe0-fca2-0f9a" type="selectionEntry" targetId="769a-14dc-eba7-91de">
+                  <modifiers>
+                    <modifier type="set" value="Guardian Generator (8), Guardian Surge (8)" field="a14c-99af-eb72-2d3d" scope="unit" affects="profiles.Systems"/>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -2826,7 +2842,7 @@
             <cost name="Guardian Generator Pool" typeId="a9f9-1d81-c3b4-b731" value="1"/>
           </costs>
           <constraints>
-            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="0d8a-e1b6-98f1-937b" automatic="true"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0d8a-e1b6-98f1-937b" automatic="true"/>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="49dd-fa5c-9696-ba18" automatic="true"/>
           </constraints>
           <profiles>
@@ -6423,6 +6439,8 @@ Guardian Generator (1)</characteristic>
         <categoryLink name="Platform" hidden="false" id="bb29-3ed4-943d-f243" targetId="7875-66cc-53c0-2e19" primary="false"/>
         <categoryLink name="Immobile" hidden="false" id="fae3-4498-5dee-9cc6" targetId="476a-e46d-4ab3-da6f" primary="false"/>
         <categoryLink name="Support" hidden="false" id="f8b7-dfb7-0437-859d" targetId="1711-6069-af06-c5cc" primary="true"/>
+        <categoryLink name="Indian Raj" hidden="false" id="2ae6-8d9b-81bc-7a9b" targetId="7ca7-3399-4884-3ac6" primary="false"/>
+        <categoryLink name="Crown Indian Raj Support" hidden="false" id="e185-ad13-ebaa-3a2e" targetId="0b5d-9ac9-5f48-576d" primary="false"/>
       </categoryLinks>
       <comment>ATTACHMENT</comment>
       <entryLinks>
@@ -6577,11 +6595,11 @@ Guardian Generator (1)</characteristic>
         <categoryLink name="Surface" hidden="false" id="588a-fe0b-6cb5-800f" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
         <categoryLink name="Ship" hidden="false" id="8a88-170c-d485-73c2" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Repair" hidden="false" id="dc73-5892-da12-b5e5" targetId="cb1d-41cb-d83d-fd73" primary="false"/>
-        <categoryLink name="Crown Indian Raj Support" hidden="false" id="d66d-e9a7-88f2-4a9e" targetId="0b5d-9ac9-5f48-576d" primary="false"/>
-        <categoryLink name="Support" hidden="false" id="cde7-2209-5eb4-727c" targetId="1711-6069-af06-c5cc" primary="true"/>
+        <categoryLink name="Logistical" hidden="false" id="663e-9542-c825-5dd2" targetId="366f-016b-5f80-0c09" primary="true"/>
+        <categoryLink name="Crown Indian Raj Logistical" hidden="false" id="e0ad-29aa-ff5c-eec2" targetId="de38-e28b-a40b-3b87" primary="false"/>
       </categoryLinks>
       <modifiers>
-        <modifier type="set-primary" value="0b5d-9ac9-5f48-576d" field="category">
+        <modifier type="set-primary" value="de38-e28b-a40b-3b87" field="category">
           <conditions>
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="c047-301b-1635-a479" shared="true" includeChildSelections="true"/>
           </conditions>
@@ -7494,7 +7512,7 @@ Guardian Generator (1)</characteristic>
         </profile>
         <profile name="Orca" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="bdca-83a9-b4c7-078f">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Hunter (Capital)</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Hunter (Capital), Light Vessel</characteristic>
           </characteristics>
         </profile>
         <profile name="Orca" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="fa83-04a6-1203-562e">
@@ -7679,7 +7697,7 @@ Guardian Generator (1)</characteristic>
         </profile>
         <profile name="Offshore Supply Platform" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="02e9-dd5a-d8eb-2dd3">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Forward Deployment, Platform, Stockpile (3)</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Forward Deployment, Platform, Stockpile (5)</characteristic>
           </characteristics>
         </profile>
         <profile name="Offshore Supply Platform" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="7087-e36b-609f-0825">
@@ -7727,7 +7745,7 @@ Guardian Generator (1)</characteristic>
                 <condition type="atLeast" value="1" field="selections" scope="c572-7b64-68d3-5da9" childId="7705-5046-e3bf-a163" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="append" value="Levant" field="066c-1ce6-091e-90ab" join=", ">
+            <modifier type="append" value="Low Altitude" field="066c-1ce6-091e-90ab" join=", ">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="self" childId="a3bf-6c33-8fbd-f297" shared="true" includeChildSelections="true"/>
               </conditions>
@@ -8055,7 +8073,7 @@ Guardian Generator (1)</characteristic>
                 <condition type="atLeast" value="1" field="selections" scope="parent" childId="950b-041b-e38a-be6c" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="append" value="Levant" field="066c-1ce6-091e-90ab" join=", ">
+            <modifier type="append" value="Low Altitude" field="066c-1ce6-091e-90ab" join=", ">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="parent" childId="5391-49a4-3b24-7d84" shared="true" includeChildSelections="true"/>
               </conditions>
@@ -8088,13 +8106,14 @@ Guardian Generator (1)</characteristic>
       <entryLinks>
         <entryLink import="true" name="Fleet Doctrines" hidden="false" id="43da-6ebe-f9b9-b248" type="selectionEntryGroup" targetId="3a8e-29a8-4109-7c1c">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="PAX BRITANNIA!" hidden="false" id="9161-4684-805c-8674">
+            <selectionEntry type="upgrade" import="true" name="EMERGENCY FIRING DRILLS" hidden="false" id="9161-4684-805c-8674">
               <rules>
-                <rule name="PAX BRITANNIA!" id="4ecc-c605-4f6d-2175" hidden="false">
+                <rule name="EMERGENCY FIRING DRILLS" id="4ecc-c605-4f6d-2175" hidden="false">
                   <description>Can only be purchased for a Crown Flagship unit.
-Once per round, before this Admiral makes an Attack action with a Crown Flagship unit, they may attempt to enact a Special Valour Effect with that unit.
 
-If the effect is successfully enacted, Standard and Heavy Counters may be rerolled for duration of the Action.</description>
+Once per round, before this Admiral makes an Attack action with a Crown Ship unit, they may attempt to enact a Special Valour Effect with that unit.
+
+If the effect is successfully enacted, the Effects of Disorder (see page 57 of the DW Rulebook) are ignored for the duration of the attack.</description>
                 </rule>
               </rules>
               <constraints>
@@ -8331,6 +8350,7 @@ If the effect is successfully enacted, Standard and Heavy Counters may be rerol
     <categoryEntry name="Crown Canadian Patrol" id="f7ce-445d-c69f-9ac2" hidden="false"/>
     <categoryEntry name="Crown Canadian Support" id="a576-5a1c-a1dd-adc4" hidden="false"/>
     <categoryEntry name="Crown British/Canadian Scout" id="3eb1-f674-d543-0123" hidden="false"/>
+    <categoryEntry name="Crown Indian Raj Logistical" id="de38-e28b-a40b-3b87" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry name="Crown Faction Battlefleet (Main)" id="aeed-e780-f2cb-7a74" hidden="false" sortIndex="1">
@@ -8429,7 +8449,7 @@ The Value of the card they discard is used for the Crew Check.</description>
         <categoryLink name="Crown Indian Raj Line" hidden="false" id="47b9-cc82-a9b1-e1ef" targetId="85bc-4fd7-5224-8344">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e0fc-8700-8761-a8a5"/>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="ccfb-4cc0-f7f5-c5ab"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="ccfb-4cc0-f7f5-c5ab"/>
           </constraints>
         </categoryLink>
         <categoryLink name="Crown Indian Raj Patrol" hidden="false" id="abbe-5caa-498d-27ad" targetId="f47e-56c5-8b4d-42b2">
@@ -8442,6 +8462,25 @@ The Value of the card they discard is used for the Crew Check.</description>
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="c149-041f-c4a2-0ed5"/>
           </constraints>
+          <modifiers>
+            <modifier type="decrement" value="1" field="c149-041f-c4a2-0ed5">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="de38-e28b-a40b-3b87" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </categoryLink>
+        <categoryLink name="Crown Indian Raj Logistical" hidden="false" id="c58c-b19e-fbd8-fd94" targetId="de38-e28b-a40b-3b87">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="bbaa-e889-bdb1-831d"/>
+          </constraints>
+          <modifiers>
+            <modifier type="decrement" value="1" field="bbaa-e889-bdb1-831d">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="0b5d-9ac9-5f48-576d" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </categoryLink>
       </categoryLinks>
       <rules>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="8551-5b95-4980-851f" name="Rules Glossary" gameSystemId="sys-b418-f41f-879e-6277" gameSystemRevision="3" revision="4" authorUrl="https://github.com/Riandro" authorContact="riandro@googlemail.com" authorName="R.Atkin" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="true" id="8551-5b95-4980-851f" name="Rules Glossary" gameSystemId="sys-b418-f41f-879e-6277" gameSystemRevision="3" revision="5" authorUrl="https://github.com/Riandro" authorContact="riandro@googlemail.com" authorName="R.Atkin" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedRules>
     <rule name="Obscured" id="df6c-5496-1e28-46da" hidden="false">
       <description>**OBSCURED TARGETS**
@@ -22,11 +22,17 @@ The opposing Admiral does this for every Participating model whose Visibility i
     </rule>
     <rule name="Amphibious" id="8fc4-fe50-6556-9d23" hidden="false">
       <description>This model can move into or through Grounding Hazards and Islands without Colliding with them, and can still Rally when it is within Proximity of them.
-In addition, it is not Impeded by Treacherous Water.
-If this model ends its move so that it is entirely on an Island, it is Traversing that Island. Submerged Weapons can no longer Contribute to Attack actions against it.
-For the purposes of determining  visibility, its Mass rating is increased by the Island’s Mass.
-In addition, it does not suffer any Damage as a result of the Breach Critical Damage Effect in its Consolidation Step.
-While a model is Traversing a Territory, the opposing Admiral cannot allocate Landing Party tokens to that Territory (see the Ground Assault (X) property), and any Landing Party tokens already allocated to it are immediately removed from play.</description>
+
+
+If this model ends its move so that it is entirely on an Island, it is Traversing that Island.
+Submerged Weapons can no longer Contribute to Attack actions against it.
+
+
+For the purposes of determining Visibility, its Mass rating is increased by the Island’s Mass. In addition, it does not suffer any Damage as a result of the Breach Critical Damage Effect
+in its Consolidation Step.
+
+
+While a model is Traversing a Territory, the opposing Admiral cannot allocate Landing Party tokens to that Territory (see the Ground Assault (X) property), and any Landing Party tokens already allocated to it are immediately removed from play.</description>
     </rule>
     <rule name="Armoured Stern" id="54a8-8285-32af-0dbd" hidden="false">
       <description>When this model is targeted by an Attack action, the Vulnerable Stern rule does not apply.</description>
@@ -153,10 +159,7 @@ After a unit makes a Cloud Dive, it is marked with an Incoming status token, as
     </rule>
     <rule name="Combat Divers" id="e203-9429-1b85-23cd" hidden="false">
       <description>This model’s unit can make Boarding actions that target Underwater models. 
-
-When this model Participates in a Boarding action, it contributes X dice to the Action Roll.
-
-If this model is targeted by a Boarding action, it adds X dice to its Resistance Roll.</description>
+</description>
     </rule>
     <rule name="Daredevil Crew" id="747e-f37c-fb22-d8b2" hidden="false">
       <description>This model automatically passes its Crew Check when Resolving a Ram and does not gain Disorder in the Inflict Disorder step.
@@ -203,6 +206,7 @@ Submerged Weapons cannot Contribute to Attack actions against Surfacing models.
 
 
 If this would cause the Marker to be placed in contact with a Terrain Feature, a model, or another Marker, it is not placed.</description>
+      <alias>Flotsom</alias>
     </rule>
     <rule name="Forward Deployment" id="6e96-541a-4d1c-5131" hidden="false">
       <description>*This Property only applies if every model in the unit has it listed on its unit profile - otherwise, it is disregarded.*
@@ -311,7 +315,7 @@ The other unit arrives immediately, and is deployed so that each model is withi
       <description>This SRS token can only be stacked with other SRS tokens of the same type.
 
 
-A Stack made up of these Tokens cannot be allocated to a unit that already has SRS tokens of a different type allocated to it.
+A Stack made up of these Tokens cannot be allocated to a unit that already has friendly SRS tokens of a different type allocated to it.
 
 
 The reverse is also true - a unit with a stack of these SRS tokens already allocated to it cannot be allocated SRS tokens of a different type.</description>
@@ -347,10 +351,7 @@ When this Action is made, each enemy model within 5” of a Participating model 
 For every System Failure inflicted in this way, the active Admiral can remove a System Failure from a Participating model, or another friendly model within 10” of a Participating model.</description>
     </rule>
     <rule name="Exo-sub" id="1b59-0b10-4a1b-e70f" hidden="false">
-      <description>Immediately before resolving an Attack Run mission or Interception Attempt with a Stack containing one or more Tokens with this SRS Property, its Admiral can declare that they will perform a Submerged Strike. 
-
-
-If they do, they count as having the Underwater SRS property until the end of the current Mission.</description>
+      <description>When this Token is the target of an Interception Attempt, treat its Resilience rating as being 2 higher.</description>
     </rule>
     <rule name="ATTACK RUN MISSION" id="a85f-8593-a2e7-99c6" hidden="false">
       <description>**RESOLVING AN ATTACK RUN MISSION**
@@ -1414,7 +1415,7 @@ See Bomb Weapons on page 91 of the Dystopian Wars Rulebook.</description>
 There are no dice in the pool at the start of the game, but some rules will instruct the Admiral to add dice to it. 
 
 
-The pool should be kept to one side of the Play Area, near the Admiral’s Victory &amp; Valour deck. </description>
+The pool should be kept to one side of the Play Area, near the Admiral’s Victory &amp; Valour deck.</description>
       <alias>Localised Anomaly Pool</alias>
     </rule>
     <rule name="Agitation" id="c041-5cea-e716-a14d" hidden="false">
@@ -1892,11 +1893,15 @@ It must then move in a straight line, with the distance measured to and from th
 At the end of the move, it can make up to two free Pivots.</description>
     </rule>
     <rule name="Mindless Storm" id="1de1-f01d-4c8d-f348" hidden="false">
-      <description>When an enemy SRS Stack resolves an Attack Run mission against this model’s unit, this Admiral immediately allocates one Scythe Fighters SRS token to this unit. 
+      <description>Whenever a friendly unit launches a Stack of Scythe Fighter SRS tokens, its Admiral can nominate any number of friendly models with this property to enact a Mindless Storm. 
+These models do not have to be in the same unit, and can be anywhere in the Play Area. 
 
-If multiple models in the unit have this Property, allocate one Scythe Fighter for each of them. 
 
-The new Stack may then make an Interception Attempt as if they had been allocated to an Air Support mission.</description>
+In the Choose SRS Missions step of the launch, the Stack can be allocated to an enemy unit within 10” of a model enacting a Mindless Storm, even if that unit is not within 30” of the launching model. 
+In addition, for each model enacting a Mindless Storm that is within 10” of the enemy unit, an additional Scythe Fighter token is added to the Stack. 
+A model can only participate in one Mindless Storm in each Launch Phase. 
+To track this, each nominated model is marked with a Special Effect token until the end of the Launch Phase.
+</description>
     </rule>
     <rule name="Mechanical Soul" id="2440-018d-ab52-349d" hidden="false">
       <description>This model’s Crew rating cannot be Modified Models with this Property are unaffected by Valour Effects enacted by their Admiral. 
@@ -2231,13 +2236,15 @@ Additionally, unless the Action Roll scores no Successes (either because the ac
     </rule>
     <rule name="Repulsion Generator" id="c310-2daa-cc98-65d8" hidden="false">
       <description>This is a Generator and grants the following Unit Benefit:
+When moving a model in this unit, its Admiral can declare that they will Engage Repulsion Fields.
 
 
-When moving a model in this unit, its Admiral can declare that they will Engage Repulsion Fields. For the duration of the model’s move, it gains the Skimmer
-property.
+For the duration of the model’s move, it treats all Terrain Features as Open Water, and can Pass Through Surface models. 
+It only counts as contacting a Minefield or Wreck marker if it ends its move in contact with the Marker.
 
 
-At the end of its move, the model gains a level of Disorder. If it ends its move in contact with a Terrain Feature, it is immediately Destroyed.</description>
+At the end of its move, the model gains 1 level of Disorder.
+If it ends its move in contact with a Terrain Feature, it is immediately Destroyed.</description>
     </rule>
     <rule name="Attachment" id="c86a-cd74-8e7a-2eb5" hidden="false">
       <description>During Force Selection, the Admiral can choose to field this unit either on its own, as normal, or as an Attachment to a Parent Unit, as described in Attached Units on page 128 of the Dystopian Wars Rulebook.
@@ -2463,8 +2470,9 @@ If the Check fails, the Initial Target gains a Hazard Critical Damage Effect, a
 
 The Negative Effect token is removed in the Clean Up step of the End Phase. Until then, this quality is disregarded when resolving Attack actions against the model with the Token.</description>
     </rule>
-    <rule name="Levant" id="494c-dd2b-054b-3eb3" hidden="false">
+    <rule name="Levant" id="494c-dd2b-054b-3eb3" hidden="true">
       <description>Airborne models with this Property do not benefit from the Unconventional Target rule, but count as Scoring Models so long as they are not Crippled.</description>
+      <comment>Currently not used</comment>
     </rule>
     <rule name="Sky Commandos" id="b882-b213-bba2-ddfa" hidden="false">
       <description>When this model’s unit makes a Boarding action, the Target can be an Airborne model. This model can Participate in the Action.</description>
@@ -2496,28 +2504,55 @@ If it is an even number, the unit is removed from the Play Area and placed into
 &lt;p&gt;Some rules allow an Admiral to to attempt a Turbo Encabulation Jump with a unit.&lt;/p&gt;
 
 
-&lt;p&gt;First, they add an Action Die to the Localised Anomaly Pool. Then, they make an Anomaly Roll by rolling all of the dice in the Pool.&lt;/p&gt;
+&lt;p&gt;First, the Admiral moves each model in the unit, one at a time, by removing it from play then returning it to the Play Area, no more than 25” away from where it was. Models can be placed in any facing, but cannot be placed within Proximity of an enemy model, and the unit must be In Coherency once all models have been placed.&lt;/p&gt;
 
 
-&lt;p&gt;If no dice score a Blank, a Successful Jump is resolved. Otherwise, a Failed Jump is resolved. Then, all dice that were rolled are returned to the Localised Anomaly Pool.&lt;/p&gt;
+&lt;p&gt;Once this has been completed, each model in the unit gains 1 level of Disorder. Then, the Admiral adds an Action Die to the Localised Anomaly Pool, and makes an Anomaly Roll by rolling all of the dice in the Pool.&lt;/p&gt;
+
+
+&lt;p&gt;If no dice score a Blank, the jump is perfectly executed. &lt;/p&gt;
+
+
+&lt;p&gt;If one or two dice score a Blank, each model in the unit gains both a System Failure and a Hazard Critical Effect. &lt;/p&gt;
+
+
+&lt;p&gt;If three or more dice score a Blank, the unit’s Activation ends immediately; it is removed from the play area, and placed into Reserve, retaining any tokens (Damage, Disorder, Critical Damage, etc.) If the unit is still in Reserve at the end of the game, all remaining models are treated as having been Abandoned.&lt;/p&gt;
 &lt;hr&gt;
 
-
-&lt;h1&gt;RESOLVING A SUCCESSFUL JUMP&lt;/h1&gt;
-&lt;p&gt;If the Turbo Encabulation Jump is successful, the Admiral moves each model in the unit up to 20” in any direction without changing their facing, ignoring any intervening models, Environmental Features and Terrain Features.&lt;/p&gt;
-&lt;p&gt;Each model after the first must be placed so that Unit Coherency is maintained, and cannot be placed within Proximity of an enemy model. Finally, each model in the unit gains 1 level of Disorder.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h1&gt;RESOLVING A FAILED JUMP&lt;/h1&gt;
-&lt;p&gt;Each model in the unit gains both a System Failure and a Hazard Critical Damage Effect.&lt;/p&gt;
-&lt;p&gt;In addition, if the Anomaly Roll contains three or more Blanks, the unit’s Activation ends immediately; it is removed from the play area, and placed into Reserve, retaining any tokens (Damage, Disorder, Critical Damage, etc.)&lt;/p&gt;
-&lt;p&gt; If the unit is still in Reserve at the end of the game, all remaining models are treated as having been Abandoned.&lt;/p&gt;
-&lt;hr&gt;
 &lt;h1&gt;THE LIMITS OF ENCABULATION&lt;/h1&gt;
 &lt;p&gt;A model that has a System Failure Critical Damage Effect and/or 3 levels of Disorder cannot take part in a Turbo Encabulation Jump attempt.&lt;/p&gt; 
-&lt;p&gt;If its unit attempts a Turbo Encabulation Jump, the model is immediately removed from play, before the Anomaly Roll is made.&lt;/p&gt; 
-&lt;p&gt;If the model was Battle-Ready, the opposing Admiral immediately scores Victory Points as though it had been Crippled.&lt;/p&gt;</description>
+&lt;p&gt;If its unit attempts a Turbo Encabulation Jump,the model is removed from play as normal, but is not returned to the Play Area. If it was Battle-Ready, the opposing Admiral immediately scores Victory Points as though it had been Crippled.&lt;/p&gt; 
+</description>
       <alias>Turbo Encabulation Jump</alias>
       <alias>Turbo Encabulation Jumps</alias>
+    </rule>
+    <rule name="Ekranoplan" id="b4cf-b94c-0f9c-fcc3" hidden="false">
+      <description>This model can move into or through Grounding Hazards without Colliding with them, and can still Rally when it is within Proximity of them.</description>
+    </rule>
+    <rule name="Elevated" id="348c-9a63-2455-9c65" hidden="false">
+      <description>This model is not Impeded by Treacherous Water, does not Trigger Minefield markers, and never suffers Critical Damage as a result of contacting a Wreck marker. 
+
+
+If this model is the Initial Target of an Attack action, Submerged weapons cannot Contribute.</description>
+    </rule>
+    <rule name="Low Altitude" id="778d-e49d-5c92-2d5f" hidden="true">
+      <description>When this model is the target of an Attack action, the Unconventional Target rule does not apply.
+
+
+In addition, this model counts as a Scoring Model while it is Battle-Ready</description>
+    </rule>
+    <rule name="Soar" id="3fe0-6514-7001-149d" hidden="false">
+      <description>This model can move into or through all Terrain Features without Colliding with them, and can still Rally when it is within Proximity of them. 
+
+
+This model can Pass Through other models, and they can Pass Through it.</description>
+    </rule>
+    <rule name="Depth Charge" id="ba63-7782-840f-7051" hidden="false">
+      <description>An Underwater model can be chosen as the Initial Target of this Attack action, as long as all Contributing weapons have this Quality. 
+
+
+A weapon with this Quality cannot Contribute to any Attack action in which a Surface or Airborne model is the Initial Target.</description>
+      <alias>Ramming, Rams</alias>
     </rule>
   </sharedRules>
   <publications>

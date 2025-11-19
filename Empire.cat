@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="9b3b-5cae-eda4-2941" name="Empire" gameSystemId="sys-b418-f41f-879e-6277" gameSystemRevision="3" revision="4" authorUrl="https://github.com/Riandro" authorContact="riandro@googlemail.com" authorName="R.Atkin" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="9b3b-5cae-eda4-2941" name="Empire" gameSystemId="sys-b418-f41f-879e-6277" gameSystemRevision="3" revision="5" authorUrl="https://github.com/Riandro" authorContact="riandro@googlemail.com" authorName="R.Atkin" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="unit" import="true" name="Akita Super Battleship" hidden="false" id="86f7-1e34-d94d-871c" sortIndex="1">
       <selectionEntries>
@@ -1921,7 +1921,6 @@
         <categoryLink targetId="a053-14a1-ec7f-cc97" id="6de5-2c5a-34f6-b38f" primary="false" name="AttachmentHostJian"/>
         <categoryLink targetId="6b3f-e031-ef8c-2768" id="071e-b620-2a5d-3eac" primary="false" name="AttachmentHostWuhan"/>
         <categoryLink targetId="fa0d-5dc0-466d-17dc" id="4732-4e3d-2cc4-522c" primary="false" name="AttachmentHostLantau"/>
-        <categoryLink name="NoHeavyShield" hidden="false" id="6fa0-f642-532d-fcb5" targetId="9078-b6da-8d59-9fec" primary="false"/>
       </categoryLinks>
       <profiles>
         <profile name="Yangtze" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="8fc8-4b7e-12e4-19a7">
@@ -1978,7 +1977,7 @@
               <characteristics>
                 <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">12</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                 <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Torrent&lt;/span&gt;(2), Alchemical</characteristic>
               </characteristics>
@@ -2044,7 +2043,7 @@
         </profile>
         <profile name="Zhanmadao" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="94f2-5148-2760-33f2">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Armoured Stern, Bushi Ryu Dojos (16), Carrier (8), Descend, Encompassing Broadsides, Inspirational (10”), Mobile, SRS (Doksuri Fighters), Very Large</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Armoured Stern, Boarding Parties (16), Bushi Ryu Dojos, Carrier (8), Descend, Encompassing Broadsides, Inspirational (10 ”), Mobile, Sky Commandos, SRS (Doksuri Fighters), Very Large</characteristic>
           </characteristics>
         </profile>
         <profile name="Zhanmadao" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="c62c-575a-65df-363e">
@@ -2793,7 +2792,7 @@
             <characteristic name="Defence" typeId="46f4-1304-4661-f62d">6</characteristic>
             <characteristic name="Armour" typeId="536a-39ed-80f6-7270">4</characteristic>
             <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">9</characteristic>
-            <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">3</characteristic>
+            <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">2</characteristic>
             <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">2</characteristic>
             <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">3</characteristic>
             <characteristic name="Crew" typeId="3a60-6bb3-d331-8272">7</characteristic>
@@ -2826,7 +2825,7 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Meru" hidden="false" id="e51f-a0e5-5e79-80fc" sortIndex="1">
           <costs>
-            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="122"/>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="132"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
           <selectionEntryGroups>
@@ -4197,7 +4196,7 @@
         </profile>
         <profile name="Offshore Defence Platform" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="112a-4675-39e7-5273">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Attachment (Malandok War Platform, Magwayen Support Platform), Forward Deployment, Platform</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Attachment (Platform), Forward Deployment, Platform</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="append" value="Auxiliary Mine Layer (3)
@@ -4224,6 +4223,7 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <comment>ATTACHMENT</comment>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Kaiju Ika Colossus Automata" hidden="false" id="638e-2147-5953-781b" sortIndex="26">
       <selectionEntries>
@@ -4755,9 +4755,7 @@
         </profile>
         <profile name="Offshore Heavy Platform" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="f656-732b-ec00-aefc">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Flak Barrage (5), Priority Signals, Repair Facilities (2)
-
-</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Flak Barrage (5), Priority Signals, Repair Facilities (2)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4794,7 +4792,6 @@
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="6"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Upgrades" id="d0bf-d781-5a33-090c" hidden="false" sortIndex="2"/>
             <selectionEntryGroup name="Heavy Hardpoint: FPSA" id="4253-d9f7-e0a2-2097" hidden="false" sortIndex="1">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="4a83-9678-6b5d-2d90" sortIndex="1">
@@ -4847,17 +4844,17 @@
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
                   <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="2c85-20a8-4113-1ea4" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="unit" childId="2c85-20a8-4113-1ea4" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
                 <modifier type="set" value="0" field="13a3-e2d2-36bb-2a53">
                   <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="2c85-20a8-4113-1ea4" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="unit" childId="2c85-20a8-4113-1ea4" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
                 <modifier type="set" value="0" field="a20f-9680-b65d-cb3d">
                   <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="2c85-20a8-4113-1ea4" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="unit" childId="2c85-20a8-4113-1ea4" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -4923,12 +4920,7 @@
             <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Armoured Stern, Carrier (4), Descend, Flotsam, Mobile, SRS (Doksuri Fighters)</characteristic>
           </characteristics>
           <modifiers>
-            <modifier type="append" value="Bushi Ryu Dojo (8)" field="066c-1ce6-091e-90ab" join=", ">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="2c85-20a8-4113-1ea4" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="append" value="Incendiary Broadsides" field="066c-1ce6-091e-90ab" join=", ">
+            <modifier type="append" value="Boarding Parties (8), Bushi Ryu Dojo, Sky Commandos " field="066c-1ce6-091e-90ab" join=", ">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="parent" childId="2c85-20a8-4113-1ea4" shared="true" includeChildSelections="true"/>
               </conditions>
@@ -4978,14 +4970,20 @@
                     </profile>
                   </profiles>
                 </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Magma Cast Generator" hidden="false" id="916d-e549-1d92-3dbc">
+                  <costs>
+                    <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="30"/>
+                    <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
+                  </costs>
+                  <modifiers>
+                    <modifier type="append" value="Magma Cast Generator" field="a14c-99af-eb72-2d3d" scope="unit" affects="profiles.Systems" join=", "/>
+                  </modifiers>
+                </selectionEntry>
               </selectionEntries>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="045c-b7a3-8d9f-5e8c" includeChildSelections="false" automatic="true"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b399-d9e2-aa58-39a3" includeChildSelections="false"/>
               </constraints>
-              <entryLinks>
-                <entryLink import="true" name="Generators" hidden="false" id="b2ab-6b92-b8e6-6ac1" type="selectionEntryGroup" targetId="7a4d-983a-a763-720b"/>
-              </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <constraints>
@@ -5657,17 +5655,17 @@ Hunter (Airborne)</characteristic>
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
                   <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="a839-60ca-a080-4cb8" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="unit" childId="a839-60ca-a080-4cb8" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
                 <modifier type="set" value="0" field="c522-1ee3-1fac-577b">
                   <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="a839-60ca-a080-4cb8" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="unit" childId="a839-60ca-a080-4cb8" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
-                <modifier type="set" value="0" field="c522-1ee3-1fac-577b">
+                <modifier type="set" value="0" field="4ea2-1980-22ca-93a6">
                   <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="a839-60ca-a080-4cb8" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="unit" childId="a839-60ca-a080-4cb8" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -5740,10 +5738,10 @@ Hunter (Airborne)</characteristic>
             <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Armoured Stern, Descend, Encompassing Broadsides, Flotsam, Ground Assault (2), Incendiary Broadsides, Mobile, Strategic Asset (3)</characteristic>
           </characteristics>
           <modifiers>
-            <modifier type="append" value="Bushi Ryu Dojo (8)
+            <modifier type="append" value="Boarding Parties (8), Bushi Ryu Dojo, Sky Commandos 
 " field="066c-1ce6-091e-90ab" join=", ">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="a839-60ca-a080-4cb8" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="a839-60ca-a080-4cb8" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -5898,17 +5896,17 @@ Hunter (Airborne)</characteristic>
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
                   <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="611e-e8b5-758d-c8fc" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="unit" childId="611e-e8b5-758d-c8fc" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
                 <modifier type="set" value="0" field="76da-bd91-3d4c-d6d0">
                   <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="611e-e8b5-758d-c8fc" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="unit" childId="611e-e8b5-758d-c8fc" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
                 <modifier type="set" value="0" field="b6ce-ae16-562e-08cb">
                   <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="611e-e8b5-758d-c8fc" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="unit" childId="611e-e8b5-758d-c8fc" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -5942,6 +5940,10 @@ Hunter (Airborne)</characteristic>
                   </profiles>
                 </selectionEntry>
               </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fad4-2b63-2894-4a36-min" includeChildSelections="false" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fad4-2b63-2894-4a36-max" includeChildSelections="false" automatic="true"/>
+              </constraints>
             </selectionEntryGroup>
             <selectionEntryGroup name="Special Hardpoint: FPSA" id="534a-4406-1281-2504" hidden="false" sortIndex="1">
               <selectionEntries>
@@ -5972,6 +5974,10 @@ Hunter (Airborne)</characteristic>
                   </profiles>
                 </selectionEntry>
               </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b1c5-4efd-afdd-6e8a-min" includeChildSelections="false" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b1c5-4efd-afdd-6e8a-max" includeChildSelections="false" automatic="true"/>
+              </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <constraints>
@@ -6020,7 +6026,7 @@ Hunter (Airborne)</characteristic>
             <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Cloud Dive, Mobile, Raking Strike (9)</characteristic>
           </characteristics>
           <modifiers>
-            <modifier type="append" value="Bushi Ryu Dojo (8)" field="066c-1ce6-091e-90ab" join=", ">
+            <modifier type="append" value="Boarding Parties (8), Bushi Ryu Dojo, Sky Commandos" field="066c-1ce6-091e-90ab" join=", ">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="parent" childId="611e-e8b5-758d-c8fc" shared="true" includeChildSelections="true"/>
               </conditions>
@@ -6421,7 +6427,7 @@ Hunter (Airborne)</characteristic>
                 <condition type="atLeast" value="1" field="selections" scope="parent" childId="109e-372f-46cb-5f7a" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="append" value="Levant" field="066c-1ce6-091e-90ab" join=", ">
+            <modifier type="append" value="Low Altitude" field="066c-1ce6-091e-90ab" join=", ">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="parent" childId="7672-5b08-93eb-1f0e" shared="true" includeChildSelections="true"/>
               </conditions>
@@ -6630,7 +6636,7 @@ Hunter (Airborne)</characteristic>
                 <condition type="atLeast" value="1" field="selections" scope="parent" childId="9389-33e8-17a0-c0f8" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="append" value="Levant" field="066c-1ce6-091e-90ab" join=", ">
+            <modifier type="append" value="Low Altitude" field="066c-1ce6-091e-90ab" join=", ">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="self" childId="66d3-4dc4-6c4c-8bca" shared="true" includeChildSelections="true"/>
               </conditions>
@@ -7008,7 +7014,7 @@ If they do, they convert all Standard Counters in the Action Roll to Standard St
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Attachments" id="1e7d-8dc7-fedb-f45a" hidden="false" collapsible="true" sortIndex="2">
       <entryLinks>
-        <entryLink import="true" name="Barango Battle Platform" hidden="false" id="7364-759b-3b53-0b27" type="selectionEntry" targetId="4270-848a-3526-54b3">
+        <entryLink import="true" name="Offshore Defence Platform" hidden="false" id="7364-759b-3b53-0b27" type="selectionEntry" targetId="4270-848a-3526-54b3">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="e473-97cc-ecb8-e65b" includeChildSelections="true" includeChildForces="false"/>
           </constraints>

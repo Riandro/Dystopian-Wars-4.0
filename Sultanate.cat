@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="581b-677f-bf28-4009" name="Sultanate" gameSystemId="sys-b418-f41f-879e-6277" gameSystemRevision="3" revision="4" authorUrl="https://github.com/Riandro" authorContact="riandro@googlemail.com" authorName="R.Atkin" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="581b-677f-bf28-4009" name="Sultanate" gameSystemId="sys-b418-f41f-879e-6277" gameSystemRevision="3" revision="5" authorUrl="https://github.com/Riandro" authorContact="riandro@googlemail.com" authorName="R.Atkin" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="unit" import="true" name="Kadesh Barrage Battlecruiser" hidden="false" id="f7ba-3705-98a7-8c09" sortIndex="4">
       <selectionEntries>
@@ -268,10 +268,10 @@
           <characteristics>
             <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">4</characteristic>
             <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">3&quot;-8&quot;</characteristic>
-            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">4</characteristic>
-            <characteristic name="Defence" typeId="46f4-1304-4661-f62d">5</characteristic>
-            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">4</characteristic>
-            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">10</characteristic>
+            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">3</characteristic>
+            <characteristic name="Defence" typeId="46f4-1304-4661-f62d">6</characteristic>
+            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">5</characteristic>
+            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">9</characteristic>
             <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">3</characteristic>
             <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">2</characteristic>
             <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">3</characteristic>
@@ -281,7 +281,7 @@
         </profile>
         <profile name="Kadesh" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="9108-fe58-21e3-a32a">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Amphibious, Reinforced Decking</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Amphibious, Elevated, Reinforced Decking</characteristic>
           </characteristics>
         </profile>
         <profile name="Kadesh" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="2e94-f26f-4d7d-0889">
@@ -545,7 +545,7 @@
         </profile>
         <profile name="Abydos" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="c21c-24aa-68e5-1a75">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Amphibious, Inspirational (7”), Reinforced Decking</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Amphibious, Elevated, Inspirational (7”), Reinforced Decking</characteristic>
           </characteristics>
         </profile>
         <profile name="Abydos" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="15bf-14c3-a91b-29a1">
@@ -781,7 +781,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
             <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">4</characteristic>
             <characteristic name="Defence" typeId="46f4-1304-4661-f62d">5</characteristic>
             <characteristic name="Armour" typeId="536a-39ed-80f6-7270">4</characteristic>
-            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">10</characteristic>
+            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">12</characteristic>
             <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">3</characteristic>
             <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">3</characteristic>
             <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">4</characteristic>
@@ -1513,10 +1513,10 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
           <characteristics>
             <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">4</characteristic>
             <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">3&quot;-8&quot;</characteristic>
-            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">4</characteristic>
-            <characteristic name="Defence" typeId="46f4-1304-4661-f62d">5</characteristic>
-            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">4</characteristic>
-            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">10</characteristic>
+            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">3</characteristic>
+            <characteristic name="Defence" typeId="46f4-1304-4661-f62d">6</characteristic>
+            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">5</characteristic>
+            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">9</characteristic>
             <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">3</characteristic>
             <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">2</characteristic>
             <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">3</characteristic>
@@ -1526,7 +1526,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </profile>
         <profile name="Khartoum" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="3fc8-f974-a5b1-aec2">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Amphibious, Reinforced Decking</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Amphibious, Elevated, Reinforced Decking</characteristic>
           </characteristics>
         </profile>
         <profile name="Khartoum" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="53a7-c86b-7935-cabe">
@@ -2107,10 +2107,10 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
           <characteristics>
             <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">4</characteristic>
             <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">3&quot;-9&quot;</characteristic>
-            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">4</characteristic>
-            <characteristic name="Defence" typeId="46f4-1304-4661-f62d">5</characteristic>
-            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">4</characteristic>
-            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">10</characteristic>
+            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">3</characteristic>
+            <characteristic name="Defence" typeId="46f4-1304-4661-f62d">6</characteristic>
+            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">5</characteristic>
+            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">9</characteristic>
             <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">3</characteristic>
             <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">2</characteristic>
             <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">3</characteristic>
@@ -2120,7 +2120,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </profile>
         <profile name="Osiris" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="31d3-3aec-21cd-7787">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Amphibious, Hunter (Capital), Reinforced Decking, Vanguard (5”</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Amphibious, Elevated, Hunter (Capital), Reinforced Decking, Vanguard (5”)</characteristic>
           </characteristics>
         </profile>
         <profile name="Osiris" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="c3de-7f04-3901-8e44">
@@ -2378,7 +2378,7 @@ Add up to two additional Escort tokens to the unit, at a cost of +10 pts each."
         </profile>
         <profile name="Pharos" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="cc50-c1e8-87bf-00cc">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Amphibious, Reinforced Decking</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Amphibious, Elevated, Reinforced Decking</characteristic>
           </characteristics>
         </profile>
         <profile name="Pharos" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="fc3b-be34-d7f6-119c">
@@ -2754,7 +2754,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
         </profile>
         <profile name="Tanis" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="0565-46f5-0b7b-b366">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Amphibious, Carrier (10), Flotsam, Reinforced Decking, SRS (Khepri Automata)</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Amphibious, Carrier (10), Elevated, Flotsam, Reinforced Decking, SRS (Khepri Automata)</characteristic>
           </characteristics>
         </profile>
         <profile name="Tanis" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="d115-f9f2-9a27-d1d4">
@@ -2966,9 +2966,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)
-
-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3028,9 +3026,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)
-
-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3264,9 +3260,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)
-
-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3326,9 +3320,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)
-
-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3464,9 +3456,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
         </profile>
         <profile name="Carolus" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="17ff-8909-bb4b-4dad">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Attachment (Order), Boarding Parties (10), Light Vessel, Reinforced Decking, Stoic, Terrifying (Order)
-
-</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Attachment (Order), Boarding Parties (10), Light Vessel, Reinforced Decking, Stoic, Terrifying (Order)</characteristic>
           </characteristics>
         </profile>
         <profile name="Carolus" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="ce5a-861f-a868-3794">
@@ -3706,7 +3696,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Izmir Monitor" hidden="false" id="35ee-67c6-4ff3-ae76" sortIndex="23">
+    <selectionEntry type="unit" import="true" name="Izmir Monitor" hidden="false" id="35ee-67c6-4ff3-ae76" sortIndex="22">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Izmir" hidden="false" id="b32d-534d-6d7f-e3af" sortIndex="1">
           <selectionEntryGroups>
@@ -3855,7 +3845,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Nemrut Battlecruiser" hidden="false" id="0d55-03ba-732d-20f5" sortIndex="19">
+    <selectionEntry type="unit" import="true" name="Nemrut Battlecruiser" hidden="false" id="0d55-03ba-732d-20f5" sortIndex="31">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Nemrut" hidden="false" id="8826-44d4-1392-f782" sortIndex="1">
           <constraints>
@@ -3969,7 +3959,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
         <categoryLink name="Surface" hidden="false" id="8bb3-3854-a7d3-ba3b" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
         <categoryLink name="Ship" hidden="false" id="8111-95c5-07ad-9fe0" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
         <categoryLink name="Attachment host" hidden="false" id="ee00-bfa4-f903-247f" targetId="2251-0def-1b03-2e93" primary="false"/>
-        <categoryLink name="Line" hidden="false" id="8096-b6df-3264-156d" targetId="ae99-8ab0-27f0-7bb6" primary="true"/>
+        <categoryLink name="Support" hidden="false" id="780b-680a-1a28-db33" targetId="1711-6069-af06-c5cc" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Attachments" hidden="false" id="e2a2-0352-540f-339b" type="selectionEntryGroup" targetId="9de2-588f-dafe-da6a" sortIndex="6"/>
@@ -4171,7 +4161,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
       </categoryLinks>
       <comment>ATTACHMENT</comment>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Sadrazam Heavy Cruiser" hidden="false" id="a63c-34de-b4af-c7f3" sortIndex="20">
+    <selectionEntry type="unit" import="true" name="Sadrazam Heavy Cruiser" hidden="false" id="a63c-34de-b4af-c7f3" sortIndex="19">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Sadrazam" hidden="false" id="e5b8-6040-8691-4b55" sortIndex="1">
           <selectionEntryGroups>
@@ -4365,9 +4355,9 @@ SRS (Sabiha Attack Fighters)</characteristic>
             <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">3</characteristic>
             <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">2&quot;-8&quot;</characteristic>
             <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">3</characteristic>
-            <characteristic name="Defence" typeId="46f4-1304-4661-f62d">8</characteristic>
-            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">4</characteristic>
-            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">10</characteristic>
+            <characteristic name="Defence" typeId="46f4-1304-4661-f62d">5</characteristic>
+            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">5</characteristic>
+            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">9</characteristic>
             <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">3</characteristic>
             <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">3</characteristic>
             <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">5</characteristic>
@@ -4406,7 +4396,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
         <categoryLink name="Line" hidden="false" id="c167-1035-3fd4-bc6d" targetId="ae99-8ab0-27f0-7bb6" primary="true"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Alsaqr Skybarque" hidden="false" id="e32f-1b71-5656-2934" sortIndex="21">
+    <selectionEntry type="unit" import="true" name="Alsaqr Skybarque" hidden="false" id="e32f-1b71-5656-2934" sortIndex="20">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Alsaqr" hidden="false" id="b348-4e3e-8ee8-e447" sortIndex="1">
           <constraints>
@@ -4740,7 +4730,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
         <entryLink import="true" name="Attachments" hidden="false" id="1e7f-e948-27e6-2b11" type="selectionEntryGroup" targetId="9de2-588f-dafe-da6a" sortIndex="6"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Hirka Skycutter" hidden="false" id="df10-435e-db14-5505" sortIndex="22">
+    <selectionEntry type="unit" import="true" name="Hirka Skycutter" hidden="false" id="df10-435e-db14-5505" sortIndex="21">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Hirka" hidden="false" id="1082-8058-26aa-1f78" sortIndex="1">
           <selectionEntryGroups>
@@ -5074,10 +5064,10 @@ SRS (Sabiha Attack Fighters)</characteristic>
           <characteristics>
             <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">3</characteristic>
             <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">1&quot;-9&quot;</characteristic>
-            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">4</characteristic>
+            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">3</characteristic>
             <characteristic name="Defence" typeId="46f4-1304-4661-f62d">5</characteristic>
-            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">4</characteristic>
-            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">9</characteristic>
+            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">5</characteristic>
+            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">8</characteristic>
             <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">3</characteristic>
             <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">3</characteristic>
             <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">2</characteristic>
@@ -5087,7 +5077,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
         </profile>
         <profile name="Mandjet" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="02fc-bc4f-6fcb-7596">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Amphibious, Reinforced Decking</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Amphibious, Elevated, Reinforced Decking</characteristic>
           </characteristics>
         </profile>
         <profile name="Mandjet" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="3929-3c76-5121-4a64">
@@ -5122,6 +5112,11 @@ SRS (Sabiha Attack Fighters)</characteristic>
           </conditions>
           <comment>awaiting beta 5</comment>
         </modifier>
+        <modifier type="set-primary" value="5db4-a016-113b-ed41" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="forces" scope="force" childId="180b-0560-42cb-d495" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <infoLinks>
         <infoLink name="Khepri Automata" id="5d10-67f2-fed7-3752" hidden="true" type="profile" targetId="9b6f-ac6d-ba08-426e">
@@ -5154,7 +5149,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
         </infoLink>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Mesektet Skimmer" hidden="false" id="19c4-926a-9f38-b4ba" sortIndex="24">
+    <selectionEntry type="unit" import="true" name="Mesektet Skimmer" hidden="false" id="19c4-926a-9f38-b4ba" sortIndex="23">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Mesektet" hidden="false" id="15e6-3be1-5bc6-f5b5" sortIndex="1">
           <selectionEntryGroups>
@@ -5342,10 +5337,10 @@ SRS (Sabiha Attack Fighters)</characteristic>
           <characteristics>
             <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">3</characteristic>
             <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">1&quot;-9&quot;</characteristic>
-            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">4</characteristic>
+            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">3</characteristic>
             <characteristic name="Defence" typeId="46f4-1304-4661-f62d">4</characteristic>
-            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">3</characteristic>
-            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">8</characteristic>
+            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">4</characteristic>
+            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">7</characteristic>
             <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">2</characteristic>
             <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">3</characteristic>
             <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">2</characteristic>
@@ -5355,7 +5350,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
         </profile>
         <profile name="Mesektet" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="d5eb-0b73-e2c7-f965">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Amphibious, Reinforced Decking, Vanguard (5”)</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Amphibious, Elevated, Reinforced Decking, Vanguard (5”)</characteristic>
           </characteristics>
         </profile>
         <profile name="Mesektet" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="1522-9238-c52d-0153">
@@ -5422,7 +5417,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
         </infoLink>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Muharib Skyrunner " hidden="false" id="6d22-f4fe-1181-9597" sortIndex="31">
+    <selectionEntry type="unit" import="true" name="Muharib Skyrunner " hidden="false" id="6d22-f4fe-1181-9597" sortIndex="30">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Muharib" hidden="false" id="b40e-c378-2d16-61ad" sortIndex="1">
           <selectionEntryGroups>
@@ -5588,7 +5583,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
         <entryLink import="true" name="Attachments" hidden="false" id="5648-71c1-15bf-0ad9" type="selectionEntryGroup" targetId="9de2-588f-dafe-da6a" sortIndex="6"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Nasr Skyship " hidden="false" id="1c58-8faa-61bf-65c2" sortIndex="25">
+    <selectionEntry type="unit" import="true" name="Nasr Skyship " hidden="false" id="1c58-8faa-61bf-65c2" sortIndex="24">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Nasr" hidden="false" id="1b11-1c17-0e0c-ba12" sortIndex="1">
           <selectionEntryGroups>
@@ -5982,10 +5977,10 @@ SRS (Sabiha Attack Fighters)</characteristic>
           <characteristics>
             <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">3</characteristic>
             <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">1&quot;-9&quot;</characteristic>
-            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">4</characteristic>
+            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">3</characteristic>
             <characteristic name="Defence" typeId="46f4-1304-4661-f62d">3</characteristic>
-            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">3</characteristic>
-            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">8</characteristic>
+            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">4</characteristic>
+            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">7</characteristic>
             <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">3</characteristic>
             <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">3</characteristic>
             <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">2</characteristic>
@@ -5995,7 +5990,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
         </profile>
         <profile name="Sabah" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="6d9d-363e-a418-cea1">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Amphibious, Reinforced Decking, Vanguard (5”)</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Amphibious, Elevated, Reinforced Decking, Vanguard (5”)</characteristic>
           </characteristics>
         </profile>
         <profile name="Sabah" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="dade-b4f8-eacb-818a">
@@ -6053,6 +6048,13 @@ SRS (Sabiha Attack Fighters)</characteristic>
           </modifiers>
         </infoLink>
       </infoLinks>
+      <modifiers>
+        <modifier type="set-primary" value="915a-393f-3e57-2191" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="forces" scope="force" childId="180b-0560-42cb-d495" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Sobek Skimmer " hidden="false" id="8e0c-11d0-eba7-298c" sortIndex="35">
       <selectionEntries>
@@ -6244,10 +6246,10 @@ SRS (Sabiha Attack Fighters)</characteristic>
           <characteristics>
             <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">3</characteristic>
             <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">1&quot;-9&quot;</characteristic>
-            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">4</characteristic>
+            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">3</characteristic>
             <characteristic name="Defence" typeId="46f4-1304-4661-f62d">3</characteristic>
-            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">3</characteristic>
-            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">8</characteristic>
+            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">5</characteristic>
+            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">7</characteristic>
             <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">3</characteristic>
             <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">3</characteristic>
             <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">2</characteristic>
@@ -6257,7 +6259,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
         </profile>
         <profile name="Sobek" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="666a-debf-6267-0be7">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Amphibious, Boarding Parties (6), Flotsam, Ground Assault (1), Mine Layer (1), Reinforced Decking, Strategic Asset (3)</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Amphibious, Boarding Parties (6), Elevated, Flotsam, Ground Assault (1), Mine Layer (1), Reinforced Decking, Strategic Asset (3)</characteristic>
           </characteristics>
         </profile>
         <profile name="Sobek" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="856c-bc90-06be-9b79">
@@ -6315,8 +6317,15 @@ SRS (Sabiha Attack Fighters)</characteristic>
           </modifiers>
         </infoLink>
       </infoLinks>
+      <modifiers>
+        <modifier type="set-primary" value="915a-393f-3e57-2191" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="forces" scope="force" childId="180b-0560-42cb-d495" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Temir Frigate" hidden="false" id="89e5-e484-0961-7559" sortIndex="26">
+    <selectionEntry type="unit" import="true" name="Temir Frigate" hidden="false" id="89e5-e484-0961-7559" sortIndex="25">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Temir" hidden="false" id="8496-370b-c238-6445" sortIndex="1">
           <selectionEntryGroups>
@@ -6462,7 +6471,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Constantinople Support Carrier" hidden="false" id="1712-f25c-a2d1-dc1b" sortIndex="27">
+    <selectionEntry type="unit" import="true" name="Constantinople Support Carrier" hidden="false" id="1712-f25c-a2d1-dc1b" sortIndex="26">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Constantinople" hidden="false" id="a44f-7831-dbac-5137" sortIndex="1">
           <constraints>
@@ -6905,7 +6914,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
         <categoryLink name="NoMirage" hidden="false" id="e491-8be2-28be-2a6a" targetId="e297-c3e1-459d-8413" primary="false"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Lesath Exemplar Cruiser" hidden="false" id="436d-7ae1-c4a7-66e8" sortIndex="28">
+    <selectionEntry type="unit" import="true" name="Lesath Exemplar Cruiser" hidden="false" id="436d-7ae1-c4a7-66e8" sortIndex="27">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Lesath" hidden="false" id="a15b-d73c-4a47-79a1" sortIndex="1">
           <constraints>
@@ -6993,7 +7002,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
         <entryLink import="true" name="Attachments" hidden="false" id="4eea-eee2-8acd-9b58" type="selectionEntryGroup" targetId="9de2-588f-dafe-da6a" sortIndex="6"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Mehmed Grand Monitor" hidden="false" id="4171-c8cd-f490-e3bd" sortIndex="29">
+    <selectionEntry type="unit" import="true" name="Mehmed Grand Monitor" hidden="false" id="4171-c8cd-f490-e3bd" sortIndex="28">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Mehmed" hidden="false" id="f31c-9a8f-95f7-f5ea" sortIndex="1">
           <selectionEntryGroups>
@@ -7117,6 +7126,126 @@ SRS (Sabiha Attack Fighters)</characteristic>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7348-05c3-d066-9334" includeChildSelections="false" automatic="true"/>
               </constraints>
             </selectionEntryGroup>
+            <selectionEntryGroup name="Heavy Hardpoint: FP" id="6dd1-4c92-b048-29b7" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="6133-74ce-cafa-42fc">
+                  <profiles>
+                    <profile name="Heavy Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="51ea-aa92-9b0a-1c60">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FP</characteristic>
+                        <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="D-Cannon Battery" hidden="false" id="55fb-4125-1b1d-67c7">
+                  <profiles>
+                    <profile name="D-Cannon Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="8854-8601-6f84-4865">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FP</characteristic>
+                        <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (1)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="0644-dc93-ea74-1c47">
+                  <profiles>
+                    <profile name="Heavy Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="fcb4-8dd3-10f5-1d8a">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FP</characteristic>
+                        <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Particle Beamer" hidden="false" id="5052-f88b-b130-5739">
+                  <profiles>
+                    <profile name="Particle Beamer" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="27a9-496b-e606-a5ac">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FP</characteristic>
+                        <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f37d-d53d-18a9-20fe" includeChildSelections="false" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8002-1ce2-07b2-40a9" includeChildSelections="false" automatic="true"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Heavy Hardpoint: FS" id="9316-10e4-6e04-22f3" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Heavy Rocket Battery" hidden="false" id="32a2-8067-9a81-1fb3">
+                  <profiles>
+                    <profile name="Heavy Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="7d35-e28e-c064-aa8c">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FS</characteristic>
+                        <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="D-Cannon Battery" hidden="false" id="d226-dc17-3fd3-0e30">
+                  <profiles>
+                    <profile name="D-Cannon Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="1f35-fbef-8a8b-05f6">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FS</characteristic>
+                        <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Indirect, Piercing (1)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Heavy Gun Battery" hidden="false" id="06aa-6686-2013-932a">
+                  <profiles>
+                    <profile name="Heavy Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="7df0-2f65-2f80-e3a7">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FS</characteristic>
+                        <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Particle Beamer" hidden="false" id="6b2e-a72a-14dd-17d4">
+                  <profiles>
+                    <profile name="Particle Beamer" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="4eaa-1628-5f76-3065">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FS</characteristic>
+                        <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4bf1-0a91-6a88-dba9" includeChildSelections="false" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="246c-f3e6-aee6-2b0b" includeChildSelections="false" automatic="true"/>
+              </constraints>
+            </selectionEntryGroup>
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ace6-8318-312b-a109" includeChildSelections="false" automatic="true"/>
@@ -7195,7 +7324,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
         <entryLink import="true" name="Attachments" hidden="false" id="59c6-5f18-6380-f487" type="selectionEntryGroup" targetId="9de2-588f-dafe-da6a" sortIndex="6"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Mihrimah Flechette Cruiser" hidden="false" id="1981-92cf-8d26-e889" sortIndex="30">
+    <selectionEntry type="unit" import="true" name="Mihrimah Flechette Cruiser" hidden="false" id="1981-92cf-8d26-e889" sortIndex="29">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Mihrimah" hidden="false" id="5190-e9fa-9afa-172d" sortIndex="1">
           <selectionEntryGroups>
@@ -7595,10 +7724,10 @@ SRS (Sabiha Attack Fighters)</characteristic>
           <characteristics>
             <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">2</characteristic>
             <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">1&quot;-11&quot;</characteristic>
-            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">4</characteristic>
+            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">3</characteristic>
             <characteristic name="Defence" typeId="46f4-1304-4661-f62d">3</characteristic>
-            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">3</characteristic>
-            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">4</characteristic>
+            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">4</characteristic>
+            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">3</characteristic>
             <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">2</characteristic>
             <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">1</characteristic>
             <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">2</characteristic>
@@ -7608,7 +7737,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
         </profile>
         <profile name="Hashashin" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="a54e-bd30-aed2-16d1">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Amphibious, Attachment (Egyptian Flagship), Reinforced Decking</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Amphibious, Attachment (Egyptian Flagship), Elevated, Reinforced Decking</characteristic>
           </characteristics>
         </profile>
         <profile name="Hashashin" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="d511-6fbe-35ff-8c0d">
@@ -7767,10 +7896,10 @@ SRS (Sabiha Attack Fighters)</characteristic>
           <characteristics>
             <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">2</characteristic>
             <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">1&quot;-11&quot;</characteristic>
-            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">4</characteristic>
+            <characteristic name="Turn" typeId="0b35-e648-17c9-c93c">3</characteristic>
             <characteristic name="Defence" typeId="46f4-1304-4661-f62d">3</characteristic>
-            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">3</characteristic>
-            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">4</characteristic>
+            <characteristic name="Armour" typeId="536a-39ed-80f6-7270">4</characteristic>
+            <characteristic name="Hull" typeId="9c3d-0518-c6c1-9fa6">3</characteristic>
             <characteristic name="Actions" typeId="5fab-c230-6942-6cf2">2</characteristic>
             <characteristic name="Broadside" typeId="3759-b396-1f6b-7087">1</characteristic>
             <characteristic name="Repair" typeId="6ac3-e7ae-b47e-5c91">2</characteristic>
@@ -7780,7 +7909,7 @@ SRS (Sabiha Attack Fighters)</characteristic>
         </profile>
         <profile name="Kopesh" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="a150-9d53-b487-dd91">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Amphibious, Deceptive Deployment, Reinforced Decking, Vanguard (5”)</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Amphibious, Deceptive Deployment, Elevated, Reinforced Decking, Vanguard (5”)</characteristic>
           </characteristics>
         </profile>
         <profile name="Kopesh" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="f0c6-8ad9-30ba-d2ca">
@@ -8288,7 +8417,7 @@ The Action Pool for this action gains a number of Bonus Dice equal to the Value
                 <condition type="atLeast" value="1" field="selections" scope="parent" childId="2cb7-454f-45a9-102f" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="append" value="Levant" field="066c-1ce6-091e-90ab" join=", ">
+            <modifier type="append" value="Low Altitude" field="066c-1ce6-091e-90ab" join=", ">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="parent" childId="4e7b-a83d-264b-c533" shared="true" includeChildSelections="true"/>
               </conditions>
@@ -8430,7 +8559,7 @@ The Action Pool for this action gains a number of Bonus Dice equal to the Value
                 <condition type="atLeast" value="1" field="selections" scope="767f-731f-2a1d-dbc9" childId="e855-244e-38bb-dda4" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="append" value="Levant" field="066c-1ce6-091e-90ab" join=", ">
+            <modifier type="append" value="Low Altitude" field="066c-1ce6-091e-90ab" join=", ">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="self" childId="ff2c-6343-9cab-cf22" shared="true" includeChildSelections="true"/>
               </conditions>
@@ -9053,10 +9182,21 @@ Alsaqr Skybarque units in this Battlefleet replace the Attachment (Turkish) prop
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eb7c-bf96-28b9-6d2b"/>
           </constraints>
         </categoryLink>
+        <categoryLink name="Egyptian Line" hidden="false" id="0880-9e5e-85e8-51a9" targetId="5db4-a016-113b-ed41">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5559-aa7c-48c1-532b"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="f8d4-a494-4085-cf21"/>
+          </constraints>
+        </categoryLink>
         <categoryLink name="Egyptian Patrol" hidden="false" id="2b84-30fe-9cb9-4b1f" targetId="19f5-ff22-407b-9bb8">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ea4c-8baf-eb39-cb81"/>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="606d-1935-27be-cac2"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="606d-1935-27be-cac2"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Egyptian Support" hidden="false" id="0d2c-e1f8-414f-4d14" targetId="915a-393f-3e57-2191">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1b01-726e-2a57-627d"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e1ce-0e8a-c10c-6963"/>
           </constraints>
         </categoryLink>
         <categoryLink name="Egyptian Scout" hidden="false" id="df72-ad62-7845-f974" targetId="bed0-91fe-8bd9-89ea">
@@ -9067,7 +9207,7 @@ Alsaqr Skybarque units in this Battlefleet replace the Attachment (Turkish) prop
         </categoryLink>
       </categoryLinks>
       <comment>• Hashashin Fast Skimmer (Sultanate, Egyptian, Scout)
-•Mandjet Heavy Skimmer (Sultanate, Egyptian, Patrol)</comment>
+•Mandjet Heavy Skimmer (Sultanate, Egyptian, Line)</comment>
     </forceEntry>
     <forceEntry name="Crimson League Mercenary Battlefleet (Mercenary)" id="2d00-df96-4ac6-0e44" hidden="false" sortIndex="4">
       <rules>
@@ -9127,6 +9267,8 @@ Alsaqr Skybarque units in this Battlefleet replace the Attachment (Turkish) prop
     <categoryEntry name="Enlightened Underwater Automata " id="2330-32fd-ec86-5236" hidden="false"/>
     <categoryEntry name="Lyceum" id="cf22-d499-ace9-24ec" hidden="false"/>
     <categoryEntry name="Crimson League" id="a16d-413b-12d5-137c" hidden="false"/>
+    <categoryEntry name="Egyptian Support" id="915a-393f-3e57-2191" hidden="false"/>
+    <categoryEntry name="Egyptian Line" id="5db4-a016-113b-ed41" hidden="false"/>
   </categoryEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Attachments" id="9de2-588f-dafe-da6a" hidden="false" collapsible="true">
@@ -9269,7 +9411,7 @@ Alsaqr Skybarque units in this Battlefleet replace the Attachment (Turkish) prop
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="ff24-f440-00ed-f48b" includeChildSelections="true" includeChildForces="true"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Jebel Battle Platform" hidden="true" id="e701-d670-f7e3-cdb8" type="selectionEntry" targetId="a46d-cc49-c9d7-8298">
+        <entryLink import="true" name="Offshore Defence Platform" hidden="true" id="e701-d670-f7e3-cdb8" type="selectionEntry" targetId="a46d-cc49-c9d7-8298">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditionGroups>

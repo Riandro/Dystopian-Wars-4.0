@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="7cde-3c23-a1ad-24aa" name="Union" gameSystemId="sys-b418-f41f-879e-6277" gameSystemRevision="3" revision="4" authorUrl="https://github.com/Riandro" authorContact="riandro@googlemail.com" authorName="R.Atkin" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="7cde-3c23-a1ad-24aa" name="Union" gameSystemId="sys-b418-f41f-879e-6277" gameSystemRevision="3" revision="5" authorUrl="https://github.com/Riandro" authorContact="riandro@googlemail.com" authorName="R.Atkin" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="unit" import="true" name="America Special Operations Vessel" hidden="false" id="2f3c-3a36-6e58-6368" sortIndex="1">
       <selectionEntries>
@@ -191,7 +191,7 @@
         </profile>
         <profile name="America" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="b473-2c53-ed0d-6301">
           <characteristics>
-            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Heavy Shield Generator, Shroud Generator, Long-Range Coordination</characteristic>
+            <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Heavy Shield Generator, Shroud Generator, Long-Range Coordination, Priority Signals</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -285,7 +285,7 @@
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: PSA" id="1164-4838-b48f-8a3d" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: PSA" id="1164-4838-b48f-8a3d" hidden="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="318f-2900-b553-d57a" includeChildSelections="false" automatic="true"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f43a-0e21-ecb8-8411" includeChildSelections="false" automatic="true"/>
@@ -331,6 +331,7 @@
                   </profiles>
                 </selectionEntry>
               </selectionEntries>
+              <comment>removed, kept in case of reintroduction</comment>
             </selectionEntryGroup>
             <selectionEntryGroup name="Heavy Hardpoint: FPS" id="67c3-17c3-1d52-d842" hidden="false">
               <constraints>
@@ -426,7 +427,7 @@
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="4ddb-015c-640d-ea3b" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="4ddb-015c-640d-ea3b" hidden="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e43c-8d80-f021-babd" includeChildSelections="false" automatic="true"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a1cd-ffdf-b038-9e8b" includeChildSelections="false" automatic="true"/>
@@ -472,8 +473,29 @@
                   </profiles>
                 </selectionEntry>
               </selectionEntries>
+              <comment>removed, kept in case of reintroduction</comment>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <profiles>
+            <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="c1af-4153-99d7-a3f0">
+              <characteristics>
+                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PSA</characteristic>
+                <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="d4e0-7e5d-e65d-c5b2">
+              <characteristics>
+                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
         </selectionEntry>
       </selectionEntries>
       <profiles>
@@ -1420,7 +1442,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">12</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Arc (4), Devastating (2), Intensive, Powered</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Arc (4), Homing, Limited, Mayhem, Powered</characteristic>
               </characteristics>
             </profile>
             <profile name="Heavy Helical Rail Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="ba57-73fc-bef8-a772">
@@ -1853,7 +1875,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">12</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Arc (4), Devastating (2), Intensive, Powered</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Arc (4), Homing, Limited, Mayhem, Powered</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1973,10 +1995,10 @@
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: PSA" id="dc09-6750-2435-94a3" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: PSA" id="dc09-6750-2435-94a3" hidden="true">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7092-1306-c85c-4ce9" includeChildSelections="false" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c541-7379-9098-43f0" includeChildSelections="false" automatic="true"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7092-1306-c85c-4ce9" includeChildSelections="false" automatic="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c541-7379-9098-43f0" includeChildSelections="false" automatic="false"/>
               </constraints>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Chesapeake Gatling Gun" hidden="false" id="4804-f286-983d-ab87">
@@ -2019,6 +2041,7 @@
                   </profiles>
                 </selectionEntry>
               </selectionEntries>
+              <comment>removed, kept in case of reintroduction</comment>
             </selectionEntryGroup>
             <selectionEntryGroup name="Heavy Hardpoint: FPS" id="0fb5-32b8-5095-f1ad" hidden="false">
               <constraints>
@@ -2067,10 +2090,10 @@
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Light Hardpoint: FPS" id="9b44-17be-08be-9f65" hidden="false">
+            <selectionEntryGroup name="Light Hardpoint: FPS" id="9b44-17be-08be-9f65" hidden="true">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4e10-6930-123c-b789" includeChildSelections="false" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7655-47db-168f-6a9c" includeChildSelections="false" automatic="true"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4e10-6930-123c-b789" includeChildSelections="false" automatic="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7655-47db-168f-6a9c" includeChildSelections="false" automatic="false"/>
               </constraints>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Chesapeake Gatling Gun" hidden="false" id="9614-100e-5109-b7db">
@@ -2113,8 +2136,29 @@
                   </profiles>
                 </selectionEntry>
               </selectionEntries>
+              <comment>removed, kept in case of reintroduction</comment>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <profiles>
+            <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="8c09-0c25-df01-6115">
+              <characteristics>
+                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PSA</characteristic>
+                <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Light Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="17d7-3dd5-fe87-77a7">
+              <characteristics>
+                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
+                <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Barrage</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
         </selectionEntry>
       </selectionEntries>
       <profiles>
@@ -2194,7 +2238,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">12</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Arc (4), Devastating (2), Intensive, Powered</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Arc (4), Homing, Limited, Mayhem, Powered</characteristic>
               </characteristics>
             </profile>
             <profile name="Torpedo Tubes" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="5445-421f-3251-3a97">
@@ -2305,7 +2349,7 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Senator" hidden="false" id="ec82-2922-4cf6-0f6b" sortIndex="1">
           <constraints>
-            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="b98a-4833-d9d8-4f23" includeChildSelections="false" automatic="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b98a-4833-d9d8-4f23" includeChildSelections="false" automatic="true"/>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="eabf-cfbd-b2c0-c935" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
@@ -2618,6 +2662,21 @@
             </profile>
           </profiles>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Honorable Eclipse Company Variant" hidden="false" id="12a3-74a1-3d26-def0">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="b5a4-5e26-faa8-a3b5" automatic="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1757-640e-4347-c1e2"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="1" field="b5a4-5e26-faa8-a3b5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="761f-792a-104e-6114" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="remove" value="2c58-03eb-5f76-9d53" field="category" scope="unit"/>
+            <modifier type="add" value="c43c-2362-36ac-f58f" field="category" scope="unit"/>
+          </modifiers>
+        </selectionEntry>
       </selectionEntries>
       <profiles>
         <profile name="Venture" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="e601-0b7d-7618-e84f">
@@ -2649,7 +2708,6 @@
       <categoryLinks>
         <categoryLink name="Union" hidden="false" id="28b9-6c41-a401-fab3" targetId="2c58-03eb-5f76-9d53" primary="false"/>
         <categoryLink name="Flagship" hidden="false" id="a836-778b-3f45-fd53" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
-        <categoryLink name="HEC" hidden="false" id="28c5-590a-c0f1-dcf9" targetId="c43c-2362-36ac-f58f" primary="false"/>
         <categoryLink name="HEC Flagship" hidden="false" id="f05b-ffe6-3fe1-394f" targetId="cac5-b09a-82c3-f814" primary="false"/>
         <categoryLink name="Airborne" hidden="false" id="7a0c-c871-882e-f062" targetId="139e-c78f-43c0-2957" primary="false"/>
         <categoryLink name="Airship" hidden="false" id="bdcf-36b0-7f75-7019" targetId="278c-665b-5dbe-3aad" primary="false"/>
@@ -2998,6 +3056,21 @@
             </profile>
           </profiles>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Honorable Eclipse Company Variant" hidden="false" id="2b2b-67d9-baff-e7d2">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="113f-29c0-dd53-0db4" automatic="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="695a-fa1b-8fd8-a304"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="1" field="113f-29c0-dd53-0db4">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="761f-792a-104e-6114" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="remove" value="2c58-03eb-5f76-9d53" field="category" scope="unit"/>
+            <modifier type="add" value="c43c-2362-36ac-f58f" field="category" scope="unit"/>
+          </modifiers>
+        </selectionEntry>
       </selectionEntries>
       <profiles>
         <profile name="Constellation" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="acd8-1b37-e0c0-25ba">
@@ -3029,7 +3102,6 @@
       <categoryLinks>
         <categoryLink name="Union" hidden="false" id="563a-5ac9-1a31-2467" targetId="2c58-03eb-5f76-9d53" primary="false"/>
         <categoryLink name="Line" hidden="false" id="34ff-3207-b24f-a9f6" targetId="ae99-8ab0-27f0-7bb6" primary="true"/>
-        <categoryLink name="HEC" hidden="false" id="60ca-fbb0-de58-de91" targetId="c43c-2362-36ac-f58f" primary="false"/>
         <categoryLink name="HEC Line" hidden="false" id="4c39-9be4-d6f2-6608" targetId="2bf9-50e4-5109-0e3b" primary="false"/>
         <categoryLink name="Airborne" hidden="false" id="156a-cbde-8e20-3ff2" targetId="139e-c78f-43c0-2957" primary="false"/>
         <categoryLink name="Airship" hidden="false" id="2560-15c6-9fd3-ebd7" targetId="278c-665b-5dbe-3aad" primary="false"/>
@@ -3092,7 +3164,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">10</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Arc (2), Devastating (2), Intensive, Powered</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Arc (2), Homing, Limited, Mayhem, Powered</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3276,6 +3348,21 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0060-3135-87df-7588-max" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Honorable Eclipse Company Variant" hidden="false" id="2cd6-b396-af59-2543">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="07c6-cb14-e0b1-7cf7" automatic="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7239-1afc-8132-deb6"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="1" field="07c6-cb14-e0b1-7cf7">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="761f-792a-104e-6114" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="remove" value="2c58-03eb-5f76-9d53" field="category" scope="unit"/>
+            <modifier type="add" value="c43c-2362-36ac-f58f" field="category" scope="unit"/>
+          </modifiers>
+        </selectionEntry>
       </selectionEntries>
       <profiles>
         <profile name="Excelsior" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="d438-36ef-9f53-aaaf">
@@ -3306,7 +3393,6 @@
       </profiles>
       <categoryLinks>
         <categoryLink name="Union" hidden="false" id="0356-6a1f-f1b7-2acd" targetId="2c58-03eb-5f76-9d53" primary="false"/>
-        <categoryLink name="HEC" hidden="false" id="b375-62d7-43b1-f73b" targetId="c43c-2362-36ac-f58f" primary="false"/>
         <categoryLink name="Airborne" hidden="false" id="3de4-15a3-f749-a64f" targetId="139e-c78f-43c0-2957" primary="false"/>
         <categoryLink name="Airship" hidden="false" id="d6a0-6ec1-1123-f228" targetId="278c-665b-5dbe-3aad" primary="false"/>
         <categoryLink name="Attachment host" hidden="false" id="2188-0610-a761-dbfa" targetId="2251-0def-1b03-2e93" primary="false"/>
@@ -3633,7 +3719,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">10</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Arc (2), Devastating (2), Intensive, Powered</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Arc (4), Homing, Limited, Mayhem, Powered</characteristic>
               </characteristics>
             </profile>
             <profile name="Heavy Electrocannon Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="ffa5-a201-0d0a-7de9">
@@ -4368,7 +4454,7 @@
         </profile>
         <profile name="John Henry" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="b96b-8ffd-9b95-b6f5">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Raking Strike (6), Skimmer</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Elevated, Raking Strike (6), Soar</characteristic>
           </characteristics>
         </profile>
         <profile name="John Henry" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="c5b2-e4e5-0b16-a42a">
@@ -4445,7 +4531,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Aerial&lt;/span&gt;, Guided, Limited</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Aerial&lt;/span&gt;, Guided (1), Limited</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4476,7 +4562,7 @@
         </profile>
         <profile name="Patriot" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="bb63-8fe2-dcc9-e823">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Agile (2), Attachment (Pipeworks), Light Vessel, Mechanical Soul, Skimmer</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Agile (2), Attachment (Pipeworks), Elevated, Light Vessel, Mechanical Soul, Soar</characteristic>
           </characteristics>
         </profile>
         <profile name="Patriot" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="248e-bd1d-9c9c-e7aa">
@@ -4637,7 +4723,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Springfield Corvette" hidden="false" id="9395-abfd-7656-ef47" sortIndex="37">
+    <selectionEntry type="unit" import="true" name="Springfield Corvette" hidden="false" id="9395-abfd-7656-ef47" sortIndex="39">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Springfield" hidden="false" id="fc53-8b63-23ec-fd77" sortIndex="1">
           <constraints>
@@ -4930,6 +5016,21 @@
             </profile>
           </profiles>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Honorable Eclipse Company Variant" hidden="false" id="c8e3-a228-cb15-8cc0">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="ebca-f24d-b23a-4bd6" automatic="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="827e-27e0-2afc-5ad3"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="1" field="ebca-f24d-b23a-4bd6">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="761f-792a-104e-6114" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="remove" value="2c58-03eb-5f76-9d53" field="category" scope="unit"/>
+            <modifier type="add" value="c43c-2362-36ac-f58f" field="category" scope="unit"/>
+          </modifiers>
+        </selectionEntry>
       </selectionEntries>
       <profiles>
         <profile name="Bogota" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="b799-cdab-8d8b-4627">
@@ -4960,7 +5061,6 @@
       </profiles>
       <categoryLinks>
         <categoryLink name="Union" hidden="false" id="e1b6-abc4-e452-81f7" targetId="2c58-03eb-5f76-9d53" primary="false"/>
-        <categoryLink name="HEC" hidden="false" id="770b-2788-9c0d-ff7d" targetId="c43c-2362-36ac-f58f" primary="false"/>
         <categoryLink name="Rotorcraft" hidden="false" id="4a69-802a-b0b4-7589" targetId="69e5-b347-ebd9-4efe" primary="false"/>
         <categoryLink name="Light Vessel" hidden="false" id="bf89-e17a-c6c6-0dc6" targetId="a788-9613-7ce1-5dd9" primary="false"/>
         <categoryLink name="Patrol" hidden="false" id="7c1b-60fb-6c20-fbea" targetId="be0c-d486-6fa7-ce3b" primary="true"/>
@@ -4984,7 +5084,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Offshore Defence Platform" hidden="false" id="b77f-3c67-75d3-6474" sortIndex="34">
+    <selectionEntry type="unit" import="true" name="Offshore Defence Platform" hidden="false" id="b77f-3c67-75d3-6474" sortIndex="36">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Offshore Defence Platform" hidden="false" id="820c-6a43-d8ca-5e52" sortIndex="1">
           <constraints>
@@ -5317,7 +5417,7 @@
         <infoLink name="Talon Autogyros (Union)" id="6cd2-25da-448e-a1df" hidden="false" type="profile" targetId="cf02-10a5-7f0b-9b8b"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Offshore Heavy Platform" hidden="false" id="cd29-c573-78d2-cecf" sortIndex="33">
+    <selectionEntry type="unit" import="true" name="Offshore Heavy Platform" hidden="false" id="cd29-c573-78d2-cecf" sortIndex="35">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Offshore Heavy Platform" hidden="false" id="a4d2-1658-93be-81a2" sortIndex="1">
           <constraints>
@@ -5504,7 +5604,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Ranger Aircarrier" hidden="false" id="6c2a-3c53-f05a-c9b6" sortIndex="35">
+    <selectionEntry type="unit" import="true" name="Ranger Aircarrier" hidden="false" id="6c2a-3c53-f05a-c9b6" sortIndex="37">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Ranger" hidden="false" id="f2ae-7898-3c7a-a10d" sortIndex="1">
           <constraints>
@@ -5515,6 +5615,21 @@
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="115"/>
             <cost name="VP" typeId="c245-c6fc-adb8-407a" value="5"/>
           </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Honorable Eclipse Company Variant" hidden="false" id="be22-6b3e-f82d-3cb3">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="5f73-2a13-6fa5-0686" automatic="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="86d2-9425-1321-8cc4"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="1" field="5f73-2a13-6fa5-0686">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="761f-792a-104e-6114" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="remove" value="2c58-03eb-5f76-9d53" field="category" scope="unit"/>
+            <modifier type="add" value="c43c-2362-36ac-f58f" field="category" scope="unit"/>
+          </modifiers>
         </selectionEntry>
       </selectionEntries>
       <profiles>
@@ -5547,7 +5662,6 @@
       <categoryLinks>
         <categoryLink name="Union" hidden="false" id="acb3-0502-d421-654a" targetId="2c58-03eb-5f76-9d53" primary="false"/>
         <categoryLink name="Support" hidden="false" id="7b42-47ef-be9d-dd20" targetId="1711-6069-af06-c5cc" primary="true"/>
-        <categoryLink name="HEC" hidden="false" id="f8dd-164f-dee4-03a3" targetId="c43c-2362-36ac-f58f" primary="false"/>
         <categoryLink name="HEC Support" hidden="false" id="8636-d67b-908b-4573" targetId="5004-7dd0-e491-458f" primary="false"/>
         <categoryLink name="Airborne" hidden="false" id="d44e-1fef-0543-4a00" targetId="139e-c78f-43c0-2957" primary="false"/>
         <categoryLink name="Airborne Support" hidden="false" id="a238-ddc3-16fe-e157" targetId="57b1-5d32-7e9c-c44c" primary="false"/>
@@ -5583,7 +5697,7 @@
         <infoLink name="Corsair Fighters" id="1fb1-509c-3dce-f18f" hidden="false" type="profile" targetId="37fc-23b4-f192-5ccc"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Roanoke Carrier" hidden="false" id="a45f-539d-e0db-50dc" sortIndex="36">
+    <selectionEntry type="unit" import="true" name="Roanoke Carrier" hidden="false" id="a45f-539d-e0db-50dc" sortIndex="38">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Roanoke" hidden="false" id="4056-27d5-6ab0-c5e9" sortIndex="1">
           <constraints>
@@ -5709,7 +5823,7 @@
       </infoLinks>
       <comment>ATTACHMENT</comment>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Saratoga Assault Cruiser" hidden="false" id="67df-5db1-684a-5cd7" sortIndex="38">
+    <selectionEntry type="unit" import="true" name="Saratoga Assault Cruiser" hidden="false" id="67df-5db1-684a-5cd7" sortIndex="40">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Saratoga" hidden="false" id="5ee1-dd6b-8eb4-05a5" sortIndex="1">
           <constraints>
@@ -5872,7 +5986,7 @@
         <infoLink name="Talon Autogyros (Union)" id="4ff8-09b9-4b53-3493" hidden="false" type="profile" targetId="cf02-10a5-7f0b-9b8b"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Steward Airship" hidden="true" id="9b50-8ffe-7169-32c6" sortIndex="39">
+    <selectionEntry type="unit" import="true" name="Steward Airship" hidden="true" id="9b50-8ffe-7169-32c6" sortIndex="41">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Steward" hidden="false" id="6f4f-7643-1d67-7bb1" sortIndex="1">
           <constraints>
@@ -5975,7 +6089,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Sumter Landing Ship" hidden="false" id="3e71-4aac-803f-daf7" sortIndex="40">
+    <selectionEntry type="unit" import="true" name="Sumter Landing Ship" hidden="false" id="3e71-4aac-803f-daf7" sortIndex="42">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Sumter" hidden="false" id="a842-198c-ecc6-d2ca" sortIndex="1">
           <constraints>
@@ -6088,7 +6202,7 @@
         <infoLink name="Talon Autogyros (Union)" id="aeba-6c16-ba18-ac93" hidden="false" type="profile" targetId="cf02-10a5-7f0b-9b8b"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Washington Missile Cruiser" hidden="false" id="ac8b-d6ee-9b86-da11" sortIndex="41">
+    <selectionEntry type="unit" import="true" name="Washington Missile Cruiser" hidden="false" id="ac8b-d6ee-9b86-da11" sortIndex="43">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Washington" hidden="false" id="7bb4-80cd-0d35-1441" sortIndex="1">
           <constraints>
@@ -6208,7 +6322,7 @@
         <entryLink import="true" name="Attachments" hidden="false" id="f55f-b5e0-7745-6a09" type="selectionEntryGroup" targetId="ad77-82b3-82f2-6a05" sortIndex="6"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Wisconsin Heavy Assault Cruiser" hidden="false" id="49a0-e670-6164-bed1" sortIndex="42">
+    <selectionEntry type="unit" import="true" name="Wisconsin Heavy Assault Cruiser" hidden="false" id="49a0-e670-6164-bed1" sortIndex="44">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Wisconsin" hidden="false" id="46ed-f9f9-1830-308f" sortIndex="1">
           <constraints>
@@ -6426,7 +6540,7 @@
         <infoLink name="Talon Autogyros (Union)" id="842b-7b66-399f-4055" hidden="false" type="profile" targetId="cf02-10a5-7f0b-9b8b"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Midway Heavy Landing Ship" hidden="false" id="e1ce-8ac1-6b1c-0e2c" sortIndex="43">
+    <selectionEntry type="unit" import="true" name="Midway Heavy Landing Ship" hidden="false" id="e1ce-8ac1-6b1c-0e2c" sortIndex="33">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Midway" hidden="false" id="2830-d59b-6f38-14fd" sortIndex="1">
           <constraints>
@@ -7077,6 +7191,21 @@
             </profile>
           </profiles>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Honorable Eclipse Company Variant" hidden="false" id="162f-e8e6-8d01-c7e1">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="7e21-adf6-ef64-ec90" automatic="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="caa3-4763-8633-fc81"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="1" field="7e21-adf6-ef64-ec90">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="761f-792a-104e-6114" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="remove" value="2c58-03eb-5f76-9d53" field="category" scope="unit"/>
+            <modifier type="add" value="c43c-2362-36ac-f58f" field="category" scope="unit"/>
+          </modifiers>
+        </selectionEntry>
       </selectionEntries>
       <profiles>
         <profile name="Republic" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="2276-4059-412d-3ea4">
@@ -7110,7 +7239,6 @@
         <categoryLink name="Airborne" hidden="false" id="1481-dfc1-a6ed-e945" targetId="139e-c78f-43c0-2957" primary="false"/>
         <categoryLink name="Airship" hidden="false" id="5c02-2320-420b-6a25" targetId="278c-665b-5dbe-3aad" primary="false"/>
         <categoryLink name="Attachment host" hidden="false" id="cad0-8c1f-829b-3daa" targetId="2251-0def-1b03-2e93" primary="false"/>
-        <categoryLink name="HEC" hidden="false" id="5808-d5b8-75e7-83d3" targetId="c43c-2362-36ac-f58f" primary="false"/>
         <categoryLink name="HEC Scout" hidden="false" id="180c-c1ca-a06c-fa9c" targetId="a3da-8a11-3826-2063" primary="false"/>
         <categoryLink name="Airborne Scout" hidden="false" id="8f67-1b23-32f2-b324" targetId="e101-f5f6-ee47-b8fe" primary="false"/>
         <categoryLink name="Scout" hidden="false" id="f569-0254-eaa2-663f" targetId="28fc-32cc-7e9c-28b4" primary="true"/>
@@ -7413,7 +7541,7 @@
       </entryLinks>
       <comment>ATTACHMENT</comment>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Nashville Heavy Support Ship" hidden="false" id="4925-4d57-e1b8-1a6e" sortIndex="44">
+    <selectionEntry type="unit" import="true" name="Nashville Heavy Support Ship" hidden="false" id="4925-4d57-e1b8-1a6e" sortIndex="34">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Nashville" hidden="false" id="686b-6352-d131-3438" sortIndex="1">
           <constraints>
@@ -8029,7 +8157,7 @@
                 <condition type="atLeast" value="1" field="selections" scope="parent" childId="5a03-a974-b41a-031e" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="append" value="Levant" field="066c-1ce6-091e-90ab" join=", ">
+            <modifier type="append" value="Low Altitude" field="066c-1ce6-091e-90ab" join=", ">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="parent" childId="e205-0b93-b820-261a" shared="true" includeChildSelections="true"/>
               </conditions>
@@ -8187,7 +8315,7 @@
                 <condition type="atLeast" value="1" field="selections" scope="0c2e-2775-6d1c-07a9" childId="b5c3-5e78-96f7-428e" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="append" value="Levant" field="066c-1ce6-091e-90ab" join=", ">
+            <modifier type="append" value="Low Altitude" field="066c-1ce6-091e-90ab" join=", ">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="self" childId="6407-4fad-054d-b7b6" shared="true" includeChildSelections="true"/>
               </conditions>
@@ -8351,7 +8479,7 @@ Attack actions made at Extreme Range by units in this Force gain the High Veloc
         <selectionEntry type="model" import="true" name="Excelsior" hidden="false" id="7aad-5e32-459f-f0e5" sortIndex="1">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="af5f-07af-3616-9d8d" includeChildSelections="false" automatic="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b49-09de-e1b7-9b3e" includeChildSelections="false" automatic="true"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="2b49-09de-e1b7-9b3e" includeChildSelections="false" automatic="true"/>
           </constraints>
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="220"/>
@@ -8405,6 +8533,21 @@ Attack actions made at Extreme Range by units in this Force gain the High Veloc
             </profile>
           </profiles>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Honorable Eclipse Company Variant" hidden="false" id="84eb-f201-d100-e05f">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="f492-aeab-14d1-ddd5" automatic="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b8f7-d11c-0181-cf0d"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="1" field="f492-aeab-14d1-ddd5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="761f-792a-104e-6114" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="remove" value="2c58-03eb-5f76-9d53" field="category" scope="unit"/>
+            <modifier type="add" value="c43c-2362-36ac-f58f" field="category" scope="unit"/>
+          </modifiers>
+        </selectionEntry>
       </selectionEntries>
       <profiles>
         <profile name="Excelsior" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="ce7f-9926-31af-b9cb">
@@ -8436,7 +8579,6 @@ Attack actions made at Extreme Range by units in this Force gain the High Veloc
       <categoryLinks>
         <categoryLink name="Union" hidden="false" id="d976-e6f9-9ff5-bab8" targetId="2c58-03eb-5f76-9d53" primary="false"/>
         <categoryLink name="Line" hidden="false" id="855a-cd0c-664f-ba31" targetId="ae99-8ab0-27f0-7bb6" primary="true"/>
-        <categoryLink name="HEC" hidden="false" id="a4dc-ecbe-f71e-4017" targetId="c43c-2362-36ac-f58f" primary="false"/>
         <categoryLink name="HEC Line" hidden="false" id="d9e2-98d0-1b66-9193" targetId="2bf9-50e4-5109-0e3b" primary="false"/>
         <categoryLink name="Airborne" hidden="false" id="faa0-1564-1e47-ee41" targetId="139e-c78f-43c0-2957" primary="false"/>
         <categoryLink name="Airship" hidden="false" id="793f-5476-4142-c178" targetId="278c-665b-5dbe-3aad" primary="false"/>
@@ -8489,6 +8631,21 @@ Attack actions made at Extreme Range by units in this Force gain the High Veloc
             </profile>
           </profiles>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Honorable Eclipse Company Variant" hidden="false" id="96ab-1d9b-b2d2-46e5">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="2b77-3c91-d5a1-c56c" automatic="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b75d-f12e-0826-4df5"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="1" field="2b77-3c91-d5a1-c56c">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="761f-792a-104e-6114" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="remove" value="2c58-03eb-5f76-9d53" field="category" scope="unit"/>
+            <modifier type="add" value="c43c-2362-36ac-f58f" field="category" scope="unit"/>
+          </modifiers>
+        </selectionEntry>
       </selectionEntries>
       <profiles>
         <profile name="Ticonderoga" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="bda3-e792-f372-ab16">
@@ -8521,7 +8678,6 @@ Attack actions made at Extreme Range by units in this Force gain the High Veloc
         <categoryLink name="Union" hidden="false" id="be1e-6f33-16a6-fa04" targetId="2c58-03eb-5f76-9d53" primary="false"/>
         <categoryLink name="Line" hidden="false" id="340e-984e-775c-9e6f" targetId="ae99-8ab0-27f0-7bb6" primary="true"/>
         <categoryLink name="Attachment host" hidden="false" id="eff2-e0c4-258d-3932" targetId="2251-0def-1b03-2e93" primary="false"/>
-        <categoryLink name="HEC" hidden="false" id="3e73-359c-7c72-d124" targetId="c43c-2362-36ac-f58f" primary="false"/>
         <categoryLink name="HEC Line" hidden="false" id="c388-059d-1927-f599" targetId="2bf9-50e4-5109-0e3b" primary="false"/>
         <categoryLink name="Airborne" hidden="false" id="c17a-2661-e184-e7c5" targetId="139e-c78f-43c0-2957" primary="false"/>
         <categoryLink name="Airship" hidden="false" id="dfca-8aa3-b7e9-ae92" targetId="278c-665b-5dbe-3aad" primary="false"/>
@@ -8778,7 +8934,7 @@ Attack actions made at Extreme Range by units in this Force gain the High Veloc
         </profile>
         <profile name="Boston" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="46dd-e532-69cf-c0d5">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Hunter (Airborne), Light Vessel, Shallow Draught, Pivot, Vanguard (5”)</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Hunter (Airborne), Light Vessel, Mechanical Soul, Shallow Draught, Pivot, Vanguard (5”)</characteristic>
           </characteristics>
         </profile>
         <profile name="Boston" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="0e1a-b518-9231-4bcc">
@@ -9074,22 +9230,65 @@ This rule can allow a unit to have more Escort tokens than it could ordinarily p
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="6acc-97b4-a74e-bd3a"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Airborne Support" hidden="false" id="222d-42a6-d550-b1b4" targetId="57b1-5d32-7e9c-c44c">
+        <categoryLink name="Airborne Patrol" hidden="false" id="8b60-716f-cd82-16fd" targetId="f362-92c9-45bd-4057">
           <constraints>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="6a7b-142e-9b4f-e7f1"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="8ebb-2852-be4d-9a66"/>
           </constraints>
+          <modifiers>
+            <modifier type="decrement" value="1" field="8ebb-2852-be4d-9a66">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="e101-f5f6-ee47-b8fe" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </categoryLink>
         <categoryLink name="Airborne Scout" hidden="false" id="acec-8aa3-a526-bc71" targetId="e101-f5f6-ee47-b8fe">
           <constraints>
-            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="c4dc-d85c-5691-04ad"/>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="188e-e640-9cdb-5275"/>
           </constraints>
+          <modifiers>
+            <modifier type="decrement" value="1" field="188e-e640-9cdb-5275">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="f362-92c9-45bd-4057" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </categoryLink>
+        <categoryLink name="Airborne Support" hidden="false" id="222d-42a6-d550-b1b4" targetId="57b1-5d32-7e9c-c44c">
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="6a7b-142e-9b4f-e7f1"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="13cf-9dfd-908c-3c8e"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="0" field="13cf-9dfd-908c-3c8e">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="9ca3-bfd1-09e1-c0b3" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" value="1" field="6a7b-142e-9b4f-e7f1">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="9ca3-bfd1-09e1-c0b3" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </categoryLink>
         <categoryLink name="Airborne Logistical" hidden="false" id="db11-7d1a-5655-806e" targetId="9ca3-bfd1-09e1-c0b3">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9462-b264-aef5-b2d5"/>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="460d-19f2-4e34-cda2"/>
           </constraints>
+          <modifiers>
+            <modifier type="set" value="0" field="9462-b264-aef5-b2d5">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="57b1-5d32-7e9c-c44c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" value="1" field="460d-19f2-4e34-cda2">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="57b1-5d32-7e9c-c44c" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </categoryLink>
       </categoryLinks>
     </forceEntry>
@@ -9127,19 +9326,17 @@ If a model already has the Defensive (X ) system then add 1 to the value of X.<
         <categoryLink name="HEC Patrol" hidden="false" id="cfb9-fe5e-16ef-53a5" targetId="5d32-dc93-6403-08f5">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b360-4f28-1319-0b29"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="742a-1242-7169-a065"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="742a-1242-7169-a065"/>
           </constraints>
         </categoryLink>
         <categoryLink name="HEC Support" hidden="false" id="3740-5c3c-c451-02ca" targetId="5004-7dd0-e491-458f">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="01d6-ec08-2263-3399"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="938c-586d-dab0-5988"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="938c-586d-dab0-5988"/>
           </constraints>
         </categoryLink>
         <categoryLink name="HEC Scout" hidden="false" id="c970-1e26-a8db-6984" targetId="a3da-8a11-3826-2063">
           <constraints>
-            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="7d19-b57b-c078-e99f"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="615b-0f7d-60f8-17d6"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="615b-0f7d-60f8-17d6"/>
           </constraints>
         </categoryLink>
         <categoryLink name="Merchantman" hidden="false" id="05c1-e29d-ee26-1e53" targetId="33e6-1c11-bb7d-3918">
@@ -9188,6 +9385,7 @@ If a model already has the Defensive (X ) system then add 1 to the value of X.<
     <categoryEntry name="Platform Con" id="cc5d-6898-b363-d035" hidden="true"/>
     <categoryEntry name="Airborne Logistical" id="9ca3-bfd1-09e1-c0b3" hidden="false"/>
     <categoryEntry name="HEC Patrol" id="5d32-dc93-6403-08f5" hidden="false"/>
+    <categoryEntry name="Airborne Patrol" id="f362-92c9-45bd-4057" hidden="false"/>
   </categoryEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Attachments" id="ad77-82b3-82f2-6a05" hidden="false" sortIndex="6" collapsible="true">

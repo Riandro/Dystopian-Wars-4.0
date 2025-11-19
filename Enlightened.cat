@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="48c3-c7a6-6a0d-814a" name="Enlightened" gameSystemId="sys-b418-f41f-879e-6277" gameSystemRevision="3" revision="4" authorUrl="https://github.com/Riandro" authorContact="riandro@googlemail.com" authorName="R.Atkin" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="48c3-c7a6-6a0d-814a" name="Enlightened" gameSystemId="sys-b418-f41f-879e-6277" gameSystemRevision="3" revision="5" authorUrl="https://github.com/Riandro" authorContact="riandro@googlemail.com" authorName="R.Atkin" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="unit" import="true" name="Archimedes Vault Ship" hidden="false" id="ea77-4492-88b0-3fd5" sortIndex="1">
       <selectionEntries>
@@ -32,7 +32,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">10</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -56,7 +56,7 @@
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
                       </characteristics>
@@ -105,7 +105,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">10</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -129,7 +129,7 @@
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PSA</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
                       </characteristics>
@@ -178,7 +178,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">10</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -202,7 +202,7 @@
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FS</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
                       </characteristics>
@@ -251,7 +251,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">10</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -275,7 +275,7 @@
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FP</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
                       </characteristics>
@@ -586,7 +586,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">10</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -610,7 +610,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
                       </characteristics>
@@ -850,7 +850,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                 <condition type="atLeast" value="1" field="selections" scope="parent" childId="c2ba-bd02-ae63-6f8b" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="append" value="Levant" field="066c-1ce6-091e-90ab" join=", ">
+            <modifier type="append" value="Low Altitude" field="066c-1ce6-091e-90ab" join=", ">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="self" childId="ff17-7c5d-9dcb-78ac" shared="true" includeChildSelections="true"/>
               </conditions>
@@ -929,7 +929,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">10</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -953,7 +953,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FS</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
                       </characteristics>
@@ -1002,7 +1002,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">10</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1026,7 +1026,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
                       </characteristics>
@@ -1075,7 +1075,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">10</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1099,7 +1099,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FP</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
                       </characteristics>
@@ -1217,7 +1217,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">10</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1241,7 +1241,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FP</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
                       </characteristics>
@@ -1290,7 +1290,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">10</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1314,7 +1314,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
                       </characteristics>
@@ -1363,7 +1363,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">10</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1387,7 +1387,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FS</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
                       </characteristics>
@@ -1501,7 +1501,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
-                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">1</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Arc (1), Synergy</characteristic>
                       </characteristics>
                     </profile>
@@ -1515,7 +1515,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1539,7 +1539,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
                       </characteristics>
@@ -1574,7 +1574,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
-                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">1</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Arc (1), Synergy</characteristic>
                       </characteristics>
                     </profile>
@@ -1588,7 +1588,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1612,7 +1612,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
                       </characteristics>
@@ -1723,7 +1723,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PSA</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
-                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">1</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Arc (1), Synergy</characteristic>
                       </characteristics>
                     </profile>
@@ -1737,7 +1737,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1761,7 +1761,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PSA</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
                       </characteristics>
@@ -1856,7 +1856,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
-                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
+                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">1</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Arc (1), Synergy</characteristic>
                       </characteristics>
                     </profile>
@@ -1870,7 +1870,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1894,7 +1894,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
                       </characteristics>
@@ -2025,7 +2025,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2049,7 +2049,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
                       </characteristics>
@@ -2184,7 +2184,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">10</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2208,7 +2208,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
                       </characteristics>
@@ -2257,7 +2257,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">10</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2281,7 +2281,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FP</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
                       </characteristics>
@@ -2330,7 +2330,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">10</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2354,7 +2354,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FS</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
                       </characteristics>
@@ -2403,7 +2403,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">10</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2427,7 +2427,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PSA</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
                       </characteristics>
@@ -2717,7 +2717,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2741,7 +2741,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
                       </characteristics>
@@ -2790,7 +2790,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2814,7 +2814,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PSA</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
                       </characteristics>
@@ -2863,7 +2863,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2887,7 +2887,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
                       </characteristics>
@@ -3019,7 +3019,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3043,7 +3043,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
                       </characteristics>
@@ -3092,7 +3092,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3116,7 +3116,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PSA</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
                       </characteristics>
@@ -3295,7 +3295,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3319,7 +3319,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
                       </characteristics>
@@ -3507,7 +3507,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3531,7 +3531,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
                       </characteristics>
@@ -3580,7 +3580,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3604,7 +3604,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PSA</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
                       </characteristics>
@@ -3758,7 +3758,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3782,7 +3782,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FS</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
                       </characteristics>
@@ -3831,7 +3831,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3855,7 +3855,7 @@ Maritime Patrol, Mothership (Euripides Submarine)</characteristic>
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FP</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
                       </characteristics>
@@ -4222,7 +4222,7 @@ Hydrophone Relay</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -4246,7 +4246,7 @@ Hydrophone Relay</characteristic>
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
                       </characteristics>
@@ -4516,7 +4516,7 @@ Hydrophone Relay</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -4540,7 +4540,7 @@ Hydrophone Relay</characteristic>
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
                       </characteristics>
@@ -4742,9 +4742,9 @@ Hydrophone Relay</characteristic>
         <entryLink import="true" name="Attachments" hidden="false" id="dda7-58aa-c6a0-4f7a" type="selectionEntryGroup" targetId="f561-27b3-4b75-7da4" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Offshore Heavy Platform" hidden="false" id="1e3f-5eb5-95d5-34e6" sortIndex="26">
+    <selectionEntry type="unit" import="true" name="Offshore War Platform" hidden="false" id="1e3f-5eb5-95d5-34e6" sortIndex="26">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Offshore Heavy Platform" hidden="false" id="40b2-d1c2-0443-ae45" sortIndex="1">
+        <selectionEntry type="model" import="true" name="Offshore War Platform" hidden="false" id="40b2-d1c2-0443-ae45" sortIndex="1">
           <costs>
             <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="180"/>
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="8"/>
@@ -4848,7 +4848,7 @@ Hydrophone Relay</characteristic>
         <categoryLink targetId="0f1c-51d9-9b64-e6be" id="2b6e-10d5-59d5-eb20" primary="false" name="AttachmentHostZumeena"/>
       </categoryLinks>
       <profiles>
-        <profile name="Offshore Heavy Platform" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="294f-9622-41b6-ecd6">
+        <profile name="Offshore War Platform" typeId="9251-e433-d856-630b" typeName="Model" hidden="false" id="294f-9622-41b6-ecd6">
           <characteristics>
             <characteristic name="Mass" typeId="1c59-9ac8-a74e-6ab8">5</characteristic>
             <characteristic name="Speed" typeId="89d1-ebc5-2eae-a472">-</characteristic>
@@ -4863,7 +4863,7 @@ Hydrophone Relay</characteristic>
             <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">1</characteristic>
           </characteristics>
         </profile>
-        <profile name="Offshore Heavy Platform" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="a7e6-2ffc-c7fc-11dd">
+        <profile name="Offshore War Platform" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="a7e6-2ffc-c7fc-11dd">
           <characteristics>
             <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Forward Deployment, Platform, Stockpile (2)</characteristic>
           </characteristics>
@@ -4875,7 +4875,7 @@ Hydrophone Relay</characteristic>
             </modifier>
           </modifiers>
         </profile>
-        <profile name="Offshore Heavy Platform" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="76f3-ecbd-4789-f092">
+        <profile name="Offshore War Platform" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="76f3-ecbd-4789-f092">
           <characteristics>
             <characteristic name="Systems" typeId="a14c-99af-eb72-2d3d">Flak Barrage (5), Priority Signals, Repair Facilities (2)</characteristic>
           </characteristics>
@@ -4935,7 +4935,7 @@ Hydrophone Relay</characteristic>
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
                       </characteristics>
@@ -4950,7 +4950,7 @@ Hydrophone Relay</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">8</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -5857,7 +5857,7 @@ Hydrophone Relay</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Indiscriminate</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -5881,7 +5881,7 @@ Hydrophone Relay</characteristic>
                       <characteristics>
                         <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
-                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Precise (1)</characteristic>
                       </characteristics>
@@ -6303,7 +6303,7 @@ Hydrophone Relay</characteristic>
                 <condition type="atLeast" value="1" field="selections" scope="parent" childId="4341-78a5-532b-3901" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="append" value="Levant" field="066c-1ce6-091e-90ab" join=", ">
+            <modifier type="append" value="Low Altitude" field="066c-1ce6-091e-90ab" join=", ">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="parent" childId="ac8f-a658-4889-bb29" shared="true" includeChildSelections="true"/>
               </conditions>

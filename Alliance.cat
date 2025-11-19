@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="b2ef-9128-2281-a318" name="Alliance" gameSystemId="sys-b418-f41f-879e-6277" gameSystemRevision="3" revision="4" authorUrl="https://github.com/Riandro" authorContact="riandro@googlemail.com" authorName="R.Atkin" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="b2ef-9128-2281-a318" name="Alliance" gameSystemId="sys-b418-f41f-879e-6277" gameSystemRevision="3" revision="5" authorUrl="https://github.com/Riandro" authorContact="riandro@googlemail.com" authorName="R.Atkin" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="unit" import="true" name="Columbia Heavy Battleship" hidden="false" id="5b3b-a002-fb2f-ce24" sortIndex="1">
       <selectionEntries>
@@ -298,7 +298,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -345,7 +345,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -392,7 +392,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -763,7 +763,7 @@
       <profiles>
         <profile name="La Republique" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="3a92-2914-6f95-c603">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Carrier (10), Inspirational (7”), Levant, SRS (Frelon Bombers / Malinois Interdictors)</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Carrier (10), Inspirational (7”), Low Altitude, SRS (Frelon Bombers / Malinois Interdictors)</characteristic>
           </characteristics>
         </profile>
         <profile name="La Republique" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="08d8-6bb4-f0a7-8cde">
@@ -914,7 +914,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1037,7 +1037,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1097,7 +1097,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1193,9 +1193,9 @@
             <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">1</characteristic>
           </characteristics>
         </profile>
-        <profile name="Magenta" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="2059-9fcf-a555-f970">
+        <profile name="Magenta" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="c3f3-ecfb-7e09-9174">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Levant</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Low Altitude</characteristic>
           </characteristics>
         </profile>
         <profile name="Magenta" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="d831-b085-f13a-7c96">
@@ -1515,7 +1515,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1562,7 +1562,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1609,7 +1609,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1798,7 +1798,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1921,7 +1921,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1973,21 +1973,21 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <profiles>
-            <profile name="Torpedo Turret" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="f6b9-a370-c19c-6074">
+            <profile name="Focused Torpedo Turret" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="f6b9-a370-c19c-6074">
               <characteristics>
                 <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPA</characteristic>
-                <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
-                <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
+                <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
+                <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
                 <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Torpedo</characteristic>
               </characteristics>
             </profile>
-            <profile name="Torpedo Turret" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="a171-5114-2df1-23b0">
+            <profile name="Focused Torpedo Turret" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="a171-5114-2df1-23b0">
               <characteristics>
                 <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FSA</characteristic>
-                <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
-                <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
+                <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
+                <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
                 <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Torpedo</characteristic>
               </characteristics>
             </profile>
@@ -2132,7 +2132,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2163,6 +2163,19 @@
                     </profile>
                   </profiles>
                 </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Torpedo Turret " hidden="false" id="5c30-0b25-4a6c-ec16">
+                  <profiles>
+                    <profile name="Torpedo Turret " typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="4b3a-1f5c-5b77-2175">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FSA</characteristic>
+                        <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Torpedo</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
               </selectionEntries>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f969-313a-2714-cbbd" automatic="true"/>
@@ -2179,7 +2192,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2206,6 +2219,19 @@
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                         <characteristic name="Qualities" typeId="0089-722e-2cab-3357"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Torpedo Turret " hidden="false" id="7f9f-c47f-8984-ca42">
+                  <profiles>
+                    <profile name="Torpedo Turret " typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="9d40-116a-d07b-0253">
+                      <characteristics>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPA</characteristic>
+                        <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
+                        <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
+                        <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Torpedo</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2270,7 +2296,7 @@
         </profile>
         <profile name="Saint-Michel" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="0f49-0650-80eb-c4a5">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Carrier (6), Levant, SRS (Malinois Interdictors)</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Carrier (6), Low Altitude, SRS (Malinois Interdictors)</characteristic>
           </characteristics>
         </profile>
         <profile name="Saint-Michel" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="2a4c-02e0-280c-cd30">
@@ -2326,7 +2352,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2386,7 +2412,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2446,7 +2472,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2506,7 +2532,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2653,7 +2679,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2700,7 +2726,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2747,7 +2773,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2794,7 +2820,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">7</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3592,7 +3618,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3711,21 +3737,21 @@
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="8fbb-dca5-12dc-5cb4" automatic="true"/>
           </constraints>
           <profiles>
-            <profile name="Torpedo Turret " typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="0369-4b0b-32be-19b6">
+            <profile name="Focused Torpedo Turret" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="0369-4b0b-32be-19b6">
               <characteristics>
-                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPS</characteristic>
-                <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
-                <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
+                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPA</characteristic>
+                <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
+                <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
                 <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Torpedo</characteristic>
               </characteristics>
             </profile>
-            <profile name="Torpedo Turret " typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="91df-e0c7-a9a1-0d4e">
+            <profile name="Focused Torpedo Turret" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="91df-e0c7-a9a1-0d4e">
               <characteristics>
-                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PSA</characteristic>
-                <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
-                <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">4</characteristic>
+                <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FSA</characteristic>
+                <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
+                <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">5</characteristic>
                 <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Torpedo</characteristic>
               </characteristics>
             </profile>
@@ -4085,7 +4111,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -4145,7 +4171,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -4544,7 +4570,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -4699,7 +4725,7 @@
         </profile>
         <profile name="Lyon" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="1258-f6c2-4b16-e113">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Levant</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Low Altitude</characteristic>
           </characteristics>
         </profile>
         <profile name="Lyon" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="79ce-14f6-bc63-7b47">
@@ -4742,7 +4768,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Pilum Monitor" hidden="false" id="ee09-3fd0-99f1-e7d7" sortIndex="18">
+    <selectionEntry type="unit" import="true" name="Pilum Monitor" hidden="false" id="ee09-3fd0-99f1-e7d7" sortIndex="25">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Pilum" hidden="false" id="5566-c071-bf72-b85d">
           <selectionEntryGroups>
@@ -4877,14 +4903,14 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="ae99-8ab0-27f0-7bb6" id="fe34-15f5-7132-5237" primary="true" name="Line"/>
         <categoryLink targetId="b81b-c372-001c-2710" id="08ae-5fa6-51db-a219" primary="false" name="Alliance"/>
         <categoryLink targetId="95e1-bc72-ac5f-a8b1" id="8599-41e7-a0d1-e77a" primary="false" name="Italian"/>
         <categoryLink targetId="4b7e-c78d-b9be-8d7c" id="da98-6b60-12e1-4ffd" primary="false" name="Surface"/>
         <categoryLink targetId="fc9a-5e99-1f83-c2a4" id="d3ce-fdfc-393f-fbdd" primary="false" name="Ship"/>
         <categoryLink targetId="2251-0def-1b03-2e93" id="dc7e-a302-35a5-7d0e" primary="false" name="Attachment host"/>
-        <categoryLink name="Alliance Line Con " hidden="false" id="f0cd-5abe-cfb8-c517" targetId="b1ff-c1d2-94f1-38e0" primary="false"/>
-        <categoryLink name="Italian Line" hidden="false" id="48d1-7217-b55a-b164" targetId="fdfb-dad7-ecbf-a4ec" primary="false"/>
+        <categoryLink name="Patrol" hidden="false" id="5f35-8f8d-e980-2b81" targetId="be0c-d486-6fa7-ce3b" primary="true"/>
+        <categoryLink name="Alliance Patrol Con " hidden="false" id="a10b-fa4b-853a-181d" targetId="42f6-ccae-9f84-2f1a" primary="false"/>
+        <categoryLink name="Italian Patrol" hidden="false" id="7caa-ae04-0fe7-15ba" targetId="448b-647e-64b5-205e" primary="false"/>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="6d77-47e9-1cec-8a2f" includeChildSelections="false"/>
@@ -4893,7 +4919,7 @@
         <entryLink import="true" name="Attachments" hidden="false" id="34ee-a121-ddae-ee8e" type="selectionEntryGroup" targetId="7ba2-917a-b755-ac63"/>
       </entryLinks>
       <modifiers>
-        <modifier type="set-primary" value="fdfb-dad7-ecbf-a4ec" field="category">
+        <modifier type="set-primary" value="448b-647e-64b5-205e" field="category">
           <conditions>
             <condition type="instanceOf" value="1" field="forces" scope="force" childId="82bb-e563-282c-81a0" shared="true" includeChildSelections="true"/>
           </conditions>
@@ -4945,7 +4971,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -5539,7 +5565,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -5848,7 +5874,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -5955,7 +5981,7 @@
         </profile>
         <profile name="Honneur" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="b212-3ea5-3de8-4136">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Hunter (Surface), Levant</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Hunter (Surface), Low Altitude</characteristic>
           </characteristics>
         </profile>
         <profile name="Honneur" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="fd95-4ca7-7a69-eab3">
@@ -5977,7 +6003,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6037,7 +6063,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6316,7 +6342,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6376,7 +6402,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6598,7 +6624,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
               </characteristics>
             </profile>
             <profile name="Heat Lancette" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="e2fd-5793-87b4-0d5d">
@@ -6607,7 +6633,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
               </characteristics>
             </profile>
             <profile name="Heat Lance" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="2f61-2613-c322-7a00">
@@ -6767,7 +6793,7 @@
         </profile>
         <profile name="Marseille" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="c74b-0792-61ad-1887">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Carrier (3), Levant, SRS (Frelon Bombers)</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Carrier (3), Low Altitude, SRS (Frelon Bombers)</characteristic>
           </characteristics>
         </profile>
         <profile name="Marseille" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="d564-7394-e148-44c2">
@@ -7238,7 +7264,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7376,7 +7402,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7623,7 +7649,7 @@
         </profile>
         <profile name="Voliere" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="8471-259a-a93f-c709">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Carrier (4), Levant, SRS (Malinois Interdictors)</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Carrier (4), Low Altitude, SRS (Malinois Interdictors)</characteristic>
           </characteristics>
         </profile>
         <profile name="Voliere" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="7919-8f62-4bbc-8753">
@@ -7645,7 +7671,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7705,7 +7731,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7808,7 +7834,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7999,6 +8025,13 @@
       <entryLinks>
         <entryLink import="true" name="Attachments" hidden="false" id="0cbb-5679-e6d1-3f46" type="selectionEntryGroup" targetId="7ba2-917a-b755-ac63"/>
       </entryLinks>
+      <modifiers>
+        <modifier type="set-primary" value="199d-e193-6e8d-e881" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="forces" scope="force" childId="82bb-e563-282c-81a0" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Chasseur Levant Strike Cruiser" hidden="false" id="7bc2-ecc1-5c2b-e8e9" sortIndex="38">
       <selectionEntries>
@@ -8077,7 +8110,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -8137,7 +8170,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -8197,7 +8230,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -8276,7 +8309,7 @@
         </profile>
         <profile name="Chasseur" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="5a87-ec47-882f-39f4">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Levant, Vanguard (9”)</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Low Altitude, Vanguard (9”)</characteristic>
           </characteristics>
         </profile>
         <profile name="Chasseur" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="a40a-a491-825a-fee5">
@@ -8330,7 +8363,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -8453,7 +8486,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -8513,7 +8546,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -8599,7 +8632,7 @@
         </profile>
         <profile name="Furieux" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="800c-0629-9efa-36c0">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Attachment (French Flagship), Boarding Parties (8), Ground Assault (2), Levant, Strategic Asset (3)</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Attachment (French Flagship), Boarding Parties (8), Ground Assault (2), Legionnaire Assault Pods, Low Altitude, Strategic Asset (3)</characteristic>
           </characteristics>
         </profile>
         <profile name="Furieux" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="b14b-6fd2-eb91-d055">
@@ -8644,7 +8677,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -8806,7 +8839,7 @@
         </profile>
         <profile name="Loire" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="1669-1320-c22d-f5c9">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Reinforced Waterline, Stoic, Vanguard (5”) </characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Reinforced Waterline, Stoic, Vanguard (5”)</characteristic>
           </characteristics>
         </profile>
         <profile name="Loire" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="7aa9-d23b-a10b-174e">
@@ -8844,7 +8877,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -8998,7 +9031,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -9085,7 +9118,7 @@
         </profile>
         <profile name="Alma" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="6f37-a168-7eb5-f0cb">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Attachment (Marine Levante), Levant, Mine Layer (1)</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Attachment (Marine Levante), Low Altitude, Mine Layer (1)</characteristic>
           </characteristics>
         </profile>
         <profile name="Alma" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="bebd-f7b7-60da-ed51">
@@ -9217,7 +9250,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -9334,7 +9367,7 @@
                 <condition type="atLeast" value="1" field="selections" scope="parent" childId="34e8-6315-2867-edd3" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="append" value="Levant" field="066c-1ce6-091e-90ab" join=", ">
+            <modifier type="append" value="Low Altitude" field="066c-1ce6-091e-90ab" join=", ">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="parent" childId="0c19-b2a2-7f62-157e" shared="true" includeChildSelections="true"/>
               </conditions>
@@ -9475,7 +9508,7 @@
                 <condition type="atLeast" value="1" field="selections" scope="6acf-6007-0d6b-e163" childId="766a-ccfb-f3a4-edb4" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="append" value="Levant" field="066c-1ce6-091e-90ab" join=", ">
+            <modifier type="append" value="Low Altitude" field="066c-1ce6-091e-90ab" join=", ">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="self" childId="fe3f-cc89-ee9f-d936" shared="true" includeChildSelections="true"/>
               </conditions>
@@ -9513,7 +9546,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -9633,7 +9666,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -9775,7 +9808,7 @@
         </profile>
         <profile name="Gascony" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="0e8b-ee95-ede6-4e4d">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Flotsam, Levant, Inspirational (7”), Mine Layer (1), Stockpile (1)</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Flotsam, Low Altitude, Inspirational (7”), Mine Layer (1), Stockpile (1)</characteristic>
           </characteristics>
         </profile>
         <profile name="Gascony" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="6c56-d57f-6408-25b3">
@@ -9812,7 +9845,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -9872,7 +9905,7 @@
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">1</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (1), Solex (1)</characteristic>
+                        <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Mayhem, Solex (1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -9951,9 +9984,7 @@
         </profile>
         <profile name="Providence" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="2333-9ff9-fc2e-785c">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Flotsam, Pivot, Shallow Draught, Stockpile (1), Strategic Asset (3)
-
-</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Flotsam, Pivot, Shallow Draught, Stockpile (1), Strategic Asset (3)</characteristic>
           </characteristics>
         </profile>
         <profile name="Providence" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="8325-3481-4f88-418c">
@@ -10079,7 +10110,7 @@
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="ROLLING BROADSIDE" hidden="false" id="6dc9-0f1f-208b-4dc1">
               <costs>
-                <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="15"/>
+                <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="25"/>
                 <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
               </costs>
               <rules>
@@ -10412,9 +10443,14 @@ This Special Action can be made by Underwater units.</description>
             <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="3fde-cd06-8906-44e2"/>
           </constraints>
         </categoryLink>
+        <categoryLink name="Italian Scout" hidden="false" id="4664-a7bb-6890-b551" targetId="199d-e193-6e8d-e881">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="05a1-683f-f889-656e"/>
+          </constraints>
+        </categoryLink>
         <categoryLink name="Italian Logistical" hidden="false" id="512d-7939-f031-09fd" targetId="e079-64b8-8959-4d68">
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4cc9-b579-5cb9-d6cf"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="4cc9-b579-5cb9-d6cf"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -10441,69 +10477,35 @@ This Special Action can be made by Underwater units.</description>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="514b-4e90-586e-d6f0"/>
             <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="b0ce-6a17-c86c-87c8"/>
           </constraints>
-          <modifiers>
-            <modifier type="decrement" value="1" field="b0ce-6a17-c86c-87c8">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="force" childId="907f-8cc5-754e-b6c2" shared="true" roundUp="false" includeChildSelections="true"/>
-              </repeats>
-            </modifier>
-            <modifier type="set" value="1" field="514b-4e90-586e-d6f0">
-              <conditions>
-                <condition type="equalTo" value="1" field="selections" scope="force" childId="907f-8cc5-754e-b6c2" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="0" field="514b-4e90-586e-d6f0">
-              <conditions>
-                <condition type="atLeast" value="2" field="selections" scope="force" childId="907f-8cc5-754e-b6c2" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </categoryLink>
-        <categoryLink name="SUSA Support" hidden="false" id="882d-2ee3-a16d-2dc6" targetId="0b9c-68e5-861a-92e9">
-          <constraints>
-            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="ae3d-a9de-170b-0a12"/>
-            <constraint type="max" value="7" field="selections" scope="parent" shared="true" id="2bc1-440f-c9b8-7546"/>
-          </constraints>
-          <modifiers>
-            <modifier type="decrement" value="1" field="2bc1-440f-c9b8-7546">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="force" childId="df79-08ab-26d9-1cdf" shared="true" roundUp="false" includeChildSelections="true"/>
-                <repeat value="1" repeats="1" field="selections" scope="force" childId="1994-9b64-4d9d-898d" shared="true" roundUp="false" includeChildSelections="true"/>
-              </repeats>
-            </modifier>
-            <modifier type="set" value="1" field="ae3d-a9de-170b-0a12">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition type="equalTo" value="1" field="selections" scope="force" childId="ae41-d26a-53e1-5749" shared="true" includeChildSelections="true"/>
-                    <condition type="equalTo" value="1" field="selections" scope="force" childId="df79-08ab-26d9-1cdf" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-            <modifier type="set" value="0" field="ae3d-a9de-170b-0a12">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition type="equalTo" value="1" field="selections" scope="force" childId="ae41-d26a-53e1-5749" shared="true" includeChildSelections="true"/>
-                    <condition type="equalTo" value="1" field="selections" scope="force" childId="df79-08ab-26d9-1cdf" shared="true" includeChildSelections="true"/>
-                    <condition type="atLeast" value="2" field="selections" scope="force" childId="ae41-d26a-53e1-5749" shared="true" includeChildSelections="true"/>
-                    <condition type="atLeast" value="2" field="selections" scope="force" childId="df79-08ab-26d9-1cdf" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
         </categoryLink>
         <categoryLink name="SUSA Patrol" hidden="false" id="9f96-ef61-6dba-f939" targetId="7aec-bcc0-4ed0-d6e1">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="77fb-48a7-808f-8520"/>
           </constraints>
         </categoryLink>
+        <categoryLink name="SUSA Support" hidden="false" id="882d-2ee3-a16d-2dc6" targetId="0b9c-68e5-861a-92e9">
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="2bc1-440f-c9b8-7546"/>
+          </constraints>
+          <modifiers>
+            <modifier type="decrement" value="1" field="2bc1-440f-c9b8-7546">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="1994-9b64-4d9d-898d" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </categoryLink>
         <categoryLink name="SUSA Logistical" hidden="false" id="52d9-f411-2024-e678" targetId="1994-9b64-4d9d-898d">
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fa44-d89b-f980-6c07" percentValue="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="fa44-d89b-f980-6c07" percentValue="false"/>
           </constraints>
+          <modifiers>
+            <modifier type="decrement" value="1" field="fa44-d89b-f980-6c07">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="907f-8cc5-754e-b6c2" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </categoryLink>
       </categoryLinks>
       <rules>
@@ -10744,7 +10746,7 @@ This Special Action can be made by Underwater units.</description>
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink import="true" name="Vasco Battle Platform" hidden="true" id="a963-d4ae-91c1-4925" type="selectionEntry" targetId="ef33-b694-9317-97b2">
+        <entryLink import="true" name="Offshore Defence Platform" hidden="true" id="a963-d4ae-91c1-4925" type="selectionEntry" targetId="ef33-b694-9317-97b2">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditionGroups>

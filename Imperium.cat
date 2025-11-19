@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="e622-53e4-3b22-04b4" name="Imperium" gameSystemId="sys-b418-f41f-879e-6277" gameSystemRevision="3" revision="4" authorUrl="https://github.com/Riandro" authorContact="riandro@googlemail.com" authorName="R.Atkin" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="e622-53e4-3b22-04b4" name="Imperium" gameSystemId="sys-b418-f41f-879e-6277" gameSystemRevision="3" revision="5" authorUrl="https://github.com/Riandro" authorContact="riandro@googlemail.com" authorName="R.Atkin" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="unit" import="true" name="Heidelberg Logistics Battlecruiser" hidden="false" id="b50b-d15c-7e0d-db3e" sortIndex="49">
       <categoryLinks>
@@ -106,7 +106,7 @@
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="8f9e-cba7-0747-eb66" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="2e00-a534-328d-7bb3" shared="true"/>
               </conditions>
             </modifier>
             <modifier type="set" value="0" field="4f26-66a2-a4ac-78bb">
@@ -121,7 +121,7 @@
             </modifier>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="21bd-fb8e-d40b-df74" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="9e95-79bb-7668-4264" shared="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -166,7 +166,7 @@
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="8f9e-cba7-0747-eb66" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="2e00-a534-328d-7bb3" shared="true"/>
               </conditions>
             </modifier>
             <modifier type="set" value="0" field="c3d3-ba2d-5245-73f7">
@@ -182,7 +182,64 @@
             </modifier>
             <modifier type="set" value="true" field="hidden">
               <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="9e95-79bb-7668-4264" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Special Hardpoint: F" id="ae6c-e61a-2922-b7a8" hidden="true" sortIndex="2">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="04be-9a92-986d-1928" automatic="true"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3daf-0299-5499-03d6" automatic="true"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Gustav Twin Bombard" hidden="false" id="ae09-79d4-80dd-d41e">
+              <profiles>
+                <profile name="Gustav Twin Bombard" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="true" id="d8e0-51db-e386-cba7">
+                  <characteristics>
+                    <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
+                    <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                    <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">9</characteristic>
+                    <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">16</characteristic>
+                    <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (2), Guided (2)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Bertha Heavy Bombard" hidden="false" id="53de-79a2-2df0-f274">
+              <profiles>
+                <profile name="Bertha Heavy Bombard" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="true" id="f58e-f2a7-af01-32a1">
+                  <characteristics>
+                    <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
+                    <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                    <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                    <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">10</characteristic>
+                    <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Arc (3), Blast (6), Guided (2</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+          <comment>Heavy Hardpoint</comment>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="2e00-a534-328d-7bb3" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="0" field="3daf-0299-5499-03d6">
+              <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="parent" childId="21bd-fb8e-d40b-df74" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="0" field="04be-9a92-986d-1928">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="21bd-fb8e-d40b-df74" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="9e95-79bb-7668-4264" shared="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -222,29 +279,13 @@
             <characteristic name="Models" typeId="3fd7-54b8-bc78-4b5c">1</characteristic>
           </characteristics>
         </profile>
-        <profile name="Gustav Twin Bombard" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="true" id="173b-7ba3-180e-ee65">
-          <characteristics>
-            <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
-            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">9</characteristic>
-            <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">16</characteristic>
-            <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (2), Guided (2)</characteristic>
-          </characteristics>
-          <modifiers>
-            <modifier type="set" value="false" field="hidden">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="9e95-79bb-7668-4264" shared="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </profile>
         <profile name="Sturmfahne" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="0d39-d9c7-8270-5697">
           <characteristics>
             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
             <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">12</characteristic>
-            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-            <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Arc (4), Devastating (2), Intensive, Powered</characteristic>
+            <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Arc (4), Homing, Limited, Mayhem, Powered</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -655,13 +696,13 @@
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Fixed" hidden="false" id="04f3-31f0-ee64-e851">
               <profiles>
-                <profile name="Storm Vanes" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="342c-c4af-87df-c2fe">
+                <profile name="Sturmfahne" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="342c-c4af-87df-c2fe">
                   <characteristics>
                     <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
                     <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">12</characteristic>
                     <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                     <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                    <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Arc (4), Devastating (2), Intensive, Powered</characteristic>
+                    <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Arc (4), Homing, Limited, Mayhem, Powered</characteristic>
                   </characteristics>
                 </profile>
                 <profile name="Heavy Speerschleuders" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="b599-0e1d-7d92-b785">
@@ -1529,7 +1570,7 @@
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="10"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Hardpoint: A" id="7187-627b-5acf-bc74" hidden="false" sortIndex="4">
+            <selectionEntryGroup name="Heavy Hardpoint: PSA" id="7187-627b-5acf-bc74" hidden="false" sortIndex="4">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aa9a-9d66-de3c-597c" automatic="true"/>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d50b-7422-fadb-17f7" automatic="true"/>
@@ -1539,7 +1580,7 @@
                   <profiles>
                     <profile name="Heavy Voltaic Gun Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="2064-d3f8-8863-61c6">
                       <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">A</characteristic>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PSA</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">8</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
@@ -1552,7 +1593,7 @@
                   <profiles>
                     <profile name="Stromschlag Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="7c8b-03fe-f2c4-cba5">
                       <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">A</characteristic>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">PSA</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">8</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
@@ -1702,7 +1743,7 @@
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">12</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Arc (4), Devastating (2), Intensive, Powered</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Arc (4), Homing, Limited, Mayhem, Powered</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2109,7 +2150,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="SMS Skjalden" hidden="false" id="3202-2d84-cb8b-f633" sortIndex="10">
       <categoryLinks>
-        <categoryLink name="Flagship" hidden="false" id="ea59-cecd-15ac-13c0" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
+        <categoryLink name="Flagship" hidden="false" id="ea59-cecd-15ac-13c0" targetId="0ec6-f5c8-25d7-89d8" primary="false"/>
         <categoryLink name="Imperium" hidden="false" id="b61d-d905-31a8-6f21" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Surface" hidden="false" id="bf3e-a047-cde8-50e1" targetId="4b7e-c78d-b9be-8d7c" primary="false"/>
         <categoryLink name="Ship" hidden="false" id="1718-d44d-3303-8865" targetId="fc9a-5e99-1f83-c2a4" primary="false"/>
@@ -2117,7 +2158,7 @@
         <categoryLink name="Unique" hidden="false" id="4c06-78da-853b-e66e" targetId="4305-d7b2-6b3b-fd89" primary="false"/>
         <categoryLink name="Scandinavian" hidden="false" id="c9f6-dde9-381b-56b1" targetId="04fd-b227-5327-13f0" primary="false"/>
         <categoryLink name="Repair" hidden="false" id="d223-f32a-87fb-eda3" targetId="cb1d-41cb-d83d-fd73" primary="false"/>
-        <categoryLink targetId="b80b-3aca-c61b-fcdf" id="04cc-d688-c0a5-743d" primary="false" name="Scandinavian Flagship"/>
+        <categoryLink targetId="b80b-3aca-c61b-fcdf" id="04cc-d688-c0a5-743d" primary="true" name="Scandinavian Flagship"/>
         <categoryLink targetId="2251-0def-1b03-2e93" id="e9e2-946d-bcef-7e26" primary="false" name="Attachment host"/>
         <categoryLink targetId="e5d1-6d6b-6429-d39d" id="e4d8-9955-5bf3-74f9" primary="false" name="AttachmentHostHoth"/>
         <categoryLink targetId="2b5b-0fd6-8400-ea73" id="d178-36a9-65fd-40c5" primary="false" name="AttachmentHostValkyrie"/>
@@ -2326,9 +2367,9 @@ Vikingr</characteristic>
               <characteristics>
                 <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">12</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Arc (4), Devastating (2), Intensive, Powered</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Arc (4), Homing, Limited, Mayhem, Powered</characteristic>
               </characteristics>
             </profile>
             <profile name="Vierling Flak Array" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="fb53-5b83-58d6-3288">
@@ -2872,9 +2913,9 @@ SRS (Vali Midget Subs), Vikingr</characteristic>
               <characteristics>
                 <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">12</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Arc (4), Devastating (2), Intensive, Powered</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Arc (4), Homing, Limited, Mayhem, Powered</characteristic>
               </characteristics>
             </profile>
             <profile name="Ansturm Rocket Battery" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="cbc8-19e7-543c-c9f3">
@@ -2970,7 +3011,7 @@ SRS (Vali Midget Subs), Vikingr</characteristic>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Heimdall Targeting System" hidden="false" id="34f3-8e04-e422-4b5b" sortIndex="2">
                   <modifiers>
-                    <modifier type="append" value="Heimdall Targeting System
+                    <modifier type="append" value="Hoved Targeting Array
 " field="a14c-99af-eb72-2d3d" scope="unit" affects="unit.profiles.Systems" join=", "/>
                   </modifiers>
                 </selectionEntry>
@@ -3052,7 +3093,7 @@ SRS (Vali Midget Subs), Vikingr</characteristic>
               <characteristics>
                 <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">2</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                 <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Arc (1), Devastating (1), Powered</characteristic>
               </characteristics>
@@ -3924,7 +3965,7 @@ SRS (Vali Midget Subs), Vikingr</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">10</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Arc (2), Devastating (2), Intensive, Powered</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Arc (4), Homing, Limited, Mayhem, Powered</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4349,7 +4390,7 @@ SRS (Vali Midget Subs), Vikingr</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">10</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Arc (2), Devastating (2), Intensive, Powered</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Arc (4), Homing, Limited, Mayhem, Powered</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4706,11 +4747,16 @@ SRS (Vali Midget Subs), Vikingr</characteristic>
                 <condition type="instanceOf" value="1" field="selections" scope="roster" childId="bc19-6aab-5d2c-39ab" shared="true" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </modifier>
+            <modifier type="append" value="Stoic" field="066c-1ce6-091e-90ab" scope="unit" affects="profiles.Properties" join=", "/>
           </modifiers>
           <constraints>
             <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="0e39-bfe6-f598-eeae" includeChildSelections="false" automatic="true"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3baf-b027-cd77-88f0" includeChildSelections="false" automatic="false"/>
           </constraints>
+          <costs>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="5"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -4896,8 +4942,8 @@ SRS (Vali Midget Subs), Vikingr</characteristic>
             <profile name="Dual Rudiger Autokanone" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="93da-b8d3-f435-8f8a">
               <characteristics>
                 <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
-                <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">3</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">3</characteristic>
+                <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">4</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">4</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                 <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Sky Strike (2), Voltaic (2)</characteristic>
               </characteristics>
@@ -5105,8 +5151,8 @@ SRS (Vali Midget Subs), Vikingr</characteristic>
             <profile name="Triplet Rudiger Autokanone" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="a721-5226-8f46-fd59">
               <characteristics>
                 <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
-                <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">5</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">5</characteristic>
+                <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">6</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
                 <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Sky Strike (3), Voltaic (3)</characteristic>
               </characteristics>
@@ -5123,7 +5169,7 @@ SRS (Vali Midget Subs), Vikingr</characteristic>
       <profiles>
         <profile name="Munich" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="626f-29e6-5582-393e">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Dirigible, Light Vessel</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Ablative Armour (1), Dirigible, Light Vessel</characteristic>
           </characteristics>
         </profile>
         <profile name="Munich" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="4655-254e-4cd6-717b">
@@ -5605,7 +5651,7 @@ SRS (Vali Midget Subs), Vikingr</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup name="Variants" id="5972-b101-f78f-3d07" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Prussian Rite Variant" hidden="false" id="5cee-0e12-aa8c-fc9f">
+            <selectionEntry type="upgrade" import="true" name="Prussian Rite Variant" hidden="false" id="5cee-0e12-aa8c-fc9f" sortIndex="0">
               <modifiers>
                 <modifier type="add" value="17e3-2e7f-4774-a0c2" field="category" scope="unit"/>
                 <modifier type="remove" value="4b3e-0aac-bc34-696d" field="category" scope="unit"/>
@@ -5620,20 +5666,7 @@ SRS (Vali Midget Subs), Vikingr</characteristic>
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
-              </modifiers>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Teutonic Rite Variant" hidden="false" id="5006-0ff6-a13b-1770">
-              <modifiers>
-                <modifier type="set" value="true" field="hidden">
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition type="instanceOf" value="1" field="selections" scope="roster" childId="d970-d26f-b560-0686" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="roster" childId="fefd-3af1-f812-1723" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
+                <modifier type="replace" value="" field="066c-1ce6-091e-90ab" scope="unit" affects="profiles.Properties" join=", " arg="Stoic"/>
               </modifiers>
             </selectionEntry>
           </selectionEntries>
@@ -5748,7 +5781,7 @@ SRS (Vali Midget Subs), Vikingr</characteristic>
         </profile>
         <profile name="Valkyrie Hunt Rotor" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="6ab8-c492-2552-51a0">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Attachment (Scandinavian), Light Vessel, Mobile, Skimmer</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Attachment (Scandinavian), Elevated, Light Vessel, Mobile, Soar</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="append" value="Stoic" field="066c-1ce6-091e-90ab" join=", ">
@@ -6735,7 +6768,6 @@ SRS (Vali Midget Subs), Vikingr</characteristic>
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="009c-bbd4-dba1-ca72" targetId="efb4-747e-0463-9b2c" primary="false"/>
         <categoryLink name="Scandinavian" hidden="false" id="7071-0838-c92f-df04" targetId="04fd-b227-5327-13f0" primary="false"/>
-        <categoryLink name="Prussian" hidden="false" id="5c6a-bae5-a95d-15a2" targetId="17e3-2e7f-4774-a0c2" primary="false"/>
         <categoryLink name="Underwater" hidden="false" id="01c4-1c38-a921-5f54" targetId="c636-bf34-4555-99bc" primary="false"/>
         <categoryLink name="Scout" hidden="false" id="53df-2c81-f823-4b29" targetId="28fc-32cc-7e9c-28b4" primary="true"/>
         <categoryLink name="Submarine" hidden="false" id="8906-3685-5fe0-db48" targetId="c503-3bc7-2b45-91ef" primary="false"/>
@@ -7228,7 +7260,6 @@ SRS (Vali Midget Subs), Vikingr</characteristic>
     <selectionEntry type="unit" import="true" name="Metzger Vitruivian Colossus" hidden="false" id="6fa0-3b52-85a1-d250" sortIndex="43">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="b14f-e565-531d-9603" targetId="efb4-747e-0463-9b2c" primary="false"/>
-        <categoryLink name="Prussian" hidden="false" id="b855-5b3d-07d7-e27e" targetId="17e3-2e7f-4774-a0c2" primary="false"/>
         <categoryLink name="Teutonic" hidden="false" id="b31f-6df1-f2a9-563d" targetId="4b3e-0aac-bc34-696d" primary="false"/>
         <categoryLink name="Underwater" hidden="false" id="1bbc-c0c4-bc35-79dc" targetId="c636-bf34-4555-99bc" primary="false"/>
         <categoryLink name="Scout" hidden="false" id="0b40-4cd7-9a59-5990" targetId="28fc-32cc-7e9c-28b4" primary="true"/>
@@ -7352,25 +7383,20 @@ SRS (Vali Midget Subs), Vikingr</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup name="Variants" id="ced8-8ea8-dad4-26a3" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Teutonic Rite Variant" hidden="false" id="4e93-076c-7b24-8e00" sortIndex="1"/>
             <selectionEntry type="upgrade" import="true" name="Prussian Rite Variant" hidden="false" id="fcb4-760d-acdf-6b34">
               <modifiers>
                 <modifier type="add" value="17e3-2e7f-4774-a0c2" field="category" scope="unit"/>
                 <modifier type="remove" value="4b3e-0aac-bc34-696d" field="category" scope="unit"/>
                 <modifier type="set" value="true" field="hidden">
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition type="instanceOf" value="1" field="selections" scope="roster" childId="bc19-6aab-5d2c-39ab" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="bc19-6aab-5d2c-39ab" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
                 </modifier>
               </modifiers>
             </selectionEntry>
           </selectionEntries>
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f862-8e6e-2dcf-d844-min" includeChildSelections="false" automatic="true"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="f862-8e6e-2dcf-d844-min" includeChildSelections="false" automatic="true"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f862-8e6e-2dcf-d844-max" includeChildSelections="false" automatic="true"/>
           </constraints>
         </selectionEntryGroup>
@@ -7596,7 +7622,7 @@ SRS (Vali Midget Subs), Vikingr</characteristic>
                 <condition type="atLeast" value="1" field="selections" scope="parent" childId="b700-2dda-7fdd-50de" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="append" value="Levant" field="066c-1ce6-091e-90ab" join=", ">
+            <modifier type="append" value="Low Altitude" field="066c-1ce6-091e-90ab" join=", ">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="parent" childId="9723-f247-9739-ab4a" shared="true" includeChildSelections="true"/>
               </conditions>
@@ -7903,7 +7929,7 @@ SRS (Vali Midget Subs), Vikingr</characteristic>
                 <condition type="atLeast" value="1" field="selections" scope="78b8-6ea5-e1a4-4f3a" childId="c8bc-d4ed-66a5-dc09" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="append" value="Levant" field="066c-1ce6-091e-90ab" join=", ">
+            <modifier type="append" value="Low Altitude" field="066c-1ce6-091e-90ab" join=", ">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="self" childId="616f-a352-e9f5-6aa5" shared="true" includeChildSelections="true"/>
               </conditions>
@@ -8220,6 +8246,63 @@ Until the end of the current Action Step, the unit has a -1 Modifier to its Act
             </modifier>
           </modifiers>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Special Hardpoint: F" id="7411-0b0b-9ca4-ccdf" hidden="true" sortIndex="2">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1319-4ee8-8307-f441" automatic="true"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8ad6-34fc-685f-d209" automatic="true"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Gustav Twin Bombard" hidden="false" id="f56a-0763-55f3-e16c">
+              <profiles>
+                <profile name="Gustav Twin Bombard" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="true" id="cbd8-5399-8834-4cdc">
+                  <characteristics>
+                    <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
+                    <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                    <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">9</characteristic>
+                    <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">16</characteristic>
+                    <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (2), Guided (2)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Bertha Heavy Bombard" hidden="false" id="5619-6a7e-22ef-d283">
+              <profiles>
+                <profile name="Bertha Heavy Bombard" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="true" id="cb0a-deac-0a12-271b">
+                  <characteristics>
+                    <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
+                    <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
+                    <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                    <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">10</characteristic>
+                    <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Arc (3), Blast (6), Guided (2</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+          <comment>Heavy Hardpoint</comment>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="8f9e-cba7-0747-eb66" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="0" field="8ad6-34fc-685f-d209">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="21bd-fb8e-d40b-df74" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="0" field="1319-4ee8-8307-f441">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="21bd-fb8e-d40b-df74" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="21bd-fb8e-d40b-df74" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
@@ -8264,29 +8347,13 @@ Until the end of the current Action Step, the unit has a -1 Modifier to its Act
             <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Submerged&lt;/span&gt;, Torpedo, Voltaic (2)</characteristic>
           </characteristics>
         </profile>
-        <profile name="Gustav Twin Bombard" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="true" id="cbd8-5399-8834-4cdc">
-          <characteristics>
-            <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
-            <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
-            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">9</characteristic>
-            <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">16</characteristic>
-            <characteristic name="Qualities" typeId="0089-722e-2cab-3357">Hazard (2), Guided (2)</characteristic>
-          </characteristics>
-          <modifiers>
-            <modifier type="set" value="false" field="hidden">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="21bd-fb8e-d40b-df74" shared="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </profile>
         <profile name="Sturmfahne" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="b298-aaaa-2124-bb4a">
           <characteristics>
             <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
             <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">12</characteristic>
-            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+            <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
             <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-            <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Arc (4), Devastating (2), Intensive, Powered</characteristic>
+            <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Arc (4), Homing, Limited, Mayhem, Powered</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8497,7 +8564,6 @@ Until the end of the current Action Step, the unit has a -1 Modifier to its Act
     <selectionEntry type="unit" import="true" name="Maximilian Aerial Linebreaker" hidden="false" id="aa0d-a482-38f3-9439" sortIndex="7">
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="23fc-7841-fc43-5776" targetId="efb4-747e-0463-9b2c" primary="false"/>
-        <categoryLink name="Teutonic" hidden="false" id="54ea-583f-d039-ad20" targetId="4b3e-0aac-bc34-696d" primary="false"/>
         <categoryLink name="Flagship" hidden="false" id="13af-287d-291e-55e5" targetId="0ec6-f5c8-25d7-89d8" primary="true"/>
         <categoryLink name="Capital" hidden="false" id="1cfd-6004-69ee-9e6d" targetId="30c3-7f1c-19e3-e772" primary="false"/>
         <categoryLink name="Bavarian" hidden="false" id="a0ae-a928-a362-0b04" targetId="a95f-8696-4d80-d4bf" primary="false"/>
@@ -8572,7 +8638,7 @@ Until the end of the current Action Step, the unit has a -1 Modifier to its Act
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">12</characteristic>
                 <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Arc (4), Devastating (2), Intensive, Powered</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Arc (4), Homing, Limited, Mayhem, Powered</characteristic>
               </characteristics>
             </profile>
             <profile name="Uranium Trialen Bombs" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="4f4f-22e7-0f0b-cde2">
@@ -8597,12 +8663,23 @@ Until the end of the current Action Step, the unit has a -1 Modifier to its Act
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Teutonic Variant" hidden="false" id="4b7c-3d5a-ba43-c41b">
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3e3b-323d-fdda-3929" includeChildSelections="false"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="3e3b-323d-fdda-3929" includeChildSelections="false" automatic="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c00a-2573-d1a9-d821" includeChildSelections="false"/>
           </constraints>
           <modifiers>
             <modifier type="add" value="4b3e-0aac-bc34-696d" field="category" scope="unit"/>
             <modifier type="remove" value="a95f-8696-4d80-d4bf" field="category" scope="unit"/>
+            <modifier type="set" value="1" field="3e3b-323d-fdda-3929">
+              <conditions>
+                <condition type="instanceOf" value="1" field="forces" scope="force" childId="bc19-6aab-5d2c-39ab" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Stoic" field="066c-1ce6-091e-90ab" scope="unit" affects="profiles.Properties" join=", "/>
           </modifiers>
+          <costs>
+            <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="10"/>
+            <cost name="VP" typeId="c245-c6fc-adb8-407a" value="0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -8636,7 +8713,7 @@ Until the end of the current Action Step, the unit has a -1 Modifier to its Act
         </profile>
         <profile name="Maximilian" typeId="7d8a-def1-ca09-d15c" typeName="Properties" hidden="false" id="9be5-4a3a-9caf-d42e">
           <characteristics>
-            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Dirigible, Stoic</characteristic>
+            <characteristic name="Properties" typeId="066c-1ce6-091e-90ab">Ablative Armour (3), Dirigible</characteristic>
           </characteristics>
         </profile>
         <profile name="Maximilian" typeId="72b1-e351-6742-457c" typeName="Systems" hidden="false" id="0f0e-0a71-4275-8ea7">
@@ -8686,7 +8763,7 @@ Until the end of the current Action Step, the unit has a -1 Modifier to its Act
             <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="11"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Special Hardpoint: F" id="a6d8-eabb-7627-d09f" hidden="false">
+            <selectionEntryGroup name="Special Hardpoint: F" id="a6d8-eabb-7627-d09f" hidden="false" sortIndex="1">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ea1c-b454-4864-9b88" automatic="true"/>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="72ab-989c-7341-1496" automatic="true"/>
@@ -8721,7 +8798,7 @@ Until the end of the current Action Step, the unit has a -1 Modifier to its Act
               </selectionEntries>
               <comment>Special Hardpoint</comment>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Special Hardpoint: F" id="3972-3ec0-2a2a-423a" hidden="false">
+            <selectionEntryGroup name="Special Hardpoint: A" id="3972-3ec0-2a2a-423a" hidden="false" sortIndex="2">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ac02-5fa4-e388-496c" automatic="true"/>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3a6f-8f37-56a2-ef5f" automatic="true"/>
@@ -8731,7 +8808,7 @@ Until the end of the current Action Step, the unit has a -1 Modifier to its Act
                   <profiles>
                     <profile name="Nassau Heavy Bombard" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="9eab-cd43-728a-de39">
                       <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">A</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">8</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">15</characteristic>
@@ -8744,7 +8821,7 @@ Until the end of the current Action Step, the unit has a -1 Modifier to its Act
                   <profiles>
                     <profile name="Nassau Twin Bombard" typeId="9882-7112-4aa5-ffc1" typeName="Weapons" hidden="false" id="b27d-9b57-e9b5-1915">
                       <characteristics>
-                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">F</characteristic>
+                        <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">A</characteristic>
                         <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">-</characteristic>
                         <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">10</characteristic>
                         <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">22</characteristic>
@@ -8778,9 +8855,9 @@ Until the end of the current Action Step, the unit has a -1 Modifier to its Act
               <characteristics>
                 <characteristic name="Arc" typeId="7e1f-87c9-897e-937b">FPSA</characteristic>
                 <characteristic name="Close (10&quot;)" typeId="ac67-65a3-a5fa-bc21">12</characteristic>
-                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">6</characteristic>
+                <characteristic name="Standard (10&quot;- 30&quot;)" typeId="0cf7-57e2-ee10-3769">-</characteristic>
                 <characteristic name="Extreme range(+30&quot;)" typeId="0ec8-d023-bf39-bb55">-</characteristic>
-                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;,  Arc (4), Devastating (2), Intensive, Powered</characteristic>
+                <characteristic name="Qualities" typeId="0089-722e-2cab-3357">&lt;span style=&quot;font-size: 110%;color:red;font-weight:bold;border-left: 4px dashed red;padding: 1px;&quot;&gt;Singular&lt;/span&gt;, Arc (4), Homing, Limited, Mayhem, Powered</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8849,7 +8926,7 @@ Until the end of the current Action Step, the unit has a -1 Modifier to its Act
         </categoryLink>
         <categoryLink name="Line" hidden="false" id="e665-bef7-ef3c-8441" targetId="ae99-8ab0-27f0-7bb6">
           <constraints>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="5c2e-d3b0-e870-fa61"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="5c2e-d3b0-e870-fa61"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6f6f-d9d4-d226-ebd7"/>
           </constraints>
         </categoryLink>
@@ -9162,7 +9239,7 @@ Additionally, when Determining Initiative in the Ready Phase of subsequent Round
         <categoryLink name="Teutonic Line" hidden="false" id="0579-68c8-111c-5fe8" targetId="b72b-3bb7-125b-5adb">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="feda-699a-038f-a871"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="0e79-b8b7-b13e-b488"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="0e79-b8b7-b13e-b488"/>
           </constraints>
         </categoryLink>
         <categoryLink name="Teutonic Patrol" hidden="false" id="cc32-8281-94e5-fda6" targetId="e1f1-b7e4-cfdf-0b61">

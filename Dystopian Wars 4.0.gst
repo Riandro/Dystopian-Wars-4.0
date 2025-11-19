@@ -1217,7 +1217,7 @@ This can be used to allow the unit to launch a Boarding action when it could not
     </profile>
     <profile name="Orca Constructs " typeId="ff20-fe28-72d8-b2fa" typeName="Short Range Squadrons" hidden="false" id="34ca-45e8-d398-0b06">
       <characteristics>
-        <characteristic name="ATK" typeId="1727-4f83-903e-a65d">3</characteristic>
+        <characteristic name="ATK" typeId="1727-4f83-903e-a65d">4</characteristic>
         <characteristic name="INT" typeId="6e75-0f84-3c4c-88ad">3</characteristic>
         <characteristic name="SPT" typeId="c7cb-4c98-b625-1f98">-</characteristic>
         <characteristic name="RES" typeId="890b-70a9-65a7-5e2a">3</characteristic>
