@@ -6106,6 +6106,10 @@ SRS (Vali Midget Subs), Vikingr</characteristic>
               <entryLinks>
                 <entryLink import="true" name="Freya Array" hidden="false" id="38c0-5b99-225e-c18c" type="selectionEntry" targetId="c529-9ead-a45b-fc1a"/>
               </entryLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f073-a4c0-be87-d1ea" includeChildSelections="false" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c63d-94ab-6f08-f840" includeChildSelections="false" automatic="true"/>
+              </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
