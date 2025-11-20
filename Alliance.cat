@@ -4544,7 +4544,7 @@
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Francisco Solex Generator" hidden="false" id="f341-54bc-518b-3ada">
                       <costs>
-                        <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="25"/>
+                        <cost name="Points" typeId="89fa-eeaa-958f-ca32" value="20"/>
                         <cost name="VP per Model" typeId="c245-c6fc-adb8-407a" value="0"/>
                       </costs>
                       <modifiers>
